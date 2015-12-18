@@ -1,0 +1,24 @@
+.drink {
+    position: relative;
+    top: 130px;
+    left: -20px;
+    z-index: 40;
+    width: 150px;
+    height: 150px;
+}
+
+.drink__saucer {
+    fill: #f4f0ed;
+}
+
+.drink__cup {
+    fill: #ffffff;
+}
+
+.drink__liquid {
+    fill: #3f2913;
+}
+
+.drink__liquid-shadow {
+    fill: #341d05;
+}

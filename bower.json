@@ -1,0 +1,17 @@
+{
+  "name": "express-frontend",
+  "version": "0.0.0",
+  "homepage": "https://github.com/visualunderground/express-frontend",
+  "authors": [
+    "visualunderground <visualunderground@users.noreply.github.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "meyer-reset": "*",
+    "loadJS": "https://github.com/filamentgroup/loadJS.git#0.2",
+    "waypoints": "~3.1.1"
+  },
+  "devDependencies": {
+    "html5shiv": "~3.7.2"
+  }
+}

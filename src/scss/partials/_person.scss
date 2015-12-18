@@ -1,0 +1,82 @@
+.person {
+    // SVG element
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+#circle,
+.person__circle {
+    fill: #ff8000;
+    transition: transform 400ms cubic-bezier(.86, 0, .07, 1) 0s;
+    transform-origin: 260px 260px 0; // 1/2 the view-box
+    transform: scale(0);
+}
+
+
+#circle.animated,
+.person__circle.animated {
+    // transform-origin: 260px 260px 0;
+    transform: scale(1);
+}
+
+.person__jumper {
+    fill: #383860;
+}
+
+// .person__face {
+//     fill: url(#person-gradient-skin);
+// }
+
+.person__neck-shadow {
+    fill: #d5a98a;
+}
+
+#avatar {
+    transform: translate3d(0, 400px, 0);
+    transition: transform 400ms cubic-bezier(.86, 0, .07, 1) 0s;
+}
+
+// #view {
+//     mask: url('#masking');
+// }
+
+#avatar.animated {
+    transform: translate3d(0, 0, 0);
+}
+
+// .person__face {
+//     fill: url(#person-gradient-skin);
+// }
+
+.person__face-shadow {
+    fill: #d3a788;
+}
+
+.person__inner-ear {
+    fill: #c09980;
+}
+
+.person__hair {
+    fill: #bb874e;
+}
+
+.person__hair-shadow {
+    fill: #9a6f40;
+}
+
+// .person__lenses {
+//     fill: url(#person-gradient-glasses);
+// }
+
+.person__frames {
+    fill: #392109;
+}
+
+.person__shirt {
+    fill: #ffffff;
+}
+
+.person__shirt-shadow {
+    fill: #c5c4c4;
+}

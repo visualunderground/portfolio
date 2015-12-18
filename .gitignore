@@ -1,0 +1,15 @@
+.sass-cache
+.DS_Store
+.idea/
+.start.pid
+.bundle
+.wpt.js
+
+# Ignore dependencies
+node_modules
+bower_components
+
+# Ignore compiled assets
+app/public/stylesheets/
+app/public/images/
+app/public/javascripts/

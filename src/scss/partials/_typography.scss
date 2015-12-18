@@ -1,0 +1,97 @@
+@font-face {
+    font-family: sqmarket;
+    src: url('fonts/sqmarket-regular.eot');
+    src: url(fonts/sqmarket-regular.eot?#iefix) format('embedded-opentype'), url(fonts/sqmarket-regular.woff) format('woff'), url(fonts/sqmarket-regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: sqmarket;
+    src: url('fonts/sqmarket-medium.eot');
+    src: url(fonts/sqmarket-medium.eot?#iefix) format('embedded-opentype'), url(fonts/sqmarket-medium.woff) format('woff'), url(fonts/sqmarket-medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@function em($px, $base: 18) {
+    @return ($px / $base) + em;
+}
+
+html {
+    font-size: 1.125em;
+    @media (max-width: 640px) {
+        font-size: 1em;
+    }
+}
+
+body {
+    font-family: sqmarket, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #333333;
+}
+
+p {
+    margin-bottom: 1.3em;
+}
+
+@mixin heading-style {
+    margin: 0 0 .5em;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.heading--xl {
+    @include heading-style();
+    font-size: 3.157em;
+}
+
+.heading--l {
+    @include heading-style();
+    font-size: 2.369em;
+}
+
+.heading {
+    @include heading-style();
+    font-size: 1.777em;
+}
+
+.heading--s {
+    @include heading-style();
+    font-size: 1.333em;
+    margin-top: 1.777em;
+}
+
+.lede {
+    margin-top: 1.414em;
+    line-height: 1.45;
+    font-size: 1.333em;
+}
+
+small, 
+font_small {
+    font-size: .75em;
+}
+
+.list {
+    list-style-type: none;
+    margin-top: em(5, 16);
+    margin-bottom: em(20, 16);
+
+    @include media(tablet) {
+        margin-top: em(5);
+        margin-bottom: em(20);
+    }
+
+    > li {
+        margin-bottom: 15px;
+    }
+}
+
+.list__heading {
+    @include heading-style();
+    font-size: 1.333em;
+    margin-bottom: 0;
+    line-height: em(38, 24);
+}

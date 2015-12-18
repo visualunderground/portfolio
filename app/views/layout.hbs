@@ -1,0 +1,28 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Grid</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {{> favicons }}
+        {{> stylesheets }}
+        {{> javascripts }}
+        {{> loadJS }}
+    </head>
+<body>
+    <style>
+        /*svg {display: none;}*/
+    </style>
+    {{> svg_defs }}
+    
+    {{> global_header }}
+    
+    {{{body}}}
+
+    {{> global_footer }}
+
+    {{{block "scripts"}}}
+</body>
+</html>

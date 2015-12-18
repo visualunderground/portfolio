@@ -1,0 +1,58 @@
+// Golden Scale for 16px Font (http://www.pearsonified.com/typography/)
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@-o-viewport {
+    width: device-width;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    height: auto;
+    max-height: none;
+}
+
+body {
+    height: auto;
+    max-height: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: always;
+    text-rendering: optimizeLegibility;
+    background-color: #ffffff;
+}
+
+strong {
+    font-weight: 500;
+}
+
+abbr {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+button::-moz-focus-inner {
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+    cursor: pointer;
+    padding: 0;
+}
+
+textarea,
+input[type='tel'] {
+    -webkit-appearance: none;
+}
+

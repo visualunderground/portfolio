@@ -1,0 +1,26 @@
+.global-footer {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #ffffff;
+}
+
+.global-footer__wrapper {
+    @extend %site-width-container;
+    @extend %contain-floats;
+}
+
+.global-footer__link--social {
+    text-decoration: none;
+    padding-right: 20px;
+    fill: #cccccc !important;
+
+    :hover {
+        fill: #ff8000;
+    }
+
+    svg {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+    }
+}
