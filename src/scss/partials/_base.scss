@@ -27,8 +27,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     font-smoothing: always;
     text-rendering: optimizeLegibility;
-    background-color: #fff;
-    background-image: url(/images/baseline-24.gif);
 }
 
 strong {
@@ -38,6 +36,10 @@ strong {
 abbr {
     border-bottom: 1px dotted;
     cursor: help;
+}
+
+em {
+    font-style: italic;
 }
 
 button::-moz-focus-inner {

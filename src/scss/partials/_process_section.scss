@@ -1,17 +1,16 @@
 .hero,
 .section {
-    // background-color: $white;
+    background-color: $white;
     padding: 48px 0;
     position: relative;
 
 }
 
 .hero {
-    // background-color: transparent;
+    background-color: $blueDark;
     color: $white;
-    display: none;
 }
 
 .section:nth-child(odd) {
-    // background-color: $whiteAlt;
+    background-color: $whiteAlt;
 }

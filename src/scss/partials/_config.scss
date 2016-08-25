@@ -2,11 +2,7 @@
 $site-width: 960px;
 
 $full-width: 100%;
-// $one-quarter: $full-width/4;
-// $one-third: $full-width/3;
-// $half: $full-width/2;
-// $two-thirds: ($full-width)-($one-third);
-// $three-quarters: ($full-width)-($one-quarter);
 
-$gutter: 60px;
-$gutter-half: $gutter/2;
+$base-line: 24px;
+$gutter: $base-line * 2;
+$gutter-half: $base-line;
