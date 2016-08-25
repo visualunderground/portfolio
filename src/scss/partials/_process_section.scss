@@ -1,55 +1,17 @@
-$hello: #28c101;
-$discovery: #008bb2;
-$design: #28c101;
-$prototype: #00c2ff;
-$test: #ff8000;
-$develop: #ff0080;
-
-
-@mixin process-color($color) {
-    background-color: $color;
-    
-    &:after {
-        background-color: $color;
-    }
-}
-
-.process-section--hello,
-.process-section--discovery,
-.process-section--design,
-.process-section--prototype,
-.process-section--test,
-.process-section--develop,
-.process-section {
-    padding-top: 95px;
-    padding-bottom: 95px;
+.hero,
+.section {
+    // background-color: $white;
+    padding: 48px 0;
     position: relative;
 
-    // &:after {
-    //     content: '';
-    //     width: 50px;
-    //     height: 50px;
-    //     display: inline-block;
-    //     overflow: hidden;
-    //     position: absolute;
-    //     right: 50%;
-    //     bottom: -25px;
-    //     transform: rotate(45deg);
-    //     z-index: 999;
-    // }
-
 }
 
-.process-section--hello { 
-    @include process-color(#545da9);
-    background-image: linear-gradient(to right bottom, #31388d 0%, #753fa9 33.333%, #ff0762 66%, #f25632 100%);
-    color: #ffffff;
+.hero {
+    // background-color: transparent;
+    color: $white;
+    display: none;
 }
 
-.process-section--discovery { @include process-color($discovery);}
-.process-section--design { @include process-color($design);}
-.process-section--prototype { @include process-color($prototype);}
-.process-section--test { @include process-color($test);}
-.process-section--develop { @include process-color($develop);}
-
-
+.section:nth-child(odd) {
+    // background-color: $whiteAlt;
+}

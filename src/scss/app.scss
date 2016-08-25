@@ -4,16 +4,18 @@
 
 // No CSS Rendered above this line
 .god-mode { 
-    content: 'IDDQD';
+    content: 'Type IDDQD';
 }
 
 @import 'vendor/meyer-reset';
 @import 'partials/base';
 @import 'partials/typography';
 @import 'partials/grid_layout';
-@import 'partials/global_header';
-@import 'partials/global_footer';
+@import 'partials/images';
+// @import 'partials/global_header';
+// @import 'partials/global_footer';
 @import 'partials/process_section';
+@import 'partials/buttons';
 
 @import 'partials/person';
 // SVG styling
@@ -40,6 +42,10 @@
 
 .column-half {
     @include grid-column(1/2);
+}
+
+.column-half--alt {
+    @include grid-column(1/2, tablet, right);
 }
 
 .column-third {

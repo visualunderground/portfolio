@@ -1,32 +1,21 @@
 // http://chir.ag/projects/name-that-color/
 
 // Colors
-$periwinkle-gray: #c6ccea;
-$sunglo: #e17776; // Error field and message
+$grey: #4d4d4d;
+$greyLight: #9fa1a3;
 $white: #ffffff;
-$porcelain: #f0f3f3;
-$athens-gray: #e6e8ee; // msg master border colour
-$border-colour: #c2c7cc; //inputs
-$pannel-border-colour: #c9d0e1; // Quote and help
-$google-blue: #1e89d1;
-// ------------------------------
-// Buttons
-// ------------------------------
-$primary-colour: $google-blue; //#5fcac6;
-$secondary-colour: #3399ff; // also info-colour
-$selected-colour: #74b533; // also tertiary colour
-$muted-colour: $porcelain;
+$whiteAlt: #ebeff2;
+$blue: #2577ba;
+$blueDark: #32425c;
+$bluelight: #2a94d6;
+$mutedWhite: #607189;
+$pink: #ce616e;
+$purple: #7b66c8;
+$green: #a1c765;
+
 // ------------------------------
 // Semantic colour names
 // ------------------------------
-$info-colour: darken($google-blue, 5%);
-$link-colour: $google-blue;
-$text-colour: lighten(#000000, 23%);
-$secondary-text-colour: lighten(#000000, 46%);
-$header-colour: $google-blue;
-$header-text-colour: #ffffff; 
-$footer-colour: #161b1f;
-$footer-text-colour: $periwinkle-gray;
-$placeholder-colour: #b0b5ba;
-$body-background-colour: #e9e9e9;
-$error-background-colour: $sunglo;
+$link-colour: #ff0000;
+$text-colour: $grey;
+$secondary-text-colour: $greyLight;

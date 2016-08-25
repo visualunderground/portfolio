@@ -8,6 +8,11 @@ router.get('/', function(req, res, next) {
   res.render('index', {});
 });
 
+/* GET Patterns */
+router.get('/patterns', function(req, res, next) {
+  res.render('patterns', {});
+});
+
 /* GET Home page. */
 router.get('/logo', function(req, res, next) {
   res.render('logo', {});

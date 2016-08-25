@@ -1,0 +1,36 @@
+.button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 3px;
+    color: #2577ba;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    height: auto;
+    line-height: 1;
+    padding: 16px 48px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.25s linear 0s;
+    width: auto;
+}
+.button:link, .button:visited {
+    color: #2577ba;
+}
+.button:hover, .button:active {
+    border-color: rgba(0, 0, 0, 0.14);
+    color: #32425c;
+}
+.button-small {
+    font-size: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+// .button-large {
+//     font-size: 14px;
+//     padding-bottom: 18px;
+//     padding-top: 20px;
+// }

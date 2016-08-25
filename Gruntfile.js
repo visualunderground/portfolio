@@ -143,18 +143,20 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-perfbudget');
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-scss-lint');
-    grunt.loadNpmTasks('grunt-notify');
+    // grunt.loadNpmTasks('grunt-notify');
     grunt.loadNpmTasks('grunt-svgstore');
     
     // Setup vendor assets
     grunt.registerTask('get:vendor',    ['copy:vendor', 'uglify:vendor']);
 
     // Build assets from src
-    grunt.registerTask('build:css',     ['scsslint:dist', 'sass:dist']);
-    grunt.registerTask('build:js',      ['jshint:all', 'concat:dist', 'uglify:dist']);
+    // grunt.registerTask('build:css',     ['scsslint:dist', 'sass:dist']);
+    grunt.registerTask('build:css',     ['sass:dist']);
+    //grunt.registerTask('build:js',      ['jshint:all', 'concat:dist', 'uglify:dist']);
     grunt.registerTask('build:img',     ['imagemin:dist']);
         // Build * ALL THE THINGS! *
-        grunt.registerTask('build',         ['build:css', 'build:js', 'build:img']);
+        // grunt.registerTask('build',         ['build:css', 'build:js', 'build:img']);
+        grunt.registerTask('build',         ['build:css', 'build:img']);
 
     // Default task during development
     grunt.registerTask('default', ['build:css']);
