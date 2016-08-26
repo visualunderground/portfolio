@@ -45,36 +45,59 @@ body {
     line-height: 24px;
 }
 
+strong {
+    font-weight: 500;
+}
+
+abbr {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+em {
+    font-style: italic;
+}
+
 p {
     margin-bottom: 24px;
 }
 
+code {
+  color: $red;
+  font-family: monospace,monospace;
+  line-height: 18px; // NEEDED FOR MONOSPACE BUG
+}
+
+small {
+    font-weight: 300;
+    opacity: 0.4;
+}
 .heading--xl {
     // 4x LH
     font-size: 60px;
     line-height: 72px;
     padding-top: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 40px;
     font-weight: 800;
     letter-spacing: -3px;
 }
 
-.heading--pttn,
 .heading--l {
     // 3x LH
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: -1px;
-    line-height: 40px;
-    margin-bottom: 18px;
-    padding-top: 14px;
-    
-    // @include media(tablet) {
-    //     font-size: 36px;
-    // }
+    line-height: 48px;
+    margin-bottom: 38px;
+    padding-top: 10px;
+}
+
+.uber-read {
+    max-width: 50em;
 }
 
 .heading--pttn {
+    font-size: 30px;
     border-bottom: 1px solid $grey;
     font-weight: 300;
     letter-spacing: -2px;
@@ -94,7 +117,6 @@ p {
     margin-bottom: 24px;
 }
 
-.ledeOut,
 .lede {
     font-size: 18px;
     line-height: 24px;
@@ -107,6 +129,20 @@ p {
 
 strong {
     font-weight: 600;
+}
+
+a {
+  transition: color .2s;
+  color: $blueDark;
+  font-weight: bold;
+}
+
+a:link,
+a:visited { color: $blueDark; }
+a:hover   { color: $blue; }
+a:active  {
+  transition: color .3s;
+  color: #007BE6;
 }
 
 blockquote {
@@ -144,6 +180,10 @@ blockquote {
         padding-left: 9px;
 
     }
+}
+
+.list--numeric {
+    list-style: number outside none;
 }
 // .list {
 //     list-style-type: none;

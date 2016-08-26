@@ -1,0 +1,54 @@
+.visuallyhidden { 
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height: 1px; width: 1px; 
+    margin: -1px; padding: 0; border: 0; 
+}
+
+.u-hide-tablet-up {
+    @include media(tablet) {
+        display: none;
+    }
+}
+
+
+/**
+* Spacing
+* Spacing between elements is a multiple of the base-line
+**/
+
+// NOTE:
+/*
+  a = all
+  t = top
+  r = right
+  b = bottom
+  l = left
+  x = left & right
+  y = top & bottom
+*/
+
+// Margin
+
+.u-mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+@for $i from 0 through 3 {
+    $value: $base-line * $i;
+
+// @each $value in $spacer-values{
+  .u-ma-#{$i} { margin: #{$value};}
+  .u-mt-#{$i} { margin-top: #{$value};}
+  .u-mr-#{$i} { margin-right: #{$value};}
+  .u-mb-#{$i} { margin-bottom: #{$value};}
+  .u-ml-#{$i} { margin-left: #{$value};}
+
+  .u-mx-#{$i} {
+    margin-right: #{$value};    margin-left: #{$value};  }
+
+  .u-my-#{$i} {
+    margin-top: #{$value};    margin-bottom: #{$value};  }
+}

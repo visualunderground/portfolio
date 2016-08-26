@@ -8,19 +8,24 @@
         <div class="content">
             <h2 class="heading--pttn">Typography</h2>
             <div class="callout">
-                <p>Using a 24px baseline that needs to be maintained for vertical rythym.</p>
+                <p>Using a 24px baseline grid to maintain a vertical rhythm on all block-level elements in the site.</p>
             </div>
-            <h3 class="heading--xl">Heading extra large</h3>
-            <h3 class="heading--l">Heading large</h3>
-            <h3 class="heading">Heading</h3>
-            <p class="lede">This paragraph leads in...</p>
-            <p>This is a paragraph with <strong>bold</strong>, <em>italic (emphasised)</em>, and <abbr title="Abbreviated">abbr</abbr> content.</p>
+            <h3 class="heading--xl">Heading extra large <small>60px/72px</small></h3>
+            <h3 class="heading--l">Heading large <small>30px / 48px</small></h3>
+            <h3 class="heading">Heading <small>24px/24px</small></h3>
+            <p class="lede">This paragraph leads in&hellip; </p>
+            <p>This is a paragraph with <strong>bold</strong>, <em>italic (emphasised)</em>, <abbr title="Abbreviated">abbr</abbr>, and <a href="#">linked</a> content.</p>
             <p>Lex ea commodo
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p class="ledeOut">This is a paragraph leads out.</p>
             <ul class="list">
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+                <li>Four</li>
+            </ul>
+            <ul class="list list--numeric">
                 <li>One</li>
                 <li>Two</li>
                 <li>Three</li>
@@ -42,35 +47,62 @@
     <section class="section">
         <div class="content">
             <h2 class="heading--pttn">Layout</h2>
-            <h3 class="heading">2 column</h3>
             <div class="grid-row">
                 <div class="column-half">
                     <img src="/images/tools.png" class="image-callout" alt="">
                 </div>
-                <div class="column-half">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div class="column-half">
+                    <h3 class="heading">2 column</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
             </div>
-            <h3 class="heading">2 column (reversed)</h3>
             <div class="grid-row">
                 <div class="column-half--alt">
                     <img src="/images/tools.png" class="image-callout" alt="">
                 </div>
-                <div class="column-half--alt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div class="column-half--alt">
+                    <h3 class="heading">Reversed 2 column</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
             </div>
-            <h3 class="heading">3 column</h3>
             <div class="grid-row">
-                <div class="column-third">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                <div class="column-third">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                <div class="column-third">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                <div class="column-third">
+                    <h3 class="heading">3 column</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="column-third">
+                    <h3 class="heading">3 column</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="column-third">
+                    <h3 class="heading">3 column</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -85,7 +117,7 @@
                     <h3 class="heading">Content heading</h3>
                     <p class="lede">This is a lede paragraph. Ut enim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing</strong> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation <a href="#">ad minim</a> ullamco laboris nisi ut aliquip.</p>
-                    <p class="ledeOut">This paragraph leads to the next section&hellip;</p>
+                    <p class="lede">This paragraph leads to the next section&hellip;</p>
                 </div>
             </div>            
         </div>
@@ -93,7 +125,107 @@
     <section class="section">
         <div class="content content--blog">
             <h2 class="heading--pttn">Blog sectiion</h2>
+            <div class="uber-read">
+                <h2 class="heading--l">This is a blog heading</h2>
+                <p class="lede">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2 class="heading">Sub heading</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <blockquote>
+                    <p>A clever and witty quote</p>
+                    <cite>Author's name</cite>
+                </blockquote>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur libero sapiente rem modi temporibus! Et sunt culpa cupiditate maxime dolorem. A, placeat voluptatibus. Laudantium, laboriosam quis accusantium iusto culpa dolorum.</p>
+            </div>
 
         </div>
     </section>
+    <section class="section">
+        <div class="content">
+            <h2 class="heading--pttn">CSS helpers</h2>
+            <p class="lede">Helper classes to style elements without adding bloat or complexity to the CSS. Keeping specificity nice and low.</p>
+            <table class="table u-mb-1">
+                <thead>
+                    <tr>
+                        <th>Class name</th>
+                        <th>CSS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>visuallyhidden</code></td>
+                        <td>Visually hides content while still being accessible to a screen readers</td>
+                    </tr>
+                    <tr>
+                        <td><code>hide</code></td>
+                        <td><code>display: none !important;</code></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Class name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>u-mx-auto</code></td>
+                        <td>Centres block level elements</td>
+                    </tr>
+                    <tr>
+                        <td><code>u-ma-<strong>n</strong></code></td>
+                        <td>Sets all margins to <strong>n</strong> * baseline (where <strong>n</strong> is 0 to 4)</td>
+                    </tr>
+                    <tr>
+                        <td><code>u-mt<strong>-n</strong></code></td>
+                        <td>Sets top margin to <strong>n</strong> * baseline (where <strong>n</strong> is 0 to 4)</td>
+                    </tr>
+                    <tr>
+                        <td><code>u-mr<strong>-n</strong></code></td>
+                        <td>Sets right margin to <strong>n</strong> * baseline (where <strong>n</strong> is 0 to 4)</td>
+                    </tr>
+                    <tr>
+                        <td><code>u-ml<strong>-n</strong></code></td>
+                        <td>Sets left margin to <strong>n</strong> * baseline (where <strong>n</strong> is 0 to 4)</td>
+                    </tr>
+                    <tr>
+                        <td><code>u-mb<strong>-n</strong></code></td>
+                        <td>Sets bottom margin to <strong>n</strong> * baseline (where <strong>n</strong> is 0 to 4)</td>
+                    </tr>
+                    <tr>
+                        <td><code>u-mx<strong>-n</strong></code></td>
+                        <td>Sets left and right margins to <strong>n</strong> * baseline (where <strong>n</strong> is 0 to 4)</td>
+                    </tr>
+                    <tr>
+                        <td><code>u-my<strong>-n</strong></code></td>
+                        <td>Sets top and bottom marginsto n * baseline (where <strong>n</strong> is 0 to 4)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <div
+style="
+background-image: url(http://basehold.it/i/24);
+height: 100%;
+position: absolute;
+top: 0;
+width: 100%;
+"></div>
 </main>
+
+<style>body {position: relative;}</style>

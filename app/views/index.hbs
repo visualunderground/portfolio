@@ -6,13 +6,15 @@
                     <h1 class="heading--xl">Hi, I'm Tom</h1>
                     <p class="lede">I'm a <strong>User Experience</strong> designer and <strong>Front-End</strong> specialist based in Brizzle, England.</p>
                     <p>I'm an empathetic, intuitive thinker who likes to tell stories and solve problems in imaginative and creative ways.</p>
-                    <p>...I'm also a dad, geek, foodie, photographer and recovering engineer :-(</p>
-                    <p class="heading--s">This is my process..</p>
+                    <p>&hellip; I'm also a dad, geek, foodie, photographer and recovering engineer :-(</p>
+                    <p class="lede u-mt-2 ">This is my process&hellip;</p>
                 </div>
                 <div class="column-half">
+{{!--                     
                     {{> svg_drink }}
                     {{> svg_promarker color="red" }}
                     {{> svg_promarker color="pink" }}
+ --}}
                 </div>
             </div>
         </div>
@@ -23,11 +25,16 @@
             <div class="grid-row">
                 <div class="column-half--alt">
                     <h2 class="heading">I discover, to define the problem</h2>
-                    <p class="lede">Through a process of interviews, observation and analysis I understand business goals, review the competitor landscape, and discover (not just validate) the user needs.</p>
+<p class="lede">I use a process of thoughtful questioning, perceptive observation, and diligent research to understand business goals, uncover user needs, and expose opportunity.</p>
+
+<p>I gather insight by conducting interviews, performing usability reviews, analysing competitors, and investigating user behaviour.</p>
+
+<p>Insight enables me to empathise with perspectives and embrace constraints so I can focus on high value problems that cause real pain.</p>
+                    {{!-- <p class="lede">Using a process of thoughtful questioning, perceptive observation, and diligent research I discern business goals, uncover user needs, and expose opportunities.</p>
                     <p>This enables me to craft personas, task flows, heuristic/cognative reviews, user stories, and the overarching information architecture.</p>
-                    <p>Creatively documenting insight helps illustrate research outcomes, simplifies complex problems and promotes intuitve solutions.</p>
+                    <p>Creatively documenting insight helps illustrate research outcomes, simplifies complex problems, and promotes intuitve solutions.</p> --}}
                     {{!-- <p>I constantly use personas during a project to guide design decisions, product priorities, and encourage empathy throughout the team.</p> --}}
-                    <p class="ledeOut">Once I understand the problem...</p>
+                    <p class="lede u-mt-2 "><em>Once I understand the problem&hellip;</em></p>
                 </div>
                 <div class="column-half--alt"></div>
             </div>
@@ -39,13 +46,13 @@
             <div class="grid-row">
                 <div class="column-half">
                     <h2 class="heading">I design with paper</h2>
-                    <p class="lede">I'll sit down with my Moleskine and Promarkers to sketch interactions and flows, taking into account heuristics, context of use and user needs.</p>
-                    <p>Low fidelity allows me the creative freedom to iterate quickly without becoming attached to a specific solution or distracted by technical solutions.</p>
-                    <p>Formative user testing to gain valuable insight and ensure the design meets the user need.</p>
+                    <p class="lede">I'll sit down with my Moleskine, pens, and and Promarkers to sketch interactions and flows, taking into account heuristics, context of use and user needs.</p>
+                    <p>Low fidelity allows me the creative freedom to iterate quickly without becoming attached to solutions or distracted by digital tools.</p>
+                    {{!-- <p>Formative user testing to gain valuable insight and ensure the design meets the user need.</p> --}}
                     <p>Once I have choosen a solution I may increase the visual quality using Photoshop, Illustrator or UXPin.</p>
-                    <p class="ledeOut">Once I understand the solution...</p>
+                    <p class="lede u-mt-2 ">Once I conceive a solution&hellip; </p>
                 </div>
-                <div class="column-half"></div>
+                <div class="column-half"><img src="/images/tools.png" class="image-callout" alt=""></div>
             </div>
         </div>
     </section>
@@ -55,10 +62,10 @@
             <div class="grid-row">
                 <div class="column-half--alt">
                     <h2 class="heading">I prototype with code</h2>
-                    <p class="lede">I 'sketch' in code to create interactive and responsive prototypes.</p>
-                    <p>Using code helps me appreciate the technical considerations of a design: responsive flow, document hierarchy, performance, progressive enhancement, usability and accessability. </p>
+                    <p class="lede">I 'sketch' in code to create realistic, responsive, and interactive prototypes.</p>
+                    <p>Using code enables me to focus on the technical considerations of a design: responsive flow, document hierarchy, performance, progressive enhancement, usability, and accessability. </p>
                     <p>By combining logic-less JS templating with dummy data I can quickly test an interface against edge cases and transient or empty states. </p>
-                    <p class="ledeOut">Once a prototype has been deployed...</p>
+                    <p class="lede u-mt-2 ">Once a prototype is ready&hellip;</p>
                     {{!-- <p>I test the prototypes with users and stakeholders to find out what works, and what needs to change and I iterate this process until it's time to finalise the design interaction.</p> --}}
                     {{!-- 
                     <p>In this stage of a project, I work as a translator who speaks the different languages of developers, engineers, business stakeholders and end users to ensure that everyone understands each other. It is really important to be able to work productively within a team environment, to make certain that we all understand WHY we are doing what we do.</p>
@@ -77,7 +84,7 @@
                     <h2 class="heading">I test with users</h2>
                     <p class="lede">Ideally, prototypes are tested with real users in real situations. However, I'm partial to lab or guerrilla testing when deadlines are tight. User testing validates design decisions, evaluates usability, and uncovers any subtleties not exposed during 'discovery'. </p>
                     <p>Prototypes have a primary purpose; is my understanding and design thinking right or wrong?</p>
-                    <p class="ledeOut">Once the solution has been verified...</p>
+                    <p class="lede u-mt-2 ">Once I verify the thinking&hellip;</p>
                 </div>
                 <div class="column-half"></div>
             </div>
@@ -90,24 +97,70 @@
                 <div class="column-half--alt">
                     <h2 class="heading">
                         I develop with 
-                        <style>
-                        .svg-font {
-                            display: inline-block;
-                            height: 1em;
-                            fill: white;
-                            opacity: 0.8;
-                            transform: scale(.8);
-                        }
-                        </style>
                         <svg viewBox="0 0 30 30" class="svg-font"><use xlink:href="#icon-love"></use></svg>
                     </h2>
-                    <p class="lede">OK, so I'm verging on obsessive about tooling, CSS architecture, semantics, atomic commits and pattern libraries.</p>
-                    <p>I document the design patterns in a pattern library. </p>
-                    <p>I have 15 years experience working in teams of all sizes from supporting 4 scrum teams developing a single product to a team of 4 developing 18 e-commerce sites. No matter the environment one aspect of my workflow has remained consistent - The use of Pattern Libraries and Pattern Lead development.</p>
-                    <p>AA accessability compliant, mobile first, mustard cutting, progressively enhanced awsomeness.</p>
+                    <p class="lede">I'm verging on obsessive about tooling, CSS architecture, semantics, accessability, and design systems.</p>
+                    <p>I have 15 years' experience working in teams of all sizes from supporting 4 scrum teams developing a multi-product service to a team of 4 developing 18 e-commerce sites. No matter the environment one aspect of my workflow has remained consistent - The use of pattern-led development.</p>
+                    <p>Accessabile, mobile first, mustard cutting, progressively enhanced awsomeness.</p>
                 </div>
                 <div class="column-half--alt"></div>
             </div>
         </div>
     </section>
+    <section class="section">
+        <div class="content">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Class name</th>
+                        <th>CSS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code class="classname">invisible</code></td>
+                        <td><code>visibility: hidden;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code class="classname">hide</code></td>
+                        <td><code>display: none !important;</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 </main>
+<style>
+    .svg-font {
+        animation: heartbeat 1300ms ease 0s infinite normal;
+        display: inline-block;
+        fill: #ce616e;
+        height: 1em;
+        left: 3px;
+        opacity: 0.8;
+        position: relative;
+        top: 3px;
+    }
+    @keyframes heartbeat {
+        0% {
+            transform: scale(1);
+            opacity: 0.8;
+        }
+        14% {
+            transform: scale(1.1);
+            opacity: 1;
+        }
+        28% {
+            transform: scale(1);
+            opacity: 0.8;
+        }
+        42% {
+            transform: scale(1.1);
+            opacity: 1;
+        }
+        70% {
+            transform: scale(1);
+            opacity: 0.8;
+        }
+    }
+</style>

@@ -16,6 +16,8 @@
 // @import 'partials/global_footer';
 @import 'partials/process_section';
 @import 'partials/buttons';
+@import 'partials/tables';
+@import 'partials/helpers';
 
 @import 'partials/person';
 // SVG styling
@@ -34,6 +36,10 @@
 // Grid layout
 .grid-row {
     @extend %grid-row;
+
+    + .grid-row {
+        margin-top: $base-line * 2;
+    }
 }
 
 .column-quarter {

@@ -1,0 +1,24 @@
+
+// $borderCol: #e0e0e0;
+$borderCol: $greyLight;
+
+.table {
+    width: 100%;
+    display: border-box;
+
+    th {
+        text-align: left;
+        font-weight: 600;
+        border-top: 1px dotted $borderCol;
+        border-bottom: 1px dotted $borderCol;
+        background-color: #f2f2f2;
+        padding: 11px 15px;
+    }
+
+    td {
+        border-bottom: 1px dotted $borderCol;
+        background-color: #ffffff;
+        padding: 12px 15px 11px;
+    }
+}
+
