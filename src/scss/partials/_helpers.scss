@@ -12,6 +12,10 @@
     }
 }
 
+.u-text-center {
+  text-align: center;
+}
+
 
 /**
 * Spacing
@@ -36,10 +40,9 @@
   margin-left: auto !important;
 }
 
-@for $i from 0 through 3 {
+@for $i from -3 through 3 {
     $value: $base-line * $i;
 
-// @each $value in $spacer-values{
   .u-ma-#{$i} { margin: #{$value};}
   .u-mt-#{$i} { margin-top: #{$value};}
   .u-mr-#{$i} { margin-right: #{$value};}
