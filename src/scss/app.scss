@@ -17,6 +17,7 @@
 @import 'partials/process_section';
 @import 'partials/buttons';
 @import 'partials/tables';
+@import 'partials/list-grid';
 @import 'partials/helpers';
 
 @import 'partials/person';
@@ -36,10 +37,6 @@
 // Grid layout
 .grid-row {
     @extend %grid-row;
-
-    // + .grid-row {
-    //     margin-top: $base-line * 2;
-    // }
 }
 
 .column-quarter {

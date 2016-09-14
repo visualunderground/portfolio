@@ -1,0 +1,18 @@
+.list-grid {
+    @extend %contain-floats;
+
+    li {
+
+        @include media(tablet){
+          width: 50%;
+          float: left;
+        }
+
+        @include media(desktop){
+          width: 33.333%;
+          float: left;
+        }
+
+
+    }
+}
