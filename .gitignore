@@ -13,3 +13,5 @@ bower_components
 app/public/stylesheets/
 app/public/images/
 app/public/javascripts/
+
+*.ai
