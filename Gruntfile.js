@@ -1,7 +1,13 @@
 module.exports = function(grunt) {
     
     require('time-grunt')(grunt);
-    var wpt = require("./.wpt.js") || {}; 
+
+    try {
+        var wpt = require("./.wpt.js"); 
+    }
+    catch (e) {
+        var wpt = {"key":""}; 
+    }
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
