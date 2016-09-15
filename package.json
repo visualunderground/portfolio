@@ -8,9 +8,7 @@
     "postinstall": "bower install && grunt get:vendor && grunt build"
   },
   "devDependencies": {
-    "grunt-notify": "^0.4.1",
-    "grunt-perfbudget": "^0.1.6",
-    "time-grunt": "^1.0.0"
+    
   },
   "dependencies": {
     "compression": "^1.5.1",
@@ -27,7 +25,10 @@
     "serve-favicon": "~2.2.0",
     "grunt-sass": "^1.1.0",
     "grunt-scss-lint": "^0.3.4",
-    "grunt-svgstore": "^0.5.0"
+    "grunt-svgstore": "^0.5.0",
+    "grunt-notify": "^0.4.1",
+    "grunt-perfbudget": "^0.1.6",
+    "time-grunt": "^1.0.0"
   },
   "engines": {
     "node": "v0.12.x"
