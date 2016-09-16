@@ -1,7 +1,8 @@
 .global-footer {
-    padding-top: 45px;
-    padding-bottom: 45px;
-    background-color: #ffffff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #243042;
+    color: #ffffff;
 }
 
 .global-footer__wrapper {
@@ -10,17 +11,18 @@
 }
 
 .global-footer__link--social {
+    display: inline-block;
     text-decoration: none;
     padding-right: 20px;
-    fill: #cccccc !important;
+    fill: $whiteAlt !important;
 
     :hover {
-        fill: #ff8000;
+        fill: $blueDark;
     }
 
     svg {
         display: inline-block;
-        width: 30px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
     }
 }
