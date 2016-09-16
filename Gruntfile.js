@@ -84,7 +84,11 @@ module.exports = function(grunt) {
         imagemin: {
             options: {
                 optimizationLevel: 3,
-                svgoPlugins: [{ removeViewBox: false }],
+                svgoPlugins: [
+                    {removeViewBox: false},
+                    {removeUnknownsAndDefaults : false},
+                    {cleanupIDs : false}
+                ],
             },
             dist: {
                 files: [{
@@ -129,7 +133,8 @@ module.exports = function(grunt) {
             options: {
                 prefix : 'icon-',
                 svg: {
-                    style: "display: none;"
+                    style: "display: none;",
+                    role: "img"
                 }
             },
             default: {
