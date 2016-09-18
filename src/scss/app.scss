@@ -34,8 +34,6 @@
     @extend %contain-floats;
 }
 
-$plannedFailure;
-
 // Grid layout
 .grid-row {
     @extend %grid-row;
