@@ -3,7 +3,8 @@
 .idea/
 .start.pid
 .bundle
-.wpt.js
+.config.json
+
 
 # Ignore dependencies
 node_modules
@@ -13,5 +14,7 @@ bower_components
 app/public/stylesheets/
 app/public/images/
 app/public/javascripts/
+app/public/*.html
+app/public/*.json
 
 *.ai

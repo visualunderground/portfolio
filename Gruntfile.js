@@ -3,10 +3,12 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt);
 
     try {
-        var wpt = require("./.wpt.js"); 
-    }
-    catch (e) {
-        var wpt = {"key":""}; 
+        var config = require('./.config.json');
+    } catch (e) {
+        var config = {
+            "wpt": "secret-key",
+            "tenon": "secret-key",
+        };
     }
 
     grunt.initConfig({
@@ -59,6 +61,33 @@ module.exports = function(grunt) {
                 },
                 files: {
                    'app/views/vendor/loadJS.hbs': ['src/javascripts/vendor/loadJS.js']
+                }
+            }
+        },
+
+        hbs: {
+            target1: {
+                options: {
+                    layout: "app/views/layout.hbs",
+                    helpers: {
+                        "block": function(name) { var blocks = {}; var val = (blocks[name] || []).join('\n'); blocks[name] = []; return val;}
+                    },
+                    partials: {
+                        "svg_drink": "app/views/partials/svg_drink.hbs",
+                        "svg_promarker": "app/views/partials/svg_promarker.hbs",
+                        "favicons": "app/views/partials/favicons.hbs",
+                        "stylesheets": "app/views/partials/stylesheets.hbs",
+                        "javascripts": "app/views/partials/javascripts.hbs",
+                        "loadJS": "app/views/vendor/loadJS.hbs",
+                        "svg_defs": "app/views/partials/svg_defs.hbs",
+                        "global_header": "app/views/partials/global_header.hbs",
+                        "global_footer": "app/views/partials/global_footer.hbs",
+                        "partial2": "some inline partial"
+                    }
+                },
+         
+                files: {
+                    "app/public/homepage.html": "app/views/index.hbs",
                 }
             }
         },
@@ -124,8 +153,27 @@ module.exports = function(grunt) {
             default: {
                 options: {
                     url: 'http://express-frontend.herokuapp.com/',
-                    key: wpt.key
+                    key: config.wpt
                 }
+            }
+        },
+
+        tenon: {
+            options: {
+                key: config.tenon,
+                filter: [31, 54],
+                level: 'AA',
+                force:false
+            },
+            home: {
+                options: {
+                  saveOutputIn: 'app/public/homepage.json',
+                  snippet: true,
+                  asyncLim: 2
+                },
+                src: [
+                  'app/public/homepage.html'
+                ]
             }
         },
 
@@ -146,6 +194,8 @@ module.exports = function(grunt) {
 
     });
     
+    grunt.loadNpmTasks('grunt-tenon-client');
+    grunt.loadNpmTasks("grunt-static-hbs");
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
@@ -163,11 +213,12 @@ module.exports = function(grunt) {
     // Build assets from src
     // grunt.registerTask('build:css',     ['scsslint:dist', 'sass:dist']);
     grunt.registerTask('build:css',     ['sass:dist']);
+    grunt.registerTask('test',          ['hbs', 'tenon']);
     //grunt.registerTask('build:js',      ['jshint:all', 'concat:dist', 'uglify:dist']);
     grunt.registerTask('build:img',     ['imagemin:dist']);
         // Build * ALL THE THINGS! *
         // grunt.registerTask('build',         ['build:css', 'build:js', 'build:img']);
-        grunt.registerTask('build',         ['build:css', 'build:img']);
+        grunt.registerTask('build',     ['build:css', 'build:img']);
 
     // Default task during development
     grunt.registerTask('default', ['build:css']);
