@@ -3,8 +3,9 @@
 .idea/
 .start.pid
 .bundle
-.config.json
 
+# Shhhh. Don't commit API keys
+.config.json
 
 # Ignore dependencies
 node_modules
@@ -14,7 +15,9 @@ bower_components
 app/public/stylesheets/
 app/public/images/
 app/public/javascripts/
-app/public/*.html
-app/public/*.json
+
+# Ignore test output
+tests/tenon/source
+tests/tenon/result
 
 *.ai

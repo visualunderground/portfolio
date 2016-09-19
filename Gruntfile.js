@@ -66,7 +66,7 @@ module.exports = function(grunt) {
         },
 
         hbs: {
-            target1: {
+            homepage: {
                 options: {
                     layout: "app/views/layout.hbs",
                     helpers: {
@@ -81,13 +81,12 @@ module.exports = function(grunt) {
                         "loadJS": "app/views/vendor/loadJS.hbs",
                         "svg_defs": "app/views/partials/svg_defs.hbs",
                         "global_header": "app/views/partials/global_header.hbs",
-                        "global_footer": "app/views/partials/global_footer.hbs",
-                        "partial2": "some inline partial"
+                        "global_footer": "app/views/partials/global_footer.hbs"
                     }
                 },
          
                 files: {
-                    "app/public/homepage.html": "app/views/index.hbs",
+                    "tests/tenon/source/homepage.html": "app/views/index.hbs",
                 }
             }
         },
@@ -146,6 +145,17 @@ module.exports = function(grunt) {
                     }
                 ]
                 
+            },
+            tenon: {
+                files: [
+                    {
+                        expand: true,
+                        src: '**',
+                        cwd: 'app/public/',
+                        dest: 'tests/tenon/source'
+                    }
+                ]
+                
             }
         },
 
@@ -161,18 +171,18 @@ module.exports = function(grunt) {
         tenon: {
             options: {
                 key: config.tenon,
-                filter: [31, 54],
+                // filter: [31, 54, 57], // Ignored rules
                 level: 'AA',
                 force:false
             },
             home: {
                 options: {
-                  saveOutputIn: 'app/public/homepage.json',
+                  saveOutputIn: 'tests/tenon/result/homepage.json',
                   snippet: true,
                   asyncLim: 2
                 },
                 src: [
-                  'app/public/homepage.html'
+                  'tests/tenon/source/homepage.html'
                 ]
             }
         },
@@ -213,7 +223,7 @@ module.exports = function(grunt) {
     // Build assets from src
     // grunt.registerTask('build:css',     ['scsslint:dist', 'sass:dist']);
     grunt.registerTask('build:css',     ['sass:dist']);
-    grunt.registerTask('test',          ['hbs', 'tenon']);
+    grunt.registerTask('test',          ['hbs', 'copy:tenon', 'tenon']);
     //grunt.registerTask('build:js',      ['jshint:all', 'concat:dist', 'uglify:dist']);
     grunt.registerTask('build:img',     ['imagemin:dist']);
         // Build * ALL THE THINGS! *
