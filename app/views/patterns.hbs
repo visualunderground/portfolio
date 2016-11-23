@@ -9,11 +9,12 @@
         <div class="content">
             <h2 class="heading--pttn">Typography</h2>
             <div class="callout">
-                <p>Using a 24px baseline grid to maintain a vertical rhythm on all block-level elements in the site.</p>
+                <p>Using a 24px baseline grid to maintain a vertical rhythm on all block-level elements.</p>
             </div>
             <h3 class="heading--xl">Heading extra large <small>60px/72px</small></h3>
-            <h3 class="heading--l">Heading large <small>30px / 48px</small></h3>
+            <h3 class="heading--l">Heading large <small>30px/48px</small></h3>
             <h3 class="heading">Heading <small>24px/24px</small></h3>
+            <h3 class="heading--small">Heading small <small>15px/24px</small></h3>
             <p class="lede">This paragraph leads in&hellip; </p>
             <p>This is a paragraph with <strong>bold</strong>, <em>italic (emphasised)</em>, <abbr title="Abbreviated">abbr</abbr>, and <a href="#">linked</a> content.</p>
             <p>Lex ea commodo
@@ -150,27 +151,9 @@
 
         </div>
     </section>
-    <section class="hero">
-        <div class="content u-text-center">
-            <h2 class="heading--l">Brands I've worked with</h2>
-            <p class="u-mt--2 u-mb-2 muted">I have had the pleasure of working with some of the world's most well-known brands</p>
-            <div class="grid-row">
-                <div class="column-third"><img src="/images/svg/client-american-express.svg" height="48" class="image-callout" alt=""></div>
-                <div class="column-third"><img src="/images/svg/client-gov.uk.svg" height="48" class="image-callout" alt=""></div>
-                <div class="column-third"><img src="/images/svg/client-johnlewis.svg" height="48" class="image-callout" alt=""></div>
-            </div>
-            <div class="grid-row">
-                <div class="column-third"><img src="/images/svg/client-lexus.svg" height="48" class="image-callout" alt=""></div>
-                <div class="column-third"><img src="/images/svg/client-manchester-united.svg" height="48" class="image-callout" alt=""></div>
-                <div class="column-third"><img src="/images/svg/client-tesco.svg" height="48" class="image-callout" alt=""></div>
-            </div>
-            <div class="grid-row">
-                <div class="column-third"><img src="/images/svg/client-toyota.svg" height="48" class="image-callout" alt=""></div>
-                <div class="column-third"><img src="/images/svg/client-vauxhall.svg" height="48" class="image-callout" alt=""></div>
-                <div class="column-third"><img src="/images/svg/client-volkswagen.svg" height="48" class="image-callout" alt=""></div>
-            </div>
-        </div>
-    </section>
+    
+    {{> brands }}
+
     <section class="section">
         <div class="content">
             <h2 class="heading--pttn">CSS helpers</h2>
@@ -194,6 +177,10 @@
                     <tr>
                         <td><code>u-text-center</code></td>
                         <td><code>text-align: center;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>u-text-right</code></td>
+                        <td><code>text-align: right;</code></td>
                     </tr>
                 </tbody>
             </table>
@@ -235,7 +222,7 @@
                     </tr>
                     <tr>
                         <td><code>u-my<strong>-n</strong></code></td>
-                        <td>Sets top and bottom marginsto n * baseline (where <strong>n</strong> is 0 to 4)</td>
+                        <td>Sets top and bottom marginsto <strong>n</strong> * baseline (where <strong>n</strong> is 0 to 4)</td>
                     </tr>
                 </tbody>
             </table>

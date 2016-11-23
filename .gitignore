@@ -4,7 +4,7 @@
 .start.pid
 .bundle
 
-# Shhhh. Don't commit API keys
+# ~~ Shhhh ~~ Don't commit API keys
 .config.json
 
 # Ignore dependencies

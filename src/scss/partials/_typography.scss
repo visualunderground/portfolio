@@ -117,6 +117,12 @@ small {
     margin-bottom: 24px;
 }
 
+.heading--small {
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
 .muted {
     color: $mutedWhite;
 }

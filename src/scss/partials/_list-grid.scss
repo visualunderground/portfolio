@@ -14,7 +14,10 @@
         }
 
         img {
-            margin-top: $base-line * 2;
+            margin-top: $base-line / 2;
+            @include media(desktop) {
+                margin-top: $base-line * 2;
+            }
         }
 
 
