@@ -38,22 +38,30 @@
         handler: function() {
             document.getElementById('brands').classList.remove('isHidden');
             document.getElementById('brands').classList.add('zoomIn');
-            document.getElementById('brands').addEventListener("animationend", function(){
-                document.getElementById('brandsSub').classList.remove('isHidden');
-                document.getElementById('brandsSub').classList.add('fadeIn');   
-            }, false);
+            
+            document.getElementById('brandsSub').classList.remove('isHidden');
+            document.getElementById('brandsSub').classList.add('fadeInUp');
+
+            // document.getElementById('brands').addEventListener("animationend", function(){
+            //     document.getElementById('brandsSub').classList.remove('isHidden');
+            //     document.getElementById('brandsSub').classList.add('fadeInUp');   
+            // }, false);
         },
         offset: 'bottom-in-view'
     })
 </script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <style>
     .isHidden { opacity:0; }
 
-    .fadeIn,
-    .zoomIn {
-        animation-duration: .1s;
+    .fadeIn {
+        animation-duration: 0.9s;
+    }
+    .fadeInUp {
+        animation-duration: 0.5s;
+        animation-delay: 0.3s;
     }
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
 </body>
 </html>
