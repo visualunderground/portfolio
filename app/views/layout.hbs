@@ -10,17 +10,6 @@
         {{> stylesheets }}
         {{> javascripts }}
         {{> loadJS }}
-        <script>
-            // Test: Inline SVG
-            var div = document.createElement('div');
-            div.innerHTML = '<svg/>';
-            var can_svg_inline = (typeof SVGRect != 'undefined' && div.firstChild && div.firstChild.namespaceURI) == 'http://www.w3.org/2000/svg';
-            // Test: SVG as image
-            var can_svg_as_image = document.implementation.hasFeature('http://www.w3.org/TR/SVG11/feature#Image', '1.1');
-            // Print results
-            // console.log("SVG inline - " +  can_svg_inline);
-            // console.log("SVG as image - " +  can_svg_as_image);
-        </script>
     </head>
 <body>
 <script>
@@ -33,6 +22,7 @@
         document.body.className = "is_advannced";
     }
 </script>
+
     {{> svg_defs }}
     
     {{> global_header }}
@@ -42,5 +32,28 @@
     {{> global_footer }}
 
     {{{block "scripts"}}}
+<script>
+    var waypoint = new Waypoint({
+        element: document.getElementById('brands'),
+        handler: function() {
+            document.getElementById('brands').classList.remove('isHidden');
+            document.getElementById('brands').classList.add('zoomIn');
+            document.getElementById('brands').addEventListener("animationend", function(){
+                document.getElementById('brandsSub').classList.remove('isHidden');
+                document.getElementById('brandsSub').classList.add('fadeIn');   
+            }, false);
+        },
+        offset: 'bottom-in-view'
+    })
+</script>
+<style>
+    .isHidden { opacity:0; }
+
+    .fadeIn,
+    .zoomIn {
+        animation-duration: .1s;
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </body>
 </html>

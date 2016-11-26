@@ -1,9 +1,21 @@
 <!--[if lt IE 9]>
-    <script src="javascripts/vendor/html5shiv.min.js"></script>
+    <script src='javascripts/vendor/html5shiv.min.js'></script>
 <![endif]-->
+<script src='javascripts/vendor/noframework.waypoints.min.js'></script>
 <script>
     var hasCSSScroll = 'scrollBehavior' in document.documentElement.style;
     if ('scrollBehavior' in document.documentElement.style) {
-        document.documentElement.classList.add("hasCSSScroll");
+        document.documentElement.classList.add('hasCSSScroll');
     }
+</script>
+<script>
+    // Test: Inline SVG
+    var div = document.createElement('div');
+    div.innerHTML = '<svg/>';
+    var can_svg_inline = (typeof SVGRect != 'undefined' && div.firstChild && div.firstChild.namespaceURI) == 'http://www.w3.org/2000/svg';
+    // Test: SVG as image
+    var can_svg_as_image = document.implementation.hasFeature('http://www.w3.org/TR/SVG11/feature#Image', '1.1');
+    // Print results
+    // console.log("SVG inline - " +  can_svg_inline);
+    // console.log("SVG as image - " +  can_svg_as_image);
 </script>

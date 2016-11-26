@@ -142,6 +142,10 @@ module.exports = function(grunt) {
                     {
                         src: 'bower_components/loadJS/loadJS.js',
                         dest: 'src/javascripts/vendor/loadJS.js'
+                    },
+                    {
+                        src: 'bower_components/waypoints/lib/noframework.waypoints.min.js',
+                        dest: 'app/public/javascripts/vendor/noframework.waypoints.min.js'
                     }
                 ]
                 
