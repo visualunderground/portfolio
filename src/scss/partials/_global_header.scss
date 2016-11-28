@@ -1,9 +1,0 @@
-.global-header {
-    background-color: #ffffff;
-    height: 100px;
-}
-
-.global-header__wrapper {
-    @extend %site-width-container;
-    @extend %contain-floats;
-}

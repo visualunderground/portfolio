@@ -1,0 +1,24 @@
+.anim {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.anim-hidden {
+    opacity: 0;
+}
+
+.svg-font {
+    display: inline-block;
+    fill: #ce616e;
+    height: 1em;
+    left: 3px;
+    position: relative;
+    top: 3px;
+}
+
+@import 'fade-in';
+@import 'fade-in-up';
+@import 'heartbeat';
+@import 'zoom-in';
