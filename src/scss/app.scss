@@ -1,57 +1,39 @@
-@import 'partials/config';
-@import 'partials/colours';
-@import 'partials/conditionals';
+// Abstarct helpers / utils
+@import 'abstracts/config';
+@import 'abstracts/colours';
+@import 'abstracts/conditionals';
+@import 'abstracts/grid';
 
 // No CSS Rendered above this line
 .god-mode { 
     content: 'Type IDDQD';
+    color: #bada55;
 }
 
+// Vendor reset
 @import 'vendor/meyer-reset';
-// @import 'partials/global_header';
-@import 'animations/base';
-@import 'partials/base';
-@import 'partials/buttons';
-@import 'partials/global_footer';
-@import 'partials/grid_layout';
-@import 'partials/helpers';
-@import 'partials/images';
-@import 'partials/list-grid';
-@import 'partials/process_section';
-@import 'partials/tables';
-@import 'partials/typography';
+
+// Components
+@import 'components/base';
+@import 'components/layout';
+@import 'components/buttons';
+@import 'components/global_footer';
+@import 'components/images';
+@import 'components/list-grid';
+@import 'components/process_section';
+@import 'components/tables';
+@import 'components/typography';
+
 // SVG styling
 // @import 'svg/promarker';
 // @import 'svg/drink';
 // @import 'svg/person';
 
-// Content
-.content {
-    @extend %site-width-container;
-    @extend %contain-floats;
-}
+// Animation
+@import 'animations/base';
 
-// Grid layout
-.grid-row {
-    @extend %grid-row;
-}
+// Final include - SPECIFICITY
+@import 'components/utils';
 
-.column-quarter {
-    @include grid-column(1 / 4);
-}
-
-.column-half {
-    @include grid-column(1 / 2);
-}
-
-.column-half--alt {
-    @include grid-column(1 / 2, tablet, right);
-}
-
-.column-third {
-    @include grid-column(1 / 3);
-}
-
-.column-two-thirds {
-    @include grid-column(2 / 3);
-}
+// Final, Final include - ÜBER SPECIFICITY
+@import 'components/shame';

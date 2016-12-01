@@ -18,7 +18,29 @@
     top: 3px;
 }
 
+.svg-font2 {
+    display: inline-block;
+    fill: #ffffff;
+    position: relative;
+    height: 1em;
+    
+    stroke: #b94c59;
+    stroke-width: 3px;
+    stroke-dasharray: 165;
+    stroke-dashoffset: 165;
+    animation: dash 0.8s ease-out forwards;
+}
+
+@keyframes dash {
+    50% { stroke-dashoffset: 0; }
+    100% { 
+        fill: #ce616e; 
+        stroke-dashoffset: 0;
+    }
+}
+
 @import 'fade-in';
 @import 'fade-in-up';
 @import 'heartbeat';
 @import 'zoom-in';
+@import 'orbit';
