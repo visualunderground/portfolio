@@ -1,12 +1,16 @@
 $x-pos: 50px;
 $y-pos: 125px;
+$base: 100px;
+$distance-between-orbits: $base * 1.5;
 
-.planet {
+
+@mixin planz($number, $ring1, $ring2){
+
     position: absolute;
     left: $x-pos;
     top: $y-pos;
-    width: 100px;
-    height: 100px;
+    width: $base;
+    height: $base;
     box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2);
     border-radius: 50%;
 
@@ -18,56 +22,111 @@ $y-pos: 125px;
         border-radius: 50%;
         box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2);
     }
-  
+
     &::after {
-        // BASE + 2 * distance
-        // 100 + (2*150)
-        width: 400px;
-        height: 400px;
-        // 1/2 height - 50
-        margin: -150px;
+        $radius: $base + ($ring1 * $distance-between-orbits);
+        width: $radius;
+        height: $radius;
+        // 1/2 radius - 50
+        margin: -(($radius / 2) -  ($base / 2));
     }
 
     &::before {
-        // BASE + 4 * distance
-        // 100 + (4*150)
-        width: 700px;
-        height: 700px;
-        // 1/2 height - 50
-        margin: -300px;
+        $radius: $base + ($ring2 * $distance-between-orbits);
+        width: $radius;
+        height: $radius;
+        // 1/2 radius - 50
+        // margin: (-50 + $radius / 2) * -1;
+        margin: -(($radius / 2) -  ($base / 2));
     }
 }
-.planet2{
-    position: absolute;
-    left: $x-pos;
-    top: $y-pos;
-    
-    &::after,
-    &::before {
-        content: "";
-        position: absolute;
-        display: block;
-        border-radius: 50%;
-        // border: 1px solid green;
-        box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2);
-    }
-  
-    &::after {
-        // BASE + 6 * distance = 100 + (6*150)
-        width: 1000px;
-        height: 1000px;
-        // 1/2 height - 50
-        margin: -450px;
-    }
 
-    &::before {
-        // BASE + 8 * distance = 100 + (8*150)
-        width: 1300px;
-        height: 1300px;
-        // 1/2 height - 50
-        margin: -600px;
-    }
-}
+.planet { @include planz( 1, 2, 4);}
+.planet2 { @include planz( 2, 6, 8);}
+.planet3 { @include planz( 3, 10, 12);}
+
+// TODO: 
+// SASS FUNCTION: PASS IN ORBIT NUMBER THEN PRINT THE NEXT 3
+
+// .planet2 {
+//     $radius: $base + (6 * $distance-between-orbits);
+//     position: absolute;
+//     left: $x-pos;
+//     top: $y-pos;
+//     width: $radius;
+//     height: $radius;
+//     margin: -(($radius / 2) -  ($base / 2));
+//     box-shadow: inset 0px 0px 0px 1px red;
+//     border-radius: 50%;
+
+//     &::after,
+//     &::before {
+//         content: '';
+//         position: absolute;
+//         display: block;
+//         border-radius: 50%;
+//         box-shadow: inset 0px 0px 0px 1px red;
+//     }
+
+//     &::after {
+//         $radius: $base + (8 * $distance-between-orbits);
+//         width: $radius;
+//         height: $radius;
+//         margin: -150px;
+//     }
+
+//     // 12 = -450
+//     // 10 = -300
+//     // 8  = -150
+
+//     &::before {
+//         $radius: $base + (10 * $distance-between-orbits);
+//         width: $radius;
+//         height: $radius;
+//         margin: -300px;
+//     }
+
+// }
+// .planet3 {
+//     $radius: $base + (12 * $distance-between-orbits);
+//     position: absolute;
+//     left: $x-pos;
+//     top: $y-pos;
+//     width: $radius;
+//     height: $radius;
+//     margin: -(($radius / 2) -  ($base / 2));
+//     box-shadow: inset 0px 0px 0px 1px yellow;
+//     border-radius: 50%;
+
+//     &::after,
+//     &::before {
+//         content: '';
+//         position: absolute;
+//         display: block;
+//         border-radius: 50%;
+//         box-shadow: inset 0px 0px 0px 1px yellow;
+//     }
+
+//     &::after {
+//         $radius: $base + (14 * $distance-between-orbits);
+//         width: $radius;
+//         height: $radius;
+//         margin: -150px;
+//     }
+
+    // 12 = -450
+    // 10 = -300
+    // 8  = -150
+
+//     &::before {
+//         $radius: $base + (16 * $distance-between-orbits);
+//         width: $radius;
+//         height: $radius;
+//         margin: -300px;
+//     }
+
+// }
+
 
 .moon {
     width: 100px;

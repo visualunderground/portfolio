@@ -146,6 +146,10 @@ module.exports = function(grunt) {
                     {
                         src: 'bower_components/waypoints/lib/noframework.waypoints.min.js',
                         dest: 'app/public/javascripts/vendor/noframework.waypoints.min.js'
+                    },
+                    {
+                        src: 'bower_components/waypoints/lib/shortcuts/inview.min.js',
+                        dest: 'app/public/javascripts/vendor/inview.min.js'
                     }
                 ]
                 
