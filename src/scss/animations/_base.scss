@@ -20,7 +20,7 @@
 
 .svg-font2 {
     display: inline-block;
-    fill: #ffffff;
+    fill: transparent;
     position: relative;
     height: 1em;
     
@@ -28,11 +28,18 @@
     stroke-width: 3px;
     stroke-dasharray: 165;
     stroke-dashoffset: 165;
-    animation: dash 0.8s ease-out forwards;
+    animation: dash 1.3s ease-out forwards;
 }
 
 @keyframes dash {
-    50% { stroke-dashoffset: 0; }
+    0% { 
+        stroke-dashoffset: 165; 
+        fill: transparent;
+    }
+    50% { 
+        stroke-dashoffset: 0; 
+        fill: transparent;
+    }
     100% { 
         fill: #ce616e; 
         stroke-dashoffset: 0;

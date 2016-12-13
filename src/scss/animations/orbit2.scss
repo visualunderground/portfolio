@@ -3,18 +3,15 @@ $y-pos: 125px;
 $centerspace: 100px;
 $distance-between-orbits: 300px;
 
-// TODO: 
-// SASS FUNCTION: PASS IN ORBIT NUMBER THEN PRINT THE NEXT 3
-
-.planet {
-    $radius: $centerspace + (1 * $distance-between-orbits);
+@mixin threeorbits($startpoint) {
+    $radius: $centerspace + ($startpoint * $distance-between-orbits);
     position: absolute;
     left: $x-pos;
     top: $y-pos;
     width: $radius;
     height: $radius;
     margin: -(($radius / 2) -  ($centerspace / 2));
-    box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1);
+    box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2);
     border-radius: 50%;
 
     &::after,
@@ -23,63 +20,30 @@ $distance-between-orbits: 300px;
         position: absolute;
         display: block;
         border-radius: 50%;
-        box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1);
+        box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.2);
     }
-
-    &::after {
-        $radius: $centerspace + (2 * $distance-between-orbits);
+    
+    &::before {
+        $radius: $centerspace + (($startpoint + 1) * $distance-between-orbits);
         width: $radius;
         height: $radius;
-        // margin: -150px;
         margin: -($distance-between-orbits / 2);
     }
 
-    &::before {
-        $radius: $centerspace + (3 * $distance-between-orbits);
+    &::after {
+        $radius: $centerspace + (($startpoint + 2) * $distance-between-orbits);
         width: $radius;
         height: $radius;
-        // margin: -300px;
         margin: -($distance-between-orbits);
     }
-
 }
 
-.planet2 {
-    $radius: $centerspace + (4 * $distance-between-orbits);
-    position: absolute;
-    left: $x-pos;
-    top: $y-pos;
-    width: $radius;
-    height: $radius;
-    margin: -(($radius / 2) -  ($centerspace / 2));
-    box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1);
-    border-radius: 50%;
+.rings { 
+    @include threeorbits(1);
+}
 
-    &::after,
-    &::before {
-        content: '';
-        position: absolute;
-        display: block;
-        border-radius: 50%;
-        box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.1);
-    }
-
-    &::after {
-        $radius: $centerspace + (5 * $distance-between-orbits);
-        width: $radius;
-        height: $radius;
-        // margin: -150px;
-        margin: -($distance-between-orbits / 2);
-    }
-
-    &::before {
-        $radius: $centerspace + (6 * $distance-between-orbits);
-        width: $radius;
-        height: $radius;
-        // margin: -300px;
-        margin: -($distance-between-orbits);
-    }
-
+.rings2 { 
+    @include threeorbits(4);
 }
 
 .moon {
@@ -91,9 +55,10 @@ $distance-between-orbits: 300px;
     position: absolute;
     left: $x-pos;
     top: $y-pos;
-    // Text stuff
-    text-align: center;
-    line-height: 100px;
+
+    svg .shadow {
+        opacity: 0.3;
+    }
 }
 
 .moon1 {

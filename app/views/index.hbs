@@ -1,16 +1,33 @@
+{{!-- <div style="background-color:rgb(0, 9, 54); width:100px; height:100px;">RGB</div>
+<div style="background-color:rgba(0, 1, 48, 0.97); width:100px; height:100px;">RGBa</div>
+
+<div style="background-color:rgb(75, 57,  88); width:100px; height:100px;">RGB</div>
+<div style="background-color:rgba(69, 51, 83, 0.97); width:100px; height:100px;">RGBa</div>
+
+<div style="background-color:rgb(137, 70, 113); width:100px; height:100px;">RGB</div>
+<div style="background-color:rgba(133, 64, 109, 0.97); width:100px; height:100px;">RGBa</div>
+
+ --}}
+
+{{!-- <div style="background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, rgb(0, 9, 54), rgb(75, 57, 88) 50%, rgb(137, 70, 113)) repeat scroll 0 0; width: 200px; height:200px;">RGB</div>
+
+<div style="background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, rgba(0, 1, 48, 0.97), rgba(69, 51, 83, 0.97) 50%, rgba(133, 64, 109, 0.97)) repeat scroll 0 0; width: 200px; height:200px;">RGBA</div>
+
+<div style="border-radius:50%; width:20px; height:20px; display: block; border: 1px solid black;"></div> --}}
+
 <main id="content">
     <section class="hero" id="hero" style="overflow: hidden;">
         <div class="content">
             <div style="position:relative; z-index:10; width: 100%;">
-                <div class="planet"></div>
-                <div class="planet2"></div>
+                <div class="rings"></div>
+                <div class="rings2"></div>
 
-                <div class="moon moon1"><svg viewBox="0 0 30 30" class="svg-font anim-heartbeat"><use xlink:href="#icon-love"></use></svg></div>
-                <div class="moon moon1-R"><svg viewBox="0 0 30 30" class="svg-font anim-heartbeat"><use xlink:href="#icon-love"></use></svg></div>
-                <div class="moon moon2"><svg viewBox="0 0 30 30" class="svg-font anim-heartbeat"><use xlink:href="#icon-love"></use></svg></div>
-                <div class="moon moon3"><svg viewBox="0 0 30 30" class="svg-font anim-heartbeat"><use xlink:href="#icon-love"></use></svg></div>
-                <div class="moon moon4"><svg viewBox="0 0 30 30" class="svg-font anim-heartbeat"><use xlink:href="#icon-love"></use></svg></div>
-                <div class="moon moon5"><svg viewBox="0 0 30 30" class="svg-font anim-heartbeat"><use xlink:href="#icon-love"></use></svg></div>
+                <div class="moon moon1"><svg viewBox="0 0 100 100" class="svg-font"><use xlink:href="#icon-iphone"></use></svg></div>
+                <div class="moon moon1-R"><svg viewBox="0 0 100 100" class="svg-font"><use xlink:href="#icon-imac"></use></svg></div>
+                <div class="moon moon2"><svg viewBox="0 0 100 100" class="svg-font"><use xlink:href="#icon-callcenter"></use></svg></div>
+                <div class="moon moon3"><svg viewBox="0 0 100 100" class="svg-font"><use xlink:href="#icon-callcenter"></use></svg></div>
+                <div class="moon moon4"><svg viewBox="0 0 100 100" class="svg-font"><use xlink:href="#icon-callcenter"></use></svg></div>
+                <div class="moon moon5"><svg viewBox="0 0 100 100" class="svg-font"><use xlink:href="#icon-callcenter"></use></svg></div>
             </div>
             <div style=" position:relative; z-index:15; padding-left: 300px;">
                 <h1 class="heading--xl">More than just pixels</h1>
@@ -24,10 +41,9 @@
     <style>
 .moon .svg-font {
   fill: rgba(0, 0, 0, 0.4);
-  height: 50px;
-  margin-left: -5px;
-  margin-top: 20px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
+  position: initial;
 }
     </style>
 
@@ -35,7 +51,7 @@
         <div class="content">
             <div class="grid-row">
                 <div class="column-half--alt">
-                <h3 class="heading--l u-text-center">I discover, to define the problem</h3>
+                <h3 class="heading--l">I discover, to define the problem</h3>
 <p class="lede">I use a process of thoughtful questioning, perceptive observation, and diligent research to understand business goals, uncover user needs, and expose opportunities.</p>
 <p>I gather insight by conducting interviews, reviewing usability, analysing competitors, and studying user behaviour.</p>
 <p>Insight enables me to empathise with perspectives and embrace constraints so I can focus on high value problems that cause real pain.</p>
@@ -54,7 +70,7 @@
         <div class="content">
             <div class="grid-row">
                 <div class="column-half">
-                    <h3 class="heading--l u-text-center">I design with paper</h3>
+                    <h3 class="heading--l">I design with paper</h3>
                     <p class="lede">I'll sit down with my Moleskine, pens, and and Promarkers to sketch interactions and flows, taking into account heuristics, context of use and user needs.</p>
                     <p>Low fidelity allows me the creative freedom to iterate quickly without becoming attached to solutions or distracted by digital tools.</p>
                     {{!-- <p>Formative user testing to gain valuable insight and ensure the design meets the user need.</p> --}}
@@ -70,7 +86,7 @@
         <div class="content">
             <div class="grid-row">
                 <div class="column-half--alt">
-                    <h3 class="heading--l u-text-center">I prototype with code</h3>
+                    <h3 class="heading--l">I prototype with code</h3>
                     <p class="lede">I sketch in code to create realistic, responsive, and interactive prototypes.</p>
                     <p>Using code enables me to focus on the technical considerations of a design: responsive flow, document hierarchy, performance, progressive enhancement, usability, and accessability. </p>
                     <p>By combining logic-less JS templating with dummy data I can quickly test an interface against edge cases and transient or empty states. </p>
@@ -90,7 +106,7 @@
         <div class="content">
             <div class="grid-row">
                 <div class="column-half">
-                    <h3 class="heading--l u-text-center">I test with users</h3>
+                    <h3 class="heading--l">I test with users</h3>
                     <p class="lede">Ideally, prototypes are tested with real users in real situations. However, I'm partial to guerrilla testing when deadlines are tight. Testing validates design decisions, evaluates usability, and uncovers subtleties not exposed during discovery. </p>
                     <p>Prototypes have a primary purpose; is my understanding and design thinking right or wrong?</p>
                     <p class="lede u-mt-2 ">Once I verify the thinking&hellip;</p>
@@ -100,25 +116,22 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="hero">
         <div class="content">
             <div class="grid-row">
                 <div class="column-half--alt">
-                    <h3 class="heading--l u-text-center">
+                    <h3 class="heading--l">
                         I develop with 
                         <svg viewBox="0 0 30 32" class="svg-font2"><use xlink:href="#icon-love"></use></svg>
                         <svg viewBox="0 0 30 30" class="svg-font anim-heartbeat"><use xlink:href="#icon-love"></use></svg>
                     </h3>
-                    <script>
-                        var path = document.querySelector('#fooooooz');
-                        var length = path.getTotalLength();
-                        console.log(length);
-                    </script>
                     <p class="lede">I'm borderline obsessive about tooling, CSS architecture, semantics, accessability, and design systems.</p>
                     <p>I have over 15 years' experience collaborating with teams of all sizes. No matter the environment one aspect of my workflow has remained consistent - The use of pattern-led development.</p>
                     <p>Accessabile, mobile first, mustard cutting, progressively enhanced awsomeness.</p>
                 </div>
-                <div class="column-half--alt"></div>
+                <div class="column-half--alt">
+                    {{>imac_with_code}}
+                </div>
             </div>
         </div>
     </section>
@@ -127,7 +140,7 @@
         <div class="content">
             <div class="grid-row">
                 <div class="column-half">
-                    <h3 class="heading--l u-text-center">I continue to learn when it's live</h3>
+                    <h3 class="heading--l">I continue to learn when it's live</h3>
                     <p class="lede">Data is a user experience designer’s best friend.</p>
                     <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
@@ -138,3 +151,105 @@
     
     {{> brands }}
 </main>
+
+ <style>
+
+        .browser {
+            /*border:1px solid #8cbaec; 
+            background:#69a5e6;*/
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            background: rgba(255, 255, 255, 0.3); 
+            height: 235px; 
+            width: 191px;
+            position: relative;
+            box-sizing:content-box;
+            border-radius: 4px;
+        }
+
+        .browser__toolbar {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+            line-height: 1px;
+        }
+
+        .browser__close,
+        .browser__open,
+        .browser__minimise  {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 7px;
+            margin-bottom: 8px;
+            
+        }
+        .browser__close {
+            background-color: #e96866;
+            margin-left: 10px;
+        }
+        .browser__open {
+            background-color: #9cddd2;
+            margin-left: 5px;
+        }
+        .browser__minimise {
+            background-color: #f6be00;
+            margin-left: 5px;
+        }
+
+        .browser svg {
+            fill: #ffffff;
+        }
+
+        
+
+        .browser__logo {
+            position: absolute;
+            top: 30px;
+            left: 10px;
+        }
+        .browser__static-row {
+            position: absolute;
+            top: 175px;
+            left: 10px;
+        }
+        
+        .browser__dynamic-row,
+        .browser__hero {
+            transform-origin: 50% 50%;
+            position: absolute;
+            top: 55px;
+            left: 10px;
+
+            animation-name: wireframe;
+            animation-iteration-count: infinite;
+            animation-duration: 8s;
+            animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+        }
+
+        .browser__hero {
+            animation-direction: alternate-reverse;
+        }
+        .browser__dynamic-row {
+            animation-direction: alternate;
+        }
+
+        @keyframes wireframe {
+            0%,35% {
+                transform: translate3d(0, 0, 0) scale(1,1);
+                opacity: 1;
+            }
+            45% {
+                transform: translate3d(0, 0, 0) scale(0.95, 0.8);
+                opacity: 0.8;
+            }
+            55% {
+                transform: translate3d(0, 60px, 0) scale(0.95, 0.8);
+                opacity: 0.8;
+            }
+            65%, 100% {
+                transform: translate3d(0, 60px, 0) scale(1,1);
+                opacity: 1;
+            }
+        }
+
+    </style>

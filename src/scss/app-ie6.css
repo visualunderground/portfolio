@@ -526,53 +526,59 @@ blockquote {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn; }
 
-.planet {
+.rings {
   position: absolute;
   left: 50px;
   top: 125px;
-  width: 100px;
-  height: 100px;
-  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  height: 400px;
+  margin: -150px;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
   border-radius: 50%; }
-  .planet::after, .planet::before {
+  .rings::after, .rings::before {
     content: '';
     position: absolute;
     display: block;
     border-radius: 50%;
-    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2); }
-  .planet::after {
-    width: 400px;
-    height: 400px;
-    margin: -150px; }
-  .planet::before {
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1); }
+  .rings::before {
     width: 700px;
     height: 700px;
+    margin: -150px; }
+  .rings::after {
+    width: 1000px;
+    height: 1000px;
     margin: -300px; }
 
-.planet2 {
+.rings2 {
   position: absolute;
   left: 50px;
-  top: 125px; }
-  .planet2::after, .planet2::before {
-    content: "";
+  top: 125px;
+  width: 1300px;
+  height: 1300px;
+  margin: -600px;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 50%; }
+  .rings2::after, .rings2::before {
+    content: '';
     position: absolute;
     display: block;
     border-radius: 50%;
-    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2); }
-  .planet2::after {
-    width: 1000px;
-    height: 1000px;
-    margin: -450px; }
-  .planet2::before {
-    width: 1300px;
-    height: 1300px;
-    margin: -600px; }
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1); }
+  .rings2::before {
+    width: 1600px;
+    height: 1600px;
+    margin: -150px; }
+  .rings2::after {
+    width: 1900px;
+    height: 1900px;
+    margin: -300px; }
 
 .moon {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
   background-color: #4b3958;
   position: absolute;
   left: 50px;
