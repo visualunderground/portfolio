@@ -1,37 +1,39 @@
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 300;
-    src: local('Open Sans Light'), local('OpenSans-Light'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
 
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-}
+// @font-face {
+//     font-family: 'Open Sans';
+//     font-style: normal;
+//     font-weight: 300;
+//     src: local('Open Sans Light'), local('OpenSans-Light'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+// }
 
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
+// @font-face {
+//     font-family: 'Open Sans';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local('Open Sans'), local('OpenSans'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+// }
 
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-}
+// @font-face {
+//     font-family: 'Open Sans';
+//     font-style: normal;
+//     font-weight: 600;
+//     src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+// }
 
-@font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: 400;
-    src: local('Open Sans Italic'), local('OpenSans-Italic'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
-}
+// @font-face {
+//     font-family: 'Open Sans';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local('Open Sans Bold'), local('OpenSans-Bold'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+// }
+
+// @font-face {
+//     font-family: 'Open Sans';
+//     font-style: italic;
+//     font-weight: 400;
+//     src: local('Open Sans Italic'), local('OpenSans-Italic'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+// }
 
 @function em($px, $base: 18) {
     @return ($px / $base) + em;
@@ -41,6 +43,7 @@ body {
     // background-color: $blueDark;
     color: $grey;
     font-family: "Open Sans","Helvetica Neue","Helvetica",sans-serif;
+    font-weight: 400;
     font-size: 15px;
     line-height: 24px;
 }
@@ -74,18 +77,19 @@ small {
 }
 .heading--xl {
     // 4x LH
+    font-family: 'Raleway', sans-serif;
     font-size: 60px;
     line-height: 72px;
     padding-top: 8px;
     margin-bottom: 40px;
     font-weight: 400;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
 }
 
 .heading--l {
     // 3x LH
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
-    font-weight: 800;
     letter-spacing: -1px;
     line-height: 48px;
     margin-bottom: 38px;
@@ -95,7 +99,6 @@ small {
 .heading--pttn {
     font-size: 30px;
     border-bottom: 1px solid $grey;
-    font-weight: 300;
     letter-spacing: -2px;
     line-height: 47px;
     margin-bottom: 48px;
@@ -106,9 +109,9 @@ small {
 
 .heading {
     // 2x LH
+    font-family: 'Raleway', sans-serif;
     font-size: 24px;
     line-height: 24px;
-    font-weight: 600;
     letter-spacing: -1px;
     margin-bottom: 24px;
 }

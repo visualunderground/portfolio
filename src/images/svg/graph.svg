@@ -1,24 +1,4 @@
-    <section class="hero" style="position: relative;">
-        <div class="content u-text-center" style="z-index: 10; position: relative;">
-            <h2 id="brands" class="heading--l anim anim-hidden">Brands I've worked with</h2>
-            <p id="brandsSub" class="u-mt--2 u-mb-0 muted anim anim-hidden">I have had the pleasure of working with some of the world's most well-known brands</p>
-            <ul id="brandList" class="list-grid anim anim-hidden">
-                <li><img src="/images/svg/client-american-express.svg" height="48" class="image-callout" alt="American express"></li>
-                <li><img src="/images/svg/client-gov.uk.svg" height="48" class="image-callout" alt="GOV.uk"></li>
-                <li><img src="/images/svg/client-johnlewis.svg" height="48" class="image-callout" alt="John Lewis"></li>
-                <li><img src="/images/svg/client-lexus.svg" height="48" class="image-callout" alt="Lexus"></li>
-                <li><img src="/images/svg/client-manchester-united.svg" height="48" class="image-callout" alt="Manchester United"></li>
-                <li><img src="/images/svg/client-tesco.svg" height="48" class="image-callout" alt="Tesco"></li>
-                <li><img src="/images/svg/client-toyota.svg" height="48" class="image-callout" alt="Toyota"></li>
-                <li><img src="/images/svg/client-vauxhall.svg" height="48" class="image-callout" alt="Vauxhall"></li>
-                <li><img src="/images/svg/client-volkswagen.svg" height="48" class="image-callout" alt="Volkswgen"></li>
-            </ul>
-        </div>
-
-<style>
-    #content { overflow: hidden; }
-</style>
-<svg id="Group_1" data-name="Group 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1275 875" width="1275px" height="875px" preserveAspectRatio="xMinYMin slice" style="position: absolute; top:-240px; left:50%; transform: translate(-50%, 0);">
+ <svg id="Group_1" data-name="Group 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1275 875">
     <defs>
         <linearGradient id="grad" x1="0%" x2="0%" y1="100%" y2="0%">
             <stop offset="0%" stop-color="rgb(92,61,95)" stop-opacity="1" />
@@ -100,10 +80,7 @@
             <circle class="cls-3" cx="225" cy="196" r="4.5"/>
             <path class="cls-4" d="M225,318a3,3,0,1,1-3,3,3,3,0,0,1,3-3m0-3a6,6,0,1,0,6,6,6,6,0,0,0-6-6Z" transform="translate(0 -125)"/>
         </g>
-        <circle class="cls-3" cx="75" cy="230.97" r="4.5"/>
-        <path class="cls-4" d="M75,353a3,3,0,1,1-3,3,3,3,0,0,1,3-3m0-3a6,6,0,1,0,6,6,6,6,0,0,0-6-6Z" transform="translate(0 -125)"/>
+        <circle class="cls-3" cx="75.19" cy="230.97" r="4.5"/>
+        <path class="cls-4" d="M75.19,353a3,3,0,1,1-3,3,3,3,0,0,1,3-3m0-3a6,6,0,1,0,6,6,6,6,0,0,0-6-6Z" transform="translate(0 -125)"/>
     </g>
 </svg>
-
-
-    </section>

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway");
 .god-mode {
   content: 'Type IDDQD';
   color: #bada55; }
@@ -79,8 +80,8 @@ input[type='tel'] {
     clear: both; }
 
 .content, .global-footer__wrapper {
-  max-width: 925px;
-  width: 925px;
+  max-width: 1140px;
+  width: 1140px;
   margin: 0 24px;
   margin: 0 48px;
   margin: 0 auto; }
@@ -91,35 +92,35 @@ input[type='tel'] {
 .column-quarter {
   float: left;
   width: 25%;
-  width: 195.25px;
+  width: 249px;
   padding: 0 24px;
   box-sizing: border-box; }
 
 .column-half {
   float: left;
   width: 50%;
-  width: 438.5px;
+  width: 546px;
   padding: 0 24px;
   box-sizing: border-box; }
 
 .column-half--alt {
   float: right;
   width: 50%;
-  width: 438.5px;
+  width: 546px;
   padding: 0 24px;
   box-sizing: border-box; }
 
 .column-third {
   float: left;
   width: 33.33333%;
-  width: 276.33333px;
+  width: 348px;
   padding: 0 24px;
   box-sizing: border-box; }
 
 .column-two-thirds {
   float: left;
   width: 66.66667%;
-  width: 600.66667px;
+  width: 744px;
   padding: 0 24px;
   box-sizing: border-box; }
 
@@ -180,7 +181,7 @@ input[type='tel'] {
   position: relative;
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: #000936;
+  background-color: #052031;
   font-size: 12px; }
 
 .global-footer__link--social {
@@ -192,7 +193,7 @@ input[type='tel'] {
     display: block;
     height: 30px;
     width: 30px;
-    fill: #a1aebe; }
+    fill: #a1b1bb; }
 
 .image-callout {
   display: block;
@@ -210,11 +211,11 @@ input[type='tel'] {
 .hero,
 .section {
   background-color: white;
-  padding: 48px 0;
+  padding: 72px 0;
   position: relative; }
 
 .hero {
-  background-color: #000936;
+  background-color: #052031;
   color: white;
   background: transparent linear-gradient(to right bottom, #000936, #4b3958 50%, #894671) repeat scroll 0 0;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5); }
@@ -239,34 +240,10 @@ input[type='tel'] {
     background-color: #ffffff;
     padding: 12px 15px 11px; }
 
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Open Sans Light"), local("OpenSans-Light"), url(//themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url(//themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(//themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local("Open Sans Italic"), local("OpenSans-Italic"), url(//themes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format("woff"); }
 body {
   color: #4d4d4d;
   font-family: "Open Sans","Helvetica Neue","Helvetica",sans-serif;
+  font-weight: 400;
   font-size: 15px;
   line-height: 24px; }
 
@@ -293,16 +270,17 @@ small {
   opacity: 0.4; }
 
 .heading--xl {
+  font-family: 'Raleway', sans-serif;
   font-size: 60px;
   line-height: 72px;
   padding-top: 8px;
   margin-bottom: 40px;
   font-weight: 400;
-  letter-spacing: -3px; }
+  letter-spacing: -2px; }
 
 .heading--l {
+  font-family: 'Raleway', sans-serif;
   font-size: 30px;
-  font-weight: 800;
   letter-spacing: -1px;
   line-height: 48px;
   margin-bottom: 38px;
@@ -311,7 +289,6 @@ small {
 .heading--pttn {
   font-size: 30px;
   border-bottom: 1px solid #4d4d4d;
-  font-weight: 300;
   letter-spacing: -2px;
   line-height: 47px;
   margin-bottom: 48px;
@@ -320,9 +297,9 @@ small {
   text-transform: uppercase; }
 
 .heading {
+  font-family: 'Raleway', sans-serif;
   font-size: 24px;
   line-height: 24px;
-  font-weight: 600;
   letter-spacing: -1px;
   margin-bottom: 24px; }
 
@@ -332,7 +309,7 @@ small {
   text-transform: uppercase; }
 
 .muted {
-  color: #a1aebe; }
+  color: #a1b1bb; }
 
 .lede {
   font-size: 18px;
@@ -346,12 +323,12 @@ strong {
 
 a {
   transition: color .2s;
-  color: #000936;
+  color: #052031;
   font-weight: bold; }
 
 a:link,
 a:visited {
-  color: #000936; }
+  color: #052031; }
 
 a:hover {
   color: #2577ba; }
@@ -406,18 +383,23 @@ blockquote {
 
 .svg-font2 {
   display: inline-block;
-  fill: #ffffff;
+  fill: transparent;
   position: relative;
   height: 1em;
   stroke: #b94c59;
   stroke-width: 3px;
   stroke-dasharray: 165;
   stroke-dashoffset: 165;
-  animation: dash 0.8s ease-out forwards; }
+  animation: dash 1.3s ease-out forwards; }
 
 @keyframes dash {
+  0% {
+    stroke-dashoffset: 165;
+    fill: transparent; }
+
   50% {
-    stroke-dashoffset: 0; }
+    stroke-dashoffset: 0;
+    fill: transparent; }
 
   100% {
     fill: #ce616e;
@@ -528,19 +510,19 @@ blockquote {
 
 .rings {
   position: absolute;
-  left: 50px;
-  top: 125px;
+  left: 50%;
+  top: 300px;
   width: 400px;
   height: 400px;
   margin: -150px;
-  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
   border-radius: 50%; }
   .rings::after, .rings::before {
     content: '';
     position: absolute;
     display: block;
     border-radius: 50%;
-    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1); }
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2); }
   .rings::before {
     width: 700px;
     height: 700px;
@@ -552,19 +534,19 @@ blockquote {
 
 .rings2 {
   position: absolute;
-  left: 50px;
-  top: 125px;
+  left: 50%;
+  top: 300px;
   width: 1300px;
   height: 1300px;
   margin: -600px;
-  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
   border-radius: 50%; }
   .rings2::after, .rings2::before {
     content: '';
     position: absolute;
     display: block;
     border-radius: 50%;
-    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1); }
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2); }
   .rings2::before {
     width: 1600px;
     height: 1600px;
@@ -581,10 +563,10 @@ blockquote {
   box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
   background-color: #4b3958;
   position: absolute;
-  left: 50px;
-  top: 125px;
-  text-align: center;
-  line-height: 100px; }
+  left: 50%;
+  top: 300px; }
+  .moon svg .shadow {
+    opacity: 0.3; }
 
 .moon1 {
   animation: orbit1 90s linear reverse infinite; }

@@ -31,7 +31,7 @@
             </div>
             <div style=" position:relative; z-index:15; padding-left: 300px;">
                 <h1 class="heading--xl">More than just pixels</h1>
-                <p class="lede">Hi I'm Tom a User Experience designer and Front-End specialist based in Brizzle, England.</p>
+                <p class="lede">Hi I'm Tom a User Experience designer and Front-End guy based in Brizzle, England.</p>
                 <p>I'm a compassionate, intuitive thinker who likes to tell stories and solve problems in imaginative and creative ways.</p>
                 <p>I'm also a recovering software engineer &mdash; 3 years sober.</p>
                 <h2 class="lede u-mt-2 ">Here's my process&hellip;</h2>
@@ -116,7 +116,7 @@
         </div>
     </section>
 
-    <section class="hero">
+    <section class="section" style="background-color:#ed6174;">
         <div class="content">
             <div class="grid-row">
                 <div class="column-half--alt">
@@ -136,15 +136,15 @@
         </div>
     </section>
 
-    <section class="section">
-        <div class="content">
+    <section class="section" style="background-color: rgba(92,61,95,0.75); color:#f1f1f1;">
+        <div class="content" style="z-index: 10; position: relative;">
             <div class="grid-row">
                 <div class="column-half">
                     <h3 class="heading--l">I continue to learn when it's live</h3>
-                    <p class="lede">Data is a user experience designer’s best friend.</p>
-                    <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>By establishing, and benchmarking, key metrics upfront we can gauge success by measuring how users engage across physical and digital environments.</p>
+                    <p>Combining big data and thick (qualitative) data allows us to understand both the ‘what’ and ‘why’ of user behaviour.</p>
                 </div>
-                <div class="column-half--alt"></div>
+                <div class="column-half--alt">{{> imac}}</div>
             </div>
         </div>
     </section>
@@ -159,8 +159,8 @@
             background:#69a5e6;*/
             border: 1px solid rgba(255, 255, 255, 0.4);
             background: rgba(255, 255, 255, 0.3); 
-            height: 235px; 
-            width: 191px;
+            height: 245px; 
+            width: 210px;
             position: relative;
             box-sizing:content-box;
             border-radius: 4px;
@@ -205,20 +205,15 @@
         .browser__logo {
             position: absolute;
             top: 30px;
-            left: 10px;
-        }
-        .browser__static-row {
-            position: absolute;
-            top: 175px;
-            left: 10px;
+            left: 20px;
         }
         
-        .browser__dynamic-row,
+        .browser__2column,
         .browser__hero {
             transform-origin: 50% 50%;
             position: absolute;
             top: 55px;
-            left: 10px;
+            left: 20px;
 
             animation-name: wireframe;
             animation-iteration-count: infinite;
@@ -227,10 +222,82 @@
         }
 
         .browser__hero {
+            animation-direction: alternate;
+        }
+        .browser__2column {
             animation-direction: alternate-reverse;
         }
-        .browser__dynamic-row {
+
+        .browser__trio {
+            position: absolute;
+            top: 165px;
+            left: 20px;
+        }
+
+        .first,
+        .second,
+        .third {
+            transform-origin: 50% 50%;
+        }
+
+        .second {
+            animation-name: growbox;
+            animation-iteration-count: infinite;
+            animation-delay: 4s;
             animation-direction: alternate;
+            animation-duration: 8s;
+            animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+        }
+
+        .third {
+            animation-name: moveboxRight;
+            animation-iteration-count: infinite;
+            animation-delay: 4s;
+            animation-direction: alternate;
+            animation-duration: 8s;
+            animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+        }
+
+        .first {
+            animation-name: movebox;
+            animation-iteration-count: infinite;
+            animation-delay: 4s;
+            animation-direction: alternate;
+            animation-duration: 8s;
+            animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+        }
+
+        
+
+        @keyframes growbox {
+            0%,45% {
+                transform: scale(1);
+            }
+            55%,100% {
+                transform: scale(1.1);
+            }
+        }
+
+        @keyframes movebox {
+            0%,45% {
+                transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+                opacity: 1;
+            }
+            55%,100% {
+                transform: translate3d(20px, 0, 0) scale(0.8) rotate(-5deg);
+                opacity: 0.8;
+            }
+        }
+
+        @keyframes moveboxRight {
+            0%,45% {
+                transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
+                opacity: 1;
+            }
+            55%,100% {
+                transform: translate3d(-20px, 0, 0) scale(0.8) rotate(5deg);
+                opacity: 0.8;
+            }
         }
 
         @keyframes wireframe {
