@@ -1,21 +1,23 @@
 // http://chir.ag/projects/name-that-color/
 
 // Colors
-$grey: #4d4d4d;
-$greyLight: #9fa1a3;
-$white: #ffffff;
-$whiteAlt: #ebeff2;
-$blue: #2577ba;
-$blueDark: #052031;
-$bluelight: #2a94d6;
-$mutedWhite: #a1b1bb; // Adjusted for AA contrast check
-$pink: #ce616e;
-$purple: #7b66c8;
-$green: #a1c765;
-$red: #aa1111;
+
+// ------------------------------
+// COLOURS
+// ------------------------------
+$black: #393F41;            // Hero background
+$grey: #4D4D4D;             // Body text
+$grey3: #727C81;            // Subheading text
+$whiteGrey: #F1F1F2;        // Section background (alternative)
+$white: #FBFBFB;            // Section background + Footer text colour
+
+
+$acentColour: #FD5257;
 // ------------------------------
 // Semantic colour names
 // ------------------------------
-$link-colour: #ff0000;
-$text-colour: $grey;
-$secondary-text-colour: $greyLight;
+$backgroundHero: $black;
+$backgroundFooter: $black;
+$backgroundSection: $white;
+$backgroundSectionAlt: $whiteGrey;
+$bodyText: $grey;

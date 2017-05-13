@@ -38,7 +38,7 @@ $mobile-ie6: true !default;
                 @content;
             }
         } @else if $size == tablet {
-            @media (min-width: 641px){
+            @media (min-width: 890px){
                 @content;
             }
         } @else if $size == mobile {

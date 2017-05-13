@@ -67,16 +67,32 @@
     @extend %grid-row;
 }
 
-.column-quarter {
-    @include grid-column(1 / 4);
-}
-
 .column-half {
     @include grid-column(1 / 2);
+    max-width: 700px;
+    margin: 0 auto;
+
+    + .column-half {
+        margin-top: 50px;
+        
+        @include media(tablet) {
+            margin-top: 0;
+        }
+    }
 }
 
 .column-half--alt {
     @include grid-column(1 / 2, tablet, right);
+    max-width: 700px;
+    margin: 0 auto;
+
+    + .column-half--alt {
+        margin-top: 50px;
+        
+        @include media(tablet) {
+            margin-top: 0;
+        }
+    }
 }
 
 .column-third {

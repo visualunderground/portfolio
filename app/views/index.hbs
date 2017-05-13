@@ -1,322 +1,134 @@
-{{!-- <div style="background-color:rgb(0, 9, 54); width:100px; height:100px;">RGB</div>
-<div style="background-color:rgba(0, 1, 48, 0.97); width:100px; height:100px;">RGBa</div>
+<style>
+    .paceholder {
+        color:# f1f1f1;
+        border: 1px solid #ccc;
+        max-width: 370px;
+        height: 200px;
 
-<div style="background-color:rgb(75, 57,  88); width:100px; height:100px;">RGB</div>
-<div style="background-color:rgba(69, 51, 83, 0.97); width:100px; height:100px;">RGBa</div>
-
-<div style="background-color:rgb(137, 70, 113); width:100px; height:100px;">RGB</div>
-<div style="background-color:rgba(133, 64, 109, 0.97); width:100px; height:100px;">RGBa</div>
-
- --}}
-
-{{!-- <div style="background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, rgb(0, 9, 54), rgb(75, 57, 88) 50%, rgb(137, 70, 113)) repeat scroll 0 0; width: 200px; height:200px;">RGB</div>
-
-<div style="background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, rgba(0, 1, 48, 0.97), rgba(69, 51, 83, 0.97) 50%, rgba(133, 64, 109, 0.97)) repeat scroll 0 0; width: 200px; height:200px;">RGBA</div>
-
-<div style="border-radius:50%; width:20px; height:20px; display: block; border: 1px solid black;"></div> --}}
-
+        margin:0 auto;
+    }
+</style>
 <main id="content">
-    <section class="hero" id="hero" style="overflow: hidden;">
+    <section class="hero" id="hero">
         <div class="content">
-            <div style="position:relative; z-index:10; width: 100%;">
-                <div class="rings"></div>
-                <div class="rings2"></div>
+            <div class="grid-row">
+                <div class="column-half">
+                    <h1 class="heading--xl">More than <br>just pixels<span>.</span></h1>
+                    <p class="sub-heading u-mt--1">Designing for humans, not users.</p>
+                </div>
+                <div class="column-half is-serif">
+                    <p class="u-mt-1">Hi I'm Tom, a compassionate, intuitive thinker who likes to tell stories and solve problems in imaginative and creative ways.</p>
+                    <p>UX designer and recovering software engineer &mdash; 3 years sober.</em></p>
+                </div>
+            </div>
+            
 
-                <div class="moon moon1"><svg viewBox="0 0 100 100" class="svg-font"><use xlink:href="#icon-iphone"></use></svg></div>
-                <div class="moon moon1-R"><svg viewBox="0 0 100 100" class="svg-font"><use xlink:href="#icon-imac"></use></svg></div>
-                <div class="moon moon2"><svg viewBox="0 0 100 100" class="svg-font"><use xlink:href="#icon-callcenter"></use></svg></div>
-                <div class="moon moon3"><svg viewBox="0 0 100 100" class="svg-font"><use xlink:href="#icon-callcenter"></use></svg></div>
-                <div class="moon moon4"><svg viewBox="0 0 100 100" class="svg-font"><use xlink:href="#icon-callcenter"></use></svg></div>
-                <div class="moon moon5"><svg viewBox="0 0 100 100" class="svg-font"><use xlink:href="#icon-callcenter"></use></svg></div>
-            </div>
-            <div style=" position:relative; z-index:15; padding-left: 300px;">
-                <h1 class="heading--xl">More than just pixels</h1>
-                <p class="lede">Hi I'm Tom a User Experience designer and Front-End guy based in Brizzle, England.</p>
-                <p>I'm a compassionate, intuitive thinker who likes to tell stories and solve problems in imaginative and creative ways.</p>
-                <p>I'm also a recovering software engineer &mdash; 3 years sober.</p>
-                <h2 class="lede u-mt-2 ">Here's my process&hellip;</h2>
-            </div>
+            
         </div>
     </section>
-    <style>
-.moon .svg-font {
-  fill: rgba(0, 0, 0, 0.4);
-  height: 100px;
-  width: 100px;
-  position: initial;
-}
-    </style>
-
+    <section class="callout" id="callout">
+        <div class="content">
+            <p class="heading--l">I research, design, prototype, test, deliver and measure</p>
+        </div>
+    </section>
     <section class="section" id="discover">
         <div class="content">
             <div class="grid-row">
-                <div class="column-half--alt">
-                <h3 class="heading--l">I discover, to define the problem</h3>
-<p class="lede">I use a process of thoughtful questioning, perceptive observation, and diligent research to understand business goals, uncover user needs, and expose opportunities.</p>
+                <div class="column-half">
+                <h3 class="heading">I discover, to define the problem</h3>
+<p>I use a process of thoughtful questioning, perceptive observation, and diligent research to understand business goals, uncover user needs, and expose opportunities.</p>
 <p>I gather insight by conducting interviews, reviewing usability, analysing competitors, and studying user behaviour.</p>
 <p>Insight enables me to empathise with perspectives and embrace constraints so I can focus on high value problems that cause real pain.</p>
-                    {{!-- 
-                    <p>This enables me to craft personas, task flows, heuristic/cognative reviews, user stories, and the overarching information architecture.</p>
-                    <p>Creatively documenting insight helps illustrate research outcomes, simplifies complex problems, and promotes intuitve solutions.</p> --}}
-                    {{!-- <p>I constantly use personas during a project to guide design decisions, product priorities, and encourage empathy throughout the team.</p> --}}
-                    <p class="lede u-mt-2 ">Once I understand the problem&hellip;</p>
                 </div>
-                <div class="column-half--alt"></div>
+                <div class="column-half"><div class="paceholder"></div></div>
             </div>
         </div>
     </section>
 
-    <section class="section">
-        <div class="content">
-            <div class="grid-row">
-                <div class="column-half">
-                    <h3 class="heading--l">I design with paper</h3>
-                    <p class="lede">I'll sit down with my Moleskine, pens, and and Promarkers to sketch interactions and flows, taking into account heuristics, context of use and user needs.</p>
-                    <p>Low fidelity allows me the creative freedom to iterate quickly without becoming attached to solutions or distracted by digital tools.</p>
-                    {{!-- <p>Formative user testing to gain valuable insight and ensure the design meets the user need.</p> --}}
-                    <p>Once I have choosen a solution I may increase the visual quality using Photoshop, Omnigraffle or UXPin.</p>
-                    <p class="lede u-mt-2 ">Once I conceive a solution&hellip; </p>
-                </div>
-                <div class="column-half"><img src="/images/tools.png" class="image-callout" alt=""></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
+    <section class="section" id="design">
         <div class="content">
             <div class="grid-row">
                 <div class="column-half--alt">
-                    <h3 class="heading--l">I prototype with code</h3>
-                    <p class="lede">I sketch in code to create realistic, responsive, and interactive prototypes.</p>
+                    <h3 class="heading">I design with paper &amp; people</h3>
+                    <p>I'll sit down with my Moleskine, pens, and and Promarkers to sketch interactions and flows, taking into account heuristics, context of use and user needs.</p>
+                    <p>Low fidelity allows me the creative freedom to iterate quickly without becoming attached to solutions or distracted by digital tools.</p>
+                </div>
+                <div class="column-half--alt"><div class="paceholder"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="prototype">
+        <div class="content">
+            <div class="grid-row">
+                <div class="column-half">
+                    <h3 class="heading">I prototype with code</h3>
+                    <p>I sketch in code to create realistic, responsive, and interactive prototypes.</p>
                     <p>Using code enables me to focus on the technical considerations of a design: responsive flow, document hierarchy, performance, progressive enhancement, usability, and accessability. </p>
                     <p>By combining logic-less JS templating with dummy data I can quickly test an interface against edge cases and transient or empty states. </p>
-                    <p class="lede u-mt-2 ">Once a prototype is ready&hellip;</p>
-                    {{!-- <p>I test the prototypes with users and stakeholders to find out what works, and what needs to change and I iterate this process until it's time to finalise the design interaction.</p> --}}
-                    {{!-- 
-                    <p>In this stage of a project, I work as a translator who speaks the different languages of developers, engineers, business stakeholders and end users to ensure that everyone understands each other. It is really important to be able to work productively within a team environment, to make certain that we all understand WHY we are doing what we do.</p>
-                    <p>I work hard to build trust and forge lasting relationships with implementation and engineering teams, without them, my best ideas amount to nothing.</p>
-                     --}}
                 </div>
-                <div class="column-half--alt"></div>
+                <div class="column-half"><div class="paceholder"></div></div>
             </div>
         </div>
     </section>
 
-    <section class="section">
-        <div class="content">
-            <div class="grid-row">
-                <div class="column-half">
-                    <h3 class="heading--l">I test with users</h3>
-                    <p class="lede">Ideally, prototypes are tested with real users in real situations. However, I'm partial to guerrilla testing when deadlines are tight. Testing validates design decisions, evaluates usability, and uncovers subtleties not exposed during discovery. </p>
-                    <p>Prototypes have a primary purpose; is my understanding and design thinking right or wrong?</p>
-                    <p class="lede u-mt-2 ">Once I verify the thinking&hellip;</p>
-                </div>
-                <div class="column-half"></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" style="background-color:#ed6174;">
+    <section class="section" id="test">
         <div class="content">
             <div class="grid-row">
                 <div class="column-half--alt">
-                    <h3 class="heading--l">
-                        I develop with 
-                        <svg viewBox="0 0 30 32" class="svg-font2"><use xlink:href="#icon-love"></use></svg>
-                        <svg viewBox="0 0 30 30" class="svg-font anim-heartbeat"><use xlink:href="#icon-love"></use></svg>
+                    <h3 class="heading">I test with users</h3>
+                    <p>Ideally, prototypes are tested with real users in real situations. However, I'm partial to guerrilla testing when deadlines are tight. Testing validates design decisions, evaluates usability, and uncovers subtleties not exposed during discovery. </p>
+                    <p>Prototypes have a primary purpose; is my understanding and design thinking right or wrong?</p>
+                </div>
+                <div class="column-half--alt"><div class="paceholder"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="develop">
+        <div class="content">
+            <div class="grid-row">
+                <div class="column-half">
+                    <h3 class="heading">
+                        I develop with love
                     </h3>
-                    <p class="lede">I'm borderline obsessive about tooling, CSS architecture, semantics, accessability, and design systems.</p>
+                    <p>I'm borderline obsessive about tooling, CSS architecture, semantics, accessability, and design systems.</p>
                     <p>I have over 15 years' experience collaborating with teams of all sizes. No matter the environment one aspect of my workflow has remained consistent - The use of pattern-led development.</p>
                     <p>Accessabile, mobile first, mustard cutting, progressively enhanced awsomeness.</p>
                 </div>
-                <div class="column-half--alt">
-                    {{>imac_with_code}}
-                </div>
+                <div class="column-half"><div class="paceholder"></div></div>
             </div>
         </div>
     </section>
 
-    <section class="section" style="background-color: rgba(92,61,95,0.75); color:#f1f1f1;">
-        <div class="content" style="z-index: 10; position: relative;">
+    <section class="section" id="data">
+        <div class="content">
             <div class="grid-row">
-                <div class="column-half">
-                    <h3 class="heading--l">I continue to learn when it's live</h3>
+                <div class="column-half--alt">
+                    <h3 class="heading">I continue to learn when it's live</h3>
                     <p>By establishing, and benchmarking, key metrics upfront we can gauge success by measuring how users engage across physical and digital environments.</p>
                     <p>Combining big data and thick (qualitative) data allows us to understand both the ‘what’ and ‘why’ of user behaviour.</p>
                 </div>
-                <div class="column-half--alt">{{> imac}}</div>
+                <div class="column-half--alt"><div class="paceholder"></div></div>
             </div>
         </div>
     </section>
     
-    {{> brands }}
+    <section class="section">
+        <div class="content u-text-center">
+            <h2 id="brands" class="heading anim anim-hidden">Brands I've worked with</h2>
+            <p id="brandsSub" class="anim anim-hidden">I have had the pleasure of working with some of the world's most well-known brands</p>
+            <ul id="brandList" class="list-grid u-mt-1 anim anim-hidden">
+                <li><img src="/images/svg/client-american-express.svg" height="48" class="image-callout" alt="American express"></li>
+                <li><img src="/images/svg/client-gov.uk.svg" height="48" class="image-callout" alt="GOV.uk"></li>
+                <li><img src="/images/svg/client-johnlewis.svg" height="48" class="image-callout" alt="John Lewis"></li>
+                <li><img src="/images/svg/client-lexus.svg" height="48" class="image-callout" alt="Lexus"></li>
+                <li><img src="/images/svg/client-manchester-united.svg" height="48" class="image-callout" alt="Manchester United"></li>
+                <li><img src="/images/svg/client-tesco.svg" height="48" class="image-callout" alt="Tesco"></li>
+                <li><img src="/images/svg/client-toyota.svg" height="48" class="image-callout" alt="Toyota"></li>
+                <li><img src="/images/svg/client-vauxhall.svg" height="48" class="image-callout" alt="Vauxhall"></li>
+                <li><img src="/images/svg/client-volkswagen.svg" height="48" class="image-callout" alt="Volkswgen"></li>
+            </ul>
+        </div>
+    </section>
 </main>
-
- <style>
-
-        .browser {
-            /*border:1px solid #8cbaec; 
-            background:#69a5e6;*/
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            background: rgba(255, 255, 255, 0.3); 
-            height: 245px; 
-            width: 210px;
-            position: relative;
-            box-sizing:content-box;
-            border-radius: 4px;
-        }
-
-        .browser__toolbar {
-            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-            line-height: 1px;
-        }
-
-        .browser__close,
-        .browser__open,
-        .browser__minimise  {
-            width: 5px;
-            height: 5px;
-            border-radius: 50%;
-            display: inline-block;
-            vertical-align: top;
-            margin-top: 7px;
-            margin-bottom: 8px;
-            
-        }
-        .browser__close {
-            background-color: #e96866;
-            margin-left: 10px;
-        }
-        .browser__open {
-            background-color: #9cddd2;
-            margin-left: 5px;
-        }
-        .browser__minimise {
-            background-color: #f6be00;
-            margin-left: 5px;
-        }
-
-        .browser svg {
-            fill: #ffffff;
-        }
-
-        
-
-        .browser__logo {
-            position: absolute;
-            top: 30px;
-            left: 20px;
-        }
-        
-        .browser__2column,
-        .browser__hero {
-            transform-origin: 50% 50%;
-            position: absolute;
-            top: 55px;
-            left: 20px;
-
-            animation-name: wireframe;
-            animation-iteration-count: infinite;
-            animation-duration: 8s;
-            animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
-        }
-
-        .browser__hero {
-            animation-direction: alternate;
-        }
-        .browser__2column {
-            animation-direction: alternate-reverse;
-        }
-
-        .browser__trio {
-            position: absolute;
-            top: 165px;
-            left: 20px;
-        }
-
-        .first,
-        .second,
-        .third {
-            transform-origin: 50% 50%;
-        }
-
-        .second {
-            animation-name: growbox;
-            animation-iteration-count: infinite;
-            animation-delay: 4s;
-            animation-direction: alternate;
-            animation-duration: 8s;
-            animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
-        }
-
-        .third {
-            animation-name: moveboxRight;
-            animation-iteration-count: infinite;
-            animation-delay: 4s;
-            animation-direction: alternate;
-            animation-duration: 8s;
-            animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
-        }
-
-        .first {
-            animation-name: movebox;
-            animation-iteration-count: infinite;
-            animation-delay: 4s;
-            animation-direction: alternate;
-            animation-duration: 8s;
-            animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
-        }
-
-        
-
-        @keyframes growbox {
-            0%,45% {
-                transform: scale(1);
-            }
-            55%,100% {
-                transform: scale(1.1);
-            }
-        }
-
-        @keyframes movebox {
-            0%,45% {
-                transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
-                opacity: 1;
-            }
-            55%,100% {
-                transform: translate3d(20px, 0, 0) scale(0.8) rotate(-5deg);
-                opacity: 0.8;
-            }
-        }
-
-        @keyframes moveboxRight {
-            0%,45% {
-                transform: translate3d(0, 0, 0) scale(1) rotate(0deg);
-                opacity: 1;
-            }
-            55%,100% {
-                transform: translate3d(-20px, 0, 0) scale(0.8) rotate(5deg);
-                opacity: 0.8;
-            }
-        }
-
-        @keyframes wireframe {
-            0%,35% {
-                transform: translate3d(0, 0, 0) scale(1,1);
-                opacity: 1;
-            }
-            45% {
-                transform: translate3d(0, 0, 0) scale(0.95, 0.8);
-                opacity: 0.8;
-            }
-            55% {
-                transform: translate3d(0, 60px, 0) scale(0.95, 0.8);
-                opacity: 0.8;
-            }
-            65%, 100% {
-                transform: translate3d(0, 60px, 0) scale(1,1);
-                opacity: 1;
-            }
-        }
-
-    </style>
