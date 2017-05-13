@@ -1,60 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
-// @font-face {
-//     font-family: 'Open Sans';
-//     font-style: normal;
-//     font-weight: 300;
-//     src: local('Open Sans Light'), local('OpenSans-Light'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-// }
-
-// @font-face {
-//     font-family: 'Open Sans';
-//     font-style: normal;
-//     font-weight: 400;
-//     src: local('Open Sans'), local('OpenSans'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
-// }
-
-// @font-face {
-//     font-family: 'Open Sans';
-//     font-style: normal;
-//     font-weight: 600;
-//     src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-// }
-
-// @font-face {
-//     font-family: 'Open Sans';
-//     font-style: normal;
-//     font-weight: 700;
-//     src: local('Open Sans Bold'), local('OpenSans-Bold'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
-// }
-
-// @font-face {
-//     font-family: 'Open Sans';
-//     font-style: italic;
-//     font-weight: 400;
-//     src: local('Open Sans Italic'), local('OpenSans-Italic'), url(//themes.googleusercontent.com/static/fonts/opensans/v6/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
-// }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|PT+Serif:400,400i');
 
 @function em($px, $base: 18) {
     @return ($px / $base) + em;
 }
 
 body {
-    // background-color: $blueDark;
     color: $grey;
-    font-family: "Open Sans","Helvetica Neue","Helvetica",sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    line-height: 24px;
-}
-
-strong {
-    font-weight: 500;
-}
-
-abbr {
-    border-bottom: 1px dotted;
-    cursor: help;
+    line-height: 25px;
 }
 
 em {
@@ -62,135 +19,55 @@ em {
 }
 
 p {
-    margin-bottom: 24px;
-}
+    margin-bottom: 25px;
 
-code {
-  color: $red;
-  font-family: monospace,monospace;
-  line-height: 18px; // NEEDED FOR MONOSPACE BUG
-}
-
-small {
-    font-weight: 300;
-    opacity: 0.4;
-}
-.heading--xl {
-    // 4x LH
-    font-family: 'Raleway', sans-serif;
-    font-size: 60px;
-    line-height: 72px;
-    padding-top: 8px;
-    margin-bottom: 40px;
-    font-weight: 400;
-    letter-spacing: -2px;
-}
-
-.heading--l {
-    // 3x LH
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    letter-spacing: -1px;
-    line-height: 48px;
-    margin-bottom: 38px;
-    padding-top: 10px;
-}
-
-.heading--pttn {
-    font-size: 30px;
-    border-bottom: 1px solid $grey;
-    letter-spacing: -2px;
-    line-height: 47px;
-    margin-bottom: 48px;
-    padding-top: 0;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.heading {
-    // 2x LH
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    line-height: 24px;
-    letter-spacing: -1px;
-    margin-bottom: 24px;
-}
-
-.heading--small {
-    font-weight: 800;
-    letter-spacing: -1px;
-    text-transform: uppercase;
-}
-
-.muted {
-    color: $mutedWhite;
-}
-
-.lede {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 24px;
-
-    &:last-child {
+    &:last-of-type {
         margin-bottom: 0;
     }
 }
 
-strong {
-    font-weight: 600;
+.is-serif {
+    font-family: 'PT Serif', serif;
 }
 
-a {
-  transition: color .2s;
-  color: $blueDark;
-  font-weight: bold;
+.heading--xl {
+    // 4x LH
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+    color: $whiteGrey;
+    letter-spacing: -2.73px;
 }
 
-a:link,
-a:visited { color: $blueDark; }
-a:hover   { color: $blue; }
-a:active  {
-  transition: color .3s;
-  color: #007BE6;
+.sub-heading {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    display: block;
+    color: $grey3; 
+    font-size: 19px;
+    line-height: 1em;
+    font-weight: 400;
+    letter-spacing: 0;
 }
 
-blockquote {
+.heading--l {   //  Used In callout bar
+    color: $white;
+    font-family: "PT Serif", serif;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: -1px;
+    padding: 50px 0;
     text-align: center;
-
-    p {
-        font-size: 40px;
-        font-style: italic;
-        letter-spacing: -1;
-        line-height: 60px;
-        margin-bottom: 12px;
-
-        &::before {
-            content: "\"";
-        }
-        &::after {
-            content: "\"";
-        }
-
-    }
-    
-    cite {
-        font-size: 20px;
-        letter-spacing: -1px;
-        display: block;
-    }
 }
 
-.list {
-    margin-bottom: 24px;
-    list-style: disc outside none;
-
-    > li {
-        margin-left: 15px;
-        padding-left: 9px;
-
-    }
+.heading {
+    // 2x LH
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 1em;
+    padding-bottom: 3px;
+    letter-spacing: -1px;
+    margin-bottom: 25px;
 }
 
-.list--numeric {
-    list-style: number outside none;
-}

@@ -1,25 +1,26 @@
 .list-grid {
     @extend %contain-floats;
-
+    
     li {
 
-        @include media(tablet) {
-            width: 50%;
-            float: left;
+        @include media(mobile) { // 640 and down
+            // background-color: green;
+            width: 100%;
+            display: block;
         }
+        
+        // background-color: blue;
+        width: 50%;
+        float: left;
 
         @include media(desktop) {
+            // background-color: yellow;
             width: 33.333%;
-            float: left;
         }
 
         img {
-            margin-top: $base-line / 2;
-            @include media(desktop) {
-                margin-top: $base-line * 2;
-            }
+            margin-top: $base-line;
         }
-
 
     }
 }

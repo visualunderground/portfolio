@@ -1,26 +1,32 @@
-.hero,
 .section {
-    background-color: $white;
-    padding: 72px 0;
     position: relative;
-}
+    background-color: $backgroundSection;
+    padding: 75px 0;
 
-.section {
-    // border: 1px solid #ff0000;
-}
-
-.hero {
-    background-color: $blueDark;
-    color: $white;
-    
-    background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, #000936, #4b3958 50%, #894671) repeat scroll 0 0;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
-
-    img {
-        filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.5));
+    @include media(tablet) {
+        padding: 125px 0;
     }
 }
 
+.hero {
+    position: relative;
+    background-color: $black;
+    color: $white;
+    padding: 75px 0;
+    
+    @include media(tablet) {
+        padding: 175px 0;
+    }
+
+    span {
+        color: $acentColour;
+    }
+}
+
+.callout {
+    background-color: $acentColour;
+}
+
 .section:nth-child(odd) {
-    background-color: $whiteAlt;
+    background-color: $backgroundSectionAlt;
 }
