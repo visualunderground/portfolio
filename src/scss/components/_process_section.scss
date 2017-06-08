@@ -11,11 +11,17 @@
 .hero {
     position: relative;
     background-color: $black;
+    overflow: hidden;
     color: $white;
     padding: 75px 0;
     
     @include media(tablet) {
         padding: 175px 0;
+    }
+
+    .grid-row {
+        z-index: 1;
+        position: relative;
     }
 
     span {
@@ -27,6 +33,7 @@
     background-color: $acentColour;
 }
 
-.section:nth-child(odd) {
+.section:nth-child(even) {
     background-color: $backgroundSectionAlt;
 }
+

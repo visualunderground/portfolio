@@ -19,7 +19,8 @@
     margin-bottom: $base-line;
 
     @include media(tablet) {
-            text-align: right;
+        text-align: right;
+        margin-bottom: 0;
     }
     
     // Social links

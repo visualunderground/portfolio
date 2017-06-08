@@ -1,0 +1,14 @@
+<svg width="23px" height="32px" viewBox="0 0 23 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-702.000000, -158.000000)" fill="#4F575A">
+            <g id="Hero">
+                <g id="channels" transform="translate(115.000000, 48.000000)">
+                    <path d="M598.5,139 C599.328,139 600,138.328 600,137.5 C600,136.672 599.328,136 598.5,136 C597.672,136 597,136.672 597,137.5 C597,138.328 597.672,139 598.5,139 L598.5,139 Z M608,115 L589,115 L589,114 C589,112.896 589.896,112 591,112 L606,112 C607.104,112 608,112.896 608,114 L608,115 L608,115 Z M589,117 L608,117 L608,133 L589,133 L589,117 Z M608,138 C608,139.104 607.104,140 606,140 L591,140 C589.896,140 589,139.104 589,138 L589,135 L608,135 L608,138 L608,138 Z M606,110 L591,110 C588.791,110 587,111.791 587,114 L587,138 C587,140.209 588.791,142 591,142 L606,142 C608.209,142 610,140.209 610,138 L610,114 C610,111.791 608.209,110 606,110 L606,110 Z" id="Fill-144"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

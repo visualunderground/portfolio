@@ -1,0 +1,108 @@
+<main id="content">
+    <section class="hero" id="hero">
+        <div class="content">
+            <div class="area theme1">
+                <h1 id="heading" class="heading anim anim-hidden">TOUCH</h1>
+                <div style="width:30px; background-color:#ff0000; margin:175px auto 0 auto;">
+                    <div id="touch"></div>
+                    <div id="swipe"></div>
+                </div>
+            </div>
+        </div>
+    </section>  
+</main>
+
+<style>
+.area {
+    width: 268px;
+    height: 515px;
+    border-radius: 40px;
+    transition: background-color 0.2s ease-out;
+    background-color: #727C81;
+    text-align: center;
+    padding: 75px;
+}
+
+.theme2 {
+    background-color: #FD5257;
+}
+</style>
+
+<script>
+/* From Modernizr */
+function whichTransitionEvent(){
+    var t;
+    var el = document.createElement('fakeelement');
+    var transitions = {
+      'transition':'transitionend',
+      'OTransition':'oTransitionEnd',
+      'MozTransition':'transitionend',
+      'WebkitTransition':'webkitTransitionEnd'
+    }
+
+    for(t in transitions){
+        if( el.style[t] !== undefined ){
+            return transitions[t];
+        }
+    }
+}
+
+function whichAnimationEvent(){
+    var a;
+    var el = document.createElement('fakeelement');
+    var animations = {
+      'animation':'animationend',
+      'OAnimation':'oAnimationEnd',
+      'MozAnimation':'animationend',
+      'WebkitAnimation':'webkitAnimationEnd'
+    }
+
+    for(a in animations){
+        if( el.style[a] !== undefined ){
+            return animations[a];
+        }
+    }
+}
+
+var animationEvent = whichAnimationEvent();
+var transitionEvent = whichTransitionEvent();
+
+var touch = document.getElementById( 'touch' );
+var swipe = document.getElementById( 'swipe' );
+var heading = document.getElementById('heading');
+var background = document.querySelector( '.area' );
+
+
+touch.addEventListener(animationEvent, sceneTouchOut);
+swipe.addEventListener(animationEvent, sceneSwipeOut);
+
+function sceneTouchIn(event) {
+    heading.classList.remove('anim-hidden'); 
+    background.classList.add( 'theme2' );
+    touch.classList.add( 'gesture', 'gesture--touch' );
+}
+
+function sceneTouchOut(event) {
+    heading.classList.add('anim-hidden');
+    touch.classList.remove( 'gesture', 'gesture--touch' ); 
+    heading.innerHTML = "SWIPE";
+    setTimeout(function(){sceneSwipeIn();}, 1500);
+}
+
+function sceneSwipeIn(event) {
+    heading.classList.remove('anim-hidden');
+    swipe.classList.add( 'gesture', 'gesture--swipe' );
+}
+
+function sceneSwipeOut(event) {
+    heading.classList.add('anim-hidden');
+    heading.innerHTML = "TOUCH"; 
+    background.classList.remove( 'theme2' );
+    swipe.classList.remove( 'gesture', 'gesture--swipe' );
+    setTimeout(function(){sceneTouchIn();}, 1500);    
+}
+
+
+setTimeout(function(){sceneTouchIn();}, 1500);
+
+</script>

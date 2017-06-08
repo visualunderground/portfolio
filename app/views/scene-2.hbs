@@ -1,0 +1,306 @@
+<div class="device">
+    <div class="screen">
+        <ul class="list">
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+            <li>bo blah blah <a href="#">blah</a> blah </li>
+        </ul>
+        <div class="overlay"></div>
+        <div class="modal">
+            <div class="button"></div>
+        </div>
+        <div id="gesture0" class="gesture"></div>
+        <div id="gesture1" class="gesture"></div>
+        <div id="gesture2" class="gesture"></div>
+    </div>
+</div>
+
+<style>
+    
+    #gesture0 {
+        top: 200px;
+        left: 20%;
+        margin-left: -15px;
+        animation-delay: 2s !important;
+    }
+
+    #gesture1 {
+        top: 200px;
+        left: 50%;
+        margin-left: -15px;
+        animation-delay: 1s !important;
+
+    }
+    #gesture2 {
+        top: 157px;
+        left: 50%;
+        margin-left: -15px;
+        animation-delay: 1s !important;
+    }
+
+    .device {
+        width: 268px;
+        height: 515px;
+        border-radius: 40px;
+        background-color: #727C81;
+        margin: 75px;
+        padding: 15px;
+    }
+    .screen {
+        width: 90%;
+        height: 350px;
+        background-color: #ffffff;
+        border-radius: 2px;
+        margin: 35px auto 50px ;
+        position: relative;
+        overflow: hidden;
+    }
+    .overlay {
+        background-color: rgba(0,0,0,0.8);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity: 0;
+    }
+    .overlay.anim-in {
+        animation: fade-in .5s ease-in-out;
+        animation-play-state: inherit;
+        animation-delay: .1s;
+        animation-fill-mode: both;    
+    }
+    .overlay.anim-out {
+        animation: fade-out .5s ease-in-out;
+        animation-play-state: inherit;
+        animation-delay: .1s;
+        animation-fill-mode: both;    
+    }
+    .modal {
+        width: 90%;
+        border-radius: 10px;
+        height: 100px;
+        background-color: #fff;
+        position: relative;
+        padding: 50px 10px 10px;
+        margin: 0 auto;
+        opacity: 0;
+    }
+    .modal.anim-in{
+        animation: fade-in-down .5s cubic-bezier(.67,.11,.2,.7);
+        animation-play-state: inherit;
+        animation-delay: .1s;
+        animation-fill-mode: both;    
+    }
+    .modal.anim-out{
+        animation: fade-out-up .5s cubic-bezier(.67,.11,.2,.7);
+        animation-play-state: inherit;
+        animation-delay: .1s;
+        animation-fill-mode: both;    
+    }
+    .button {
+        background-color: #FD5257;
+        width: 100%; 
+        height: 25px; 
+        border-radius: 5px;
+    }
+    .list {position: absolute; top: 0; color: #000000;
+    }
+    
+    .list.anim-in {
+        animation: move-down 1s ease-out;
+        animation-play-state: inherit;
+        animation-delay: 2s !important;
+        animation-fill-mode: both;  
+    }
+
+
+@keyframes move-down {
+    0% {
+        transform: translate3d(0, 0, 0px);
+    }
+    100% {
+        transform: translate3d(0, -400px, 0px);
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-in-down {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 0px, 0px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 110px, 0px);
+    }
+}
+
+@keyframes fade-out-up {
+    0% {
+        opacity: 1;
+        transform: translate3d(0, 110px, 0px);
+    }
+    100% {
+        opacity: 0;
+        transform: translate3d(0, 0px, 0px);
+    }
+}
+</style>
+
+<script>
+/* From Modernizr */
+function whichTransitionEvent(){
+    var t;
+    var el = document.createElement('fakeelement');
+    var transitions = {
+      'transition':'transitionend',
+      'OTransition':'oTransitionEnd',
+      'MozTransition':'transitionend',
+      'WebkitTransition':'webkitTransitionEnd'
+    }
+
+    for(t in transitions){
+        if( el.style[t] !== undefined ){
+            return transitions[t];
+        }
+    }
+}
+
+function whichAnimationEvent(){
+    var a;
+    var el = document.createElement('fakeelement');
+    var animations = {
+      'animation':'animationend',
+      'OAnimation':'oAnimationEnd',
+      'MozAnimation':'animationend',
+      'WebkitAnimation':'webkitAnimationEnd'
+    }
+
+    for(a in animations){
+        if( el.style[a] !== undefined ){
+            return animations[a];
+        }
+    }
+}
+
+var animationEvent = whichAnimationEvent();
+var transitionEvent = whichTransitionEvent();
+
+var background = document.querySelector( '.list' );
+var modal = document.querySelector( '.modal' );
+var overlay = document.querySelector( '.overlay' );
+var gesture0 = document.getElementById( 'gesture0' );
+var gesture1 = document.getElementById( 'gesture1' );
+var gesture2 = document.getElementById( 'gesture2' );
+
+
+
+function scene20(){
+    //  Move background
+    gesture0.classList.add( 'gesture', 'gesture--swipe' );
+    background.addEventListener(animationEvent, scene21);
+    background.classList.add( 'anim-in' );
+}
+
+function scene21(){
+    //  Tidy up
+    gesture0.classList.remove( 'gesture', 'gesture--swipe' );
+    background.removeEventListener(animationEvent, scene21);
+    //  Trigger gesture
+    gesture1.addEventListener(animationEvent, scene22);
+    gesture1.classList.add( 'gesture', 'gesture--touch' );
+}
+function scene22(){
+    // Tidy up
+    gesture1.removeEventListener(animationEvent, scene22);
+    gesture1.classList.remove( 'gesture', 'gesture--touch' );
+    // ANIMATE
+    overlay.addEventListener(animationEvent,scene23);
+    overlay.classList.add( 'anim-in' );     // Fade in overlay
+    modal.classList.add( 'anim-in' );       // Fade in (down) modal
+}
+function scene23(){
+    // Tidy up
+    overlay.removeEventListener(animationEvent,scene23);
+    background.classList.remove( 'anim-in' );
+    // Animate 2nd gesture
+    gesture2.classList.add( 'gesture', 'gesture--touch' );
+    gesture2.addEventListener(animationEvent, scene24);
+}
+function scene24(){
+    // Tidy up
+    gesture2.removeEventListener(animationEvent, scene24);
+    gesture2.classList.remove( 'gesture', 'gesture--touch' );
+    // ANIMATE
+    overlay.addEventListener(animationEvent,scene2Reset);
+    overlay.classList.add( 'anim-out' );    // Fade out overlay
+    modal.classList.add( 'anim-out' );     // Fade out (up) modal
+}
+
+function scene2Reset(){
+    overlay.removeEventListener(animationEvent,scene2Reset);
+
+    overlay.classList.remove( 'anim-in' );     // Fade in overlay
+    overlay.classList.remove( 'anim-out' );    // Fade out overlay
+
+    modal.classList.remove( 'anim-in' );       // Fade in (down) modal
+    modal.classList.remove( 'anim-out' );     // Fade out (up) modal
+
+    scene20();
+}
+
+scene20();
+
+</script>

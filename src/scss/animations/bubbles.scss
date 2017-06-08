@@ -1,0 +1,114 @@
+.container {
+    height: 34px;
+    width: 34px;
+    position: absolute;
+    bottom: 0;
+    transform: translate3d( 0px, 100%, 0); // X, Y, Z
+}
+
+.icon {
+    height: 34px;
+    width: 34px;
+    transform: translate3d( 0px, 100%, 0); // X, Y, Z
+}
+
+.anim-paused .container,
+.anim-paused .icon {
+    animation-play-state: paused;
+}
+
+//  KEYFRAMES
+@keyframes animateY {
+    0% {
+        transform: translateY(100%);
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-500px);
+        opacity: 0;
+    }
+}
+
+@keyframes animateX {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(50px);
+    }
+}
+
+//  ANIMATIONS
+@mixin bubble($v-time: 30s, $left: 0%, $delay: 1s, $x-time: 2s) {
+    animation: animateY $v-time ease-out infinite;
+    animation-delay: $delay;
+    left: $left;
+
+    .icon {
+        animation: animateX $x-time ease-in-out infinite alternate;
+        animation-delay: $delay;
+    }
+}
+
+.a1 {
+    @include bubble(35s, 0%, 4s, 6s);
+    // .icon:after { content: "1"; text-align: center; display: inline-block; width:34px; line-height: 32px;}
+}
+
+
+.a2 {
+    @include bubble(40s, 5%, 20s, 6s);
+    // .icon:after { content: "2"; text-align: center; display: inline-block; width:34px; line-height: 32px;}
+}
+
+.a3 {
+    @include bubble(38s, 10%, 10s, 6s);
+    // .icon:after { content: "3"; text-align: center; display: inline-block; width:34px; line-height: 32px;}
+}
+
+.a4 {
+    @include bubble(32s, 20%, 5s, 6s);
+    // .icon:after { content: "4"; text-align: center; display: inline-block; width:34px; line-height: 32px;}
+}
+
+.a5 {
+    @include bubble(39s, 30%, 18s, 6s);
+    // .icon:after { content: "5"; text-align: center; display: inline-block; width:34px; line-height: 32px;}
+}
+
+.a6 {
+    @include bubble(31s, 40%, 20s, 6s);
+    // .icon:after { content: "6"; text-align: center; display: inline-block; width:34px; line-height: 32px;}
+}
+
+.a7 {
+    @include bubble(30s, 45%, 0s, 6s);
+    // .icon:after { content: "7"; text-align: center; display: inline-block; width:34px; line-height: 32px;}
+}
+
+.a8 {
+    @include bubble(32s, 60%, 6s, 6s);
+    // .icon:after { content: "8"; text-align: center; display: inline-block; width:34px; line-height: 32px;}
+}
+
+.a9 {
+    @include bubble(41s, 70%, 8s, 6s);
+    // .icon:after { content: "9"; text-align: center; display: inline-block; width:34px; line-height: 32px;}
+}
+
+.a10 {
+    @include bubble(36s, 95%, 10s, 6s);
+    // .icon:after { content: "10"; text-align: center; display: inline-block; width:34px; line-height: 32px;}
+}
+
+
+
+
+
+
