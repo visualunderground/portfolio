@@ -160,7 +160,7 @@ module.exports = function(grunt) {
                         expand: true,
                         src: '**',
                         cwd: 'app/public/',
-                        dest: 'docs/public'
+                        dest: 'docs'
                     }
                 ]
                 
