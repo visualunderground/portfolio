@@ -86,7 +86,7 @@ module.exports = function(grunt) {
                 },
          
                 files: {
-                    "tests/tenon/source/homepage.html": "app/views/index.hbs",
+                    "docs/index.html": "app/views/index.hbs",
                 }
             }
         },
@@ -154,13 +154,13 @@ module.exports = function(grunt) {
                 ]
                 
             },
-            tenon: {
+            public: {
                 files: [
                     {
                         expand: true,
                         src: '**',
                         cwd: 'app/public/',
-                        dest: 'tests/tenon/source'
+                        dest: 'docs/public'
                     }
                 ]
                 
@@ -231,11 +231,11 @@ module.exports = function(grunt) {
     // Build assets from src
     // grunt.registerTask('build:css',     ['scsslint:dist', 'sass:dist']);
     grunt.registerTask('build:css',     ['sass:dist']);
-    grunt.registerTask('test',          ['hbs', 'copy:tenon', 'tenon']);
+    grunt.registerTask('build:pages',   ['hbs', 'copy:public']);
     //grunt.registerTask('build:js',      ['jshint:all', 'concat:dist', 'uglify:dist']);
     grunt.registerTask('build:img',     ['imagemin:dist']);
         // Build * ALL THE THINGS! *
-        // grunt.registerTask('build',         ['build:css', 'build:js', 'build:img']);
+        // grunt.registerTask('build',   ['build:css', 'build:js', 'build:img']);
         grunt.registerTask('build',     ['build:css', 'build:img']);
 
     // Default task during development
