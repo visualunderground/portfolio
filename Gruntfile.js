@@ -233,7 +233,7 @@ module.exports = function(grunt) {
     grunt.registerTask('build:css',     ['sass:dist']);
     grunt.registerTask('build:pages',   ['hbs', 'copy:public']);
     //grunt.registerTask('build:js',      ['jshint:all', 'concat:dist', 'uglify:dist']);
-    grunt.registerTask('build:img',     ['imagemin:dist']);
+    grunt.registerTask('build:img',     ['imagemin:dist', 'svgstore' ]);
         // Build * ALL THE THINGS! *
         // grunt.registerTask('build',   ['build:css', 'build:js', 'build:img']);
         grunt.registerTask('build',     ['build:css', 'build:img']);
