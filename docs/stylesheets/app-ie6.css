@@ -198,10 +198,7 @@ input[type='tel'] {
   box-sizing: border-box; }
 
 .illustration {
-  display: block;
-  margin: 0 auto;
-  max-width: 370px;
-  width: 100%; }
+  display: block; }
 
 .list-grid li {
   width: 50%;
@@ -234,6 +231,12 @@ input[type='tel'] {
 
 .section:nth-child(even) {
   background-color: #F1F1F2; }
+
+.section--data {
+  background-image: url("/images/svg/background/wave.svg"), linear-gradient(-155deg, #0089D2 0%, #0070D2 100%);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: contain; }
 
 body {
   color: #4D4D4D;
@@ -281,7 +284,7 @@ p {
   text-align: center; }
 
 .heading {
-  text-transform: uppercase;
+  font-weight: 700;
   font-size: 22px;
   line-height: 1em;
   padding-bottom: 3px;
@@ -554,6 +557,9 @@ p {
 
 .u-text-right {
   text-align: right; }
+
+.u-text-inverse {
+  color: #FBFBFB; }
 
 .u-mx-auto {
   margin-right: auto !important;
