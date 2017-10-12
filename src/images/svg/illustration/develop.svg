@@ -1,0 +1,74 @@
+<svg width="460px" height="277px" viewBox="0 0 460 277" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M426.086957,0 C431.009495,0 435,4.14609545 435,9.26056338 L435,263 L25,263 L25,9.26056338 C25,4.14609545 28.9905055,0 33.9130435,0 L426.086957,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Ill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Develop" transform="translate(-25.000000, -11.000000)">
+            <g id="macbook" transform="translate(25.000000, 11.000000)">
+                <g id="case">
+                    <use fill="#393F41" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#959EA2" stroke-width="4" d="M27,261 L433,261 L433,9.26056338 C433,5.23391139 429.887447,2 426.086957,2 L33.9130435,2 C30.1125528,2 27,5.23391139 27,9.26056338 L27,261 Z"></path>
+                </g>
+                <path d="M460,259 L460,271.375 C460,274.481602 456.322339,277 451.785714,277 L8.21428571,277 C3.67766098,277 4.66928083e-14,274.481602 4.66928083e-14,271.375 L4.66928083e-14,259 L460,259 Z" id="bottom" fill="#959EA2"></path>
+                <path d="M275,259.025722 C275,263.429794 269.963203,267 263.75,267 L196.25,267 C190.036797,267 185,263.429794 185,259.025722 C185,259.008179 275,258.977876 275,259.025722 Z" id="indent" fill="#A9B0B4"></path>
+                <circle id="camera" fill="#303537" fill-rule="nonzero" cx="254" cy="12" r="2"></circle>
+            </g>
+            <g id="directory-structure" transform="translate(65.000000, 33.000000)">
+                <rect id="Rectangle" fill="#142D3F" x="0" y="0" width="100" height="226"></rect>
+                <polygon id="file" fill="#344154" points="30 42.8306452 26 42.8306452 26 51.9435484 33 51.9435484 33 45.5645161"></polygon>
+                <polygon id="file" fill="#DBDEDF" points="30 59.233871 26 59.233871 26 68.3467742 33 68.3467742 33 61.9677419"></polygon>
+                <polygon id="file" fill="#344154" points="30 75.6370968 26 75.6370968 26 84.75 33 84.75 33 78.3709677"></polygon>
+                <polygon id="file" fill="#344154" points="30 92.0403226 26 92.0403226 26 101.153226 33 101.153226 33 94.7741935"></polygon>
+                <polygon id="file" fill="#344154" points="20 141.25 16 141.25 16 150.362903 23 150.362903 23 143.983871"></polygon>
+                <polygon id="file" fill="#344154" points="20 156.741935 16 156.741935 16 165.854839 23 165.854839 23 159.475806"></polygon>
+                <path d="M14,10.9354839 L10,10.9354839 L10,19.1370968 L20,19.1370968 L20,13.6693548 C20,13.1681452 19.55,12.7580645 19,12.7580645 L15,12.7580645 L14,10.9354839 Z" id="folder" fill="#344154"></path>
+                <path d="M20,27.3387097 L16,27.3387097 L16,35.5403226 L26,35.5403226 L26,30.0725806 C26,29.571371 25.55,29.1612903 25,29.1612903 L21,29.1612903 L20,27.3387097 Z" id="folder" fill="#344154"></path>
+                <path d="M20,109.354839 L16,109.354839 L16,117.556452 L26,117.556452 L26,112.08871 C26,111.5875 25.55,111.177419 25,111.177419 L21,111.177419 L20,109.354839 Z" id="folder" fill="#344154"></path>
+                <path d="M20,126.669355 L16,126.669355 L16,134.870968 L26,134.870968 L26,129.403226 C26,128.902016 25.55,128.491935 25,128.491935 L21,128.491935 L20,126.669355 Z" id="folder" fill="#344154"></path>
+                <rect id="Rectangle" fill="#344154" x="25" y="15.4919355" width="34" height="3.64516129" rx="1.82258065"></rect>
+                <rect id="Rectangle" fill="#344154" x="30" y="146.717742" width="34" height="3.64516129" rx="1.82258065"></rect>
+                <rect id="Rectangle" fill="#344154" x="30" y="162.209677" width="34" height="3.64516129" rx="1.82258065"></rect>
+                <rect id="Rectangle" fill="#344154" x="31" y="31.8951613" width="34" height="3.64516129" rx="1.82258065"></rect>
+                <rect id="Rectangle" fill="#344154" x="40" y="48.2983871" width="34" height="3.64516129" rx="1.82258065"></rect>
+                <rect id="Rectangle" fill="#DBDEDF" x="40" y="64.7016129" width="34" height="3.64516129" rx="1.82258065"></rect>
+                <rect id="Rectangle" fill="#344154" x="40" y="81.1048387" width="34" height="3.64516129" rx="1.82258065"></rect>
+                <rect id="Rectangle" fill="#344154" x="40" y="97.5080645" width="34" height="3.64516129" rx="1.82258065"></rect>
+                <rect id="Rectangle" fill="#344154" x="31" y="113.91129" width="34" height="3.64516129" rx="1.82258065"></rect>
+                <rect id="Rectangle" fill="#344154" x="31" y="130.314516" width="34" height="3.64516129" rx="1.82258065"></rect>
+            </g>
+            <g id="editor" transform="translate(165.000000, 33.000000)">
+                <rect id="Rectangle" fill="#18354A" x="0" y="0" width="280" height="226"></rect>
+                <g id="line-numbers" transform="translate(9.000000, 14.000000)" fill="#637988">
+                    <circle id="Oval" cx="3.5" cy="3.5" r="3.5"></circle>
+                    <circle id="Oval" cx="3.5" cy="21.5" r="3.5"></circle>
+                    <circle id="Oval" cx="3.5" cy="39.5" r="3.5"></circle>
+                    <circle id="Oval" cx="3.5" cy="57.5" r="3.5"></circle>
+                    <circle id="Oval" cx="3.5" cy="75.5" r="3.5"></circle>
+                    <circle id="Oval" cx="3.5" cy="93.5" r="3.5"></circle>
+                    <circle id="Oval" cx="3.5" cy="111.5" r="3.5"></circle>
+                    <circle id="Oval" cx="3.5" cy="165.5" r="3.5"></circle>
+                    <circle id="Oval" cx="3.5" cy="129.5" r="3.5"></circle>
+                    <circle id="Oval" cx="3.5" cy="183.5" r="3.5"></circle>
+                    <circle id="Oval" cx="3.5" cy="147.5" r="3.5"></circle>
+                    <circle id="Oval" cx="3.5" cy="201.5" r="3.5"></circle>
+                </g>
+                <g id="code" transform="translate(36.000000, 15.000000)" fill="#59BB67">
+                    <rect id="Rectangle" x="0" y="198" width="20" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle" x="10" y="18" width="70" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle" x="0" y="0" width="18" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle" x="10" y="180" width="20" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle" x="20" y="36" width="70" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle" x="20" y="162" width="20" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle" x="40" y="108" width="70" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle-Copy" x="40" y="54" width="70" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle" x="50" y="126" width="140" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle-Copy-2" x="50" y="72" width="140" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle" x="40" y="144" width="20" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle-Copy-3" x="40" y="90" width="20" height="5" rx="2.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

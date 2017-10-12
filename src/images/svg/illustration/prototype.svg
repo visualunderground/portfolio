@@ -1,337 +1,199 @@
-
-<svg width="370px" height="304px" viewBox="0 0 370 304" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+<svg width="465px" height="300px" viewBox="0 0 465 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="215" height="25"></rect>
-        <circle id="path-2" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-3" x="0" y="0" width="215" height="24"></rect>
-        <circle id="path-4" cx="16.5" cy="12" r="6.5"></circle>
-        <rect id="path-5" x="0" y="0" width="215" height="25"></rect>
-        <circle id="path-6" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-7" x="0" y="0" width="215" height="25"></rect>
-        <circle id="path-8" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-9" x="0" y="0" width="215" height="25"></rect>
-        <circle id="path-10" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-11" x="0" y="0" width="215" height="25"></rect>
-        <circle id="path-12" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-13" x="0" y="0" width="215" height="25"></rect>
-        <circle id="path-14" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-15" x="0" y="0" width="215" height="25"></rect>
-        <circle id="path-16" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-17" x="0" y="0" width="215" height="25"></rect>
-        <circle id="path-18" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-19" x="0" y="0" width="215" height="25"></rect>
-        <circle id="path-20" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-21" x="0" y="0" width="215" height="25"></rect>
-        <circle id="path-22" cx="16.5" cy="12.5" r="6.5"></circle>
-        <circle id="path-23" cx="9.5" cy="8.5" r="8.5"></circle>
-        <rect id="path-24" x="0" y="0" width="128" height="245" rx="20"></rect>
-        <rect id="path-25" x="8" y="30" width="112" height="184"></rect>
-        <rect id="path-26" x="0" y="0" width="112" height="25"></rect>
-        <circle id="path-27" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-28" x="0" y="0" width="112" height="25"></rect>
-        <circle id="path-29" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-30" x="0" y="0" width="112" height="25"></rect>
-        <circle id="path-31" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-32" x="0" y="0" width="112" height="25"></rect>
-        <circle id="path-33" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-34" x="0" y="0" width="112" height="25"></rect>
-        <circle id="path-35" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-36" x="0" y="0" width="112" height="25"></rect>
-        <circle id="path-37" cx="16.5" cy="12.5" r="6.5"></circle>
-        <rect id="path-38" x="0" y="0" width="112" height="25"></rect>
-        <circle id="path-39" cx="16.5" cy="12.5" r="6.5"></circle>
+        <path d="M0,5.00701574 C0,2.2417173 2.24317259,0 5.00255106,0 L364.997449,0 C367.760282,0 370,2.23193808 370,5.00701574 L370,285 L0,285 L0,5.00701574 Z" id="path-1"></path>
+        <filter x="-4.5%" y="-3.7%" width="108.9%" height="111.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.23 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-3" cx="15" cy="15" r="5"></circle>
+        <circle id="path-4" cx="30" cy="15" r="5"></circle>
+        <circle id="path-5" cx="45" cy="15" r="5"></circle>
+        <rect id="path-6" x="100" y="50" width="270" height="25"></rect>
+        <linearGradient x1="30.5257161%" y1="0%" x2="73.577474%" y2="94.7200521%" id="linearGradient-7">
+            <stop stop-color="#0089D2" offset="0%"></stop>
+            <stop stop-color="#0070D2" offset="100%"></stop>
+        </linearGradient>
+        <path d="M15,0 L113,0 L113,1.77635684e-15 C121.284271,-7.10335005e-15 128,6.71572875 128,15 L128,230 C128,238.284271 121.284271,245 113,245 L15,245 L15,245 C6.71572875,245 2.79088747e-15,238.284271 1.77635684e-15,230 L0,15 L1.77635684e-15,15 C7.61826213e-16,6.71572875 6.71572875,3.29815278e-15 15,1.77635684e-15 L15,0 Z M9,32 L9,212 L119,212 L119,32 L9,32 Z" id="path-8"></path>
     </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="illustration/prototype">
-            <g id="Browser">
-                <path d="M0.5,20.5 L284.5,20.5" id="Line" stroke="#DBDEDF" stroke-linecap="square"></path>
-                <path d="M284.5,283.5 L0.5,283.5 L0.5,5.00452464 C0.5,2.51326867 2.51155337,0.5 5.00701574,0.5 L279.992984,0.5 C282.480732,0.5 284.5,2.51939443 284.5,5.00452464 L284.5,283.5 Z" id="Rectangle" stroke="#DBDEDF"></path>
-                <circle id="Oval" fill="#D0011B" cx="13.5" cy="10.5" r="2.5"></circle>
-                <circle id="Oval-Copy" fill="#F6A623" cx="23.5" cy="10.5" r="2.5"></circle>
-                <circle id="Oval-Copy-2" fill="#417505" cx="33.5" cy="10.5" r="2.5"></circle>
-                <g id="data-rows" transform="translate(70.000000, 20.000000)">
-                    <g id="UI/row">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-1"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="214" height="24"></rect>
+    <g id="Ill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Prototype" transform="translate(-26.000000, -25.000000)">
+            <g id="Browser" transform="translate(115.000000, 28.000000)">
+                <g id="illustration/prototype">
+                    <g id="Browser">
+                        <g id="header">
+                            <g id="bar">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#E4E8EC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <g id="button-close">
+                                <use fill="#FF5F57" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <circle stroke="#E0443E" stroke-width="0.5" cx="15" cy="15" r="4.75"></circle>
+                            </g>
+                            <g id="button-minimise">
+                                <use fill="#FFBD2E" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                <circle stroke="#DF9F22" stroke-width="0.5" cx="30" cy="15" r="4.75"></circle>
+                            </g>
+                            <g id="button-full">
+                                <use fill="#29C941" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                <circle stroke="#1AAB2B" stroke-width="0.5" cx="45" cy="15" r="4.75"></circle>
+                            </g>
                         </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-2"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="34" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-2" stroke="#DBDEDF" stroke-width="1" x="173.5" y="7.5" width="16" height="3"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="194" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="58" height="3"></rect>
-                    </g>
-                    <g id="UI/row" transform="translate(0.000000, 24.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-3"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="214" height="23"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-4"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="34" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-2" stroke="#DBDEDF" stroke-width="1" x="173.5" y="7.5" width="16" height="3"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="194" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="13.5" width="58" height="3"></rect>
-                    </g>
-                    <g id="UI/row" transform="translate(0.000000, 47.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-5"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="214" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-6"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="34" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-2" stroke="#DBDEDF" stroke-width="1" x="173.5" y="7.5" width="16" height="3"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="194" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="58" height="3"></rect>
-                    </g>
-                    <g id="UI/row" transform="translate(0.000000, 71.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-7"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="214" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-8"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="34" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-2" stroke="#DBDEDF" stroke-width="1" x="173.5" y="7.5" width="16" height="3"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="194" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="58" height="3"></rect>
-                    </g>
-                    <g id="UI/row" transform="translate(0.000000, 95.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-9"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="214" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-10"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="34" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-2" stroke="#DBDEDF" stroke-width="1" x="173.5" y="7.5" width="16" height="3"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="194" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="58" height="3"></rect>
-                    </g>
-                    <g id="UI/row" transform="translate(0.000000, 119.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-11"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="214" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-12"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="34" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-2" stroke="#DBDEDF" stroke-width="1" x="173.5" y="7.5" width="16" height="3"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="194" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="58" height="3"></rect>
-                    </g>
-                    <g id="UI/row" transform="translate(0.000000, 143.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-13"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="214" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-14"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="34" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-2" stroke="#DBDEDF" stroke-width="1" x="173.5" y="7.5" width="16" height="3"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="194" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="58" height="3"></rect>
-                    </g>
-                    <g id="UI/row" transform="translate(0.000000, 167.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-15"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="214" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-16"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="34" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-2" stroke="#DBDEDF" stroke-width="1" x="173.5" y="7.5" width="16" height="3"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="194" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="58" height="3"></rect>
-                    </g>
-                    <g id="UI/row" transform="translate(0.000000, 191.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-17"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="214" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-18"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="34" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-2" stroke="#DBDEDF" stroke-width="1" x="173.5" y="7.5" width="16" height="3"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="194" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="58" height="3"></rect>
-                    </g>
-                    <g id="UI/row" transform="translate(0.000000, 215.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-19"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="214" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-20"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="34" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-2" stroke="#DBDEDF" stroke-width="1" x="173.5" y="7.5" width="16" height="3"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="194" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="58" height="3"></rect>
-                    </g>
-                    <g id="UI/row" transform="translate(0.000000, 239.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-21"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="214" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-22"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="34" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-2" stroke="#DBDEDF" stroke-width="1" x="173.5" y="7.5" width="16" height="3"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="194" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="58" height="3"></rect>
+                        <rect id="Rectangle" fill="#FFFFFF" x="0" y="30" width="370" height="50"></rect>
                     </g>
                 </g>
-                <g id="Filters" transform="translate(7.000000, 29.000000)">
-                    <rect id="Rectangle-5" stroke="#DBDEDF" x="5.5" y="31.5" width="5" height="4"></rect>
-                    <rect id="Rectangle-5-Copy-2" stroke="#DBDEDF" x="23.5" y="31.5" width="7" height="4"></rect>
-                    <rect id="Rectangle-5-Copy-5" stroke="#DBDEDF" x="39.5" y="31.5" width="7" height="4"></rect>
-                    <rect id="Rectangle-5-Copy" stroke="#DBDEDF" x="5.5" y="38.5" width="11" height="3"></rect>
-                    <rect id="Rectangle-5-Copy-4" stroke="#DBDEDF" x="23.5" y="38.5" width="10" height="3"></rect>
-                    <rect id="Rectangle-5-Copy-6" stroke="#DBDEDF" x="39.5" y="38.5" width="11" height="3"></rect>
-                    <g id="Oval-3">
-                        <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-23"></use>
-                        <circle stroke="#DBDEDF" stroke-width="1" cx="9.5" cy="8.5" r="8"></circle>
+                <g id="screen/browser/initial" transform="translate(0.000000, 30.000000)">
+                    <g id="side-navigation">
+                        <rect id="Rectangle-5" fill="#42526A" x="0" y="0" width="100" height="255"></rect>
+                        <rect id="Rectangle-6" fill-opacity="0.2" fill="#000000" x="0" y="38" width="100" height="17"></rect>
+                        <rect id="Rectangle-15" fill-opacity="0.5" fill="#FFFFFF" x="10" y="25" width="40" height="4" rx="2"></rect>
+                        <rect id="Rectangle-15-Copy" fill="#FFFFFF" x="10" y="44" width="35" height="4" rx="2"></rect>
+                        <rect id="Rectangle-15-Copy" fill-opacity="0.5" fill="#FFFFFF" x="10" y="63" width="45" height="4" rx="2"></rect>
+                        <rect id="Rectangle-15-Copy-2" fill-opacity="0.5" fill="#FFFFFF" x="10" y="82" width="65" height="4" rx="2"></rect>
+                        <rect id="Rectangle-15-Copy-3" fill-opacity="0.5" fill="#FFFFFF" x="10" y="101" width="70" height="4" rx="2"></rect>
                     </g>
-                    <rect id="Rectangle-5" stroke="#DBDEDF" x="21.5" y="2.5" width="31" height="6"></rect>
-                    <rect id="Rectangle-5" stroke="#DBDEDF" x="0.5" y="25.5" width="55" height="23" rx="3"></rect>
-                    <rect id="Rectangle-5-Copy-3" fill="#FD5257" x="0" y="60" width="56" height="10" rx="5"></rect>
-                    <rect id="Rectangle-5" stroke="#DBDEDF" x="21.5" y="11.5" width="26" height="3"></rect>
+                    <g id="temp-row2" transform="translate(100.000000, 105.000000)">
+                        <rect id="Rectangle-7-Copy-2" fill="#E4E8EC" x="0" y="29.0322581" width="270" height="1"></rect>
+                        <rect id="Rectangle-8" fill="#FFFFFF" x="0" y="0" width="270" height="30"></rect>
+                        <rect id="Rectangle-17" fill="#9AA3AF" x="20" y="10" width="30" height="4" rx="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#E4E8EC" x="20" y="17" width="60" height="2"></rect>
+                        <rect id="Rectangle-9-Copy-2" fill="#9AA3AF" x="221" y="10" width="29" height="4" rx="2"></rect>
+                        <rect id="Rectangle-7" fill="#E4E8EC" x="0" y="29" width="270" height="1"></rect>
+                    </g>
+                    <g id="temp-row2" transform="translate(100.000000, 135.000000)">
+                        <rect id="Rectangle-7-Copy-2" fill="#E4E8EC" x="0" y="29.0322581" width="270" height="1"></rect>
+                        <rect id="Rectangle-8" fill="#FFFFFF" x="0" y="0" width="270" height="30"></rect>
+                        <rect id="Rectangle-17" fill="#9AA3AF" x="20" y="10" width="30" height="4" rx="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#E4E8EC" x="20" y="17" width="60" height="2"></rect>
+                        <rect id="Rectangle-9-Copy-2" fill="#9AA3AF" x="221" y="10" width="29" height="4" rx="2"></rect>
+                        <rect id="Rectangle-7" fill="#E4E8EC" x="0" y="29" width="270" height="1"></rect>
+                    </g>
+                    <g id="temp-row2" transform="translate(100.000000, 165.000000)">
+                        <rect id="Rectangle-7-Copy-2" fill="#E4E8EC" x="0" y="29.0322581" width="270" height="1"></rect>
+                        <rect id="Rectangle-8" fill="#FFFFFF" x="0" y="0" width="270" height="30"></rect>
+                        <rect id="Rectangle-17" fill="#9AA3AF" x="20" y="10" width="30" height="4" rx="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#E4E8EC" x="20" y="17" width="60" height="2"></rect>
+                        <rect id="Rectangle-9-Copy-2" fill="#9AA3AF" x="221" y="10" width="29" height="4" rx="2"></rect>
+                        <rect id="Rectangle-7" fill="#E4E8EC" x="0" y="29" width="270" height="1"></rect>
+                    </g>
+                    <g id="temp-row2" transform="translate(100.000000, 195.000000)">
+                        <rect id="Rectangle-7-Copy-2" fill="#E4E8EC" x="0" y="29.0322581" width="270" height="1"></rect>
+                        <rect id="Rectangle-8" fill="#FFFFFF" x="0" y="0" width="270" height="30"></rect>
+                        <rect id="Rectangle-17" fill="#9AA3AF" x="20" y="10" width="30" height="4" rx="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#E4E8EC" x="20" y="17" width="60" height="2"></rect>
+                        <rect id="Rectangle-9-Copy-2" fill="#9AA3AF" x="221" y="10" width="29" height="4" rx="2"></rect>
+                        <rect id="Rectangle-7" fill="#E4E8EC" x="0" y="29" width="270" height="1"></rect>
+                    </g>
+                    <g id="temp-row2" transform="translate(100.000000, 225.000000)">
+                        <rect id="Rectangle-7-Copy-2" fill="#E4E8EC" x="0" y="29.0322581" width="270" height="1"></rect>
+                        <rect id="Rectangle-8" fill="#FFFFFF" x="0" y="0" width="270" height="30"></rect>
+                        <rect id="Rectangle-17" fill="#9AA3AF" x="20" y="10" width="30" height="4" rx="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#E4E8EC" x="20" y="17" width="60" height="2"></rect>
+                        <rect id="Rectangle-9-Copy-2" fill="#9AA3AF" x="221" y="10" width="29" height="4" rx="2"></rect>
+                        <rect id="Rectangle-7" fill="#E4E8EC" x="0" y="29" width="270" height="1"></rect>
+                    </g>
+                    <g id="temp-row" transform="translate(100.000000, 75.000000)">
+                        <rect id="Rectangle-7-Copy" fill="#E4E8EC" x="0" y="0" width="270" height="1"></rect>
+                        <rect id="Rectangle-7-Copy-2" fill="#E4E8EC" x="0" y="30" width="270" height="1"></rect>
+                        <rect id="Rectangle-8" fill="#59BB67" x="0" y="0" width="270" height="31"></rect>
+                        <rect id="Rectangle-17" fill="#FFFFFF" x="20" y="11" width="30" height="4" rx="2"></rect>
+                        <rect id="Rectangle-17-Copy" fill-opacity="0.5" fill="#FFFFFF" x="20" y="18" width="60" height="2"></rect>
+                        <rect id="Rectangle-9-Copy-2" fill="#FFFFFF" x="221" y="11" width="29" height="4" rx="2"></rect>
+                    </g>
+                    <g id="Rectangle-7">
+                        <use fill="#E4E8EC" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        <rect stroke="#DBDEDF" stroke-width="1" x="100.5" y="50.5" width="269" height="24"></rect>
+                    </g>
+                    <rect id="Rectangle-8" fill="#9AA3AF" x="120" y="60" width="43" height="4" rx="2"></rect>
+                    <rect id="Rectangle-8-Copy" fill="#9AA3AF" x="310" y="60" width="40" height="5" rx="2"></rect>
+                    <rect id="Rectangle-15" fill="#9AA3AF" x="120" y="10" width="110" height="12" rx="2"></rect>
                 </g>
             </g>
-            <g id="iPhone" transform="translate(242.000000, 59.000000)">
-                <g id="Devices/iPhone">
-                    <g id="body">
-                        <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-24"></use>
-                        <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="127" height="244" rx="20"></rect>
+            <g id="Device" transform="translate(25.000000, 78.000000)">
+                <g id="screen/iPhone/initial" transform="translate(11.000000, 34.000000)">
+                    <rect id="background" fill="#E4E8EC" fill-rule="evenodd" x="0" y="0" width="110" height="180"></rect>
+                    <g id="screen/iphone/ui/card-product" transform="translate(0.000000, 78.000000)">
+                        <rect id="Rectangle-12" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="110" height="35"></rect>
+                        <rect id="Rectangle-16" fill="#9AA3AF" fill-rule="evenodd" x="10" y="7" width="20" height="20" rx="2"></rect>
+                        <rect id="Rectangle-17" fill="#9AA3AF" fill-rule="evenodd" x="40" y="7" width="19" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#9AA3AF" fill-rule="evenodd" x="40" y="14" width="37" height="2" rx="1"></rect>
+                        <rect id="Rectangle-17-Copy-2" fill="#9AA3AF" fill-rule="evenodd" x="40" y="18" width="37" height="2" rx="1"></rect>
+                        <g id="favorite-outline" stroke-width="1" fill-rule="evenodd" transform="translate(90.000000, 12.000000)" fill="#9AA3AF">
+                            <path d="M7.25,0 C6.4,0 5.55,0.4 5,1.05 C4.45,0.4 3.6,0 2.75,0 C1.2,0 0,1.2 0,2.75 C0,4.65 1.7,6.2 4.3,8.5 L5,9.15 L5.7,8.5 C8.25,6.15 10,4.6 10,2.75 C10,1.2 8.8,0 7.25,0 L7.25,0 Z M5.05,7.8 L5,7.8 L4.95,7.75 C2.55,5.6 1,4.2 1,2.75 C1,1.75 1.75,1 2.75,1 C3.5,1 4.25,1.5 4.55,2.2 L5.5,2.2 C5.75,1.5 6.5,1 7.25,1 C8.25,1 9,1.75 9,2.75 C9,4.2 7.45,5.6 5.05,7.8 L5.05,7.8 Z" id="Shape"></path>
+                        </g>
+                        <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="12 23 16 19 18 19.5 22 15 23.5 17 24.5 16.5 29 23"></polygon>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="17.5" cy="13.5" r="1.5"></circle>
+                        <rect id="Rectangle-4" fill="#DBDEDF" fill-rule="evenodd" x="5" y="34" width="100" height="1"></rect>
                     </g>
-                    <g id="Screen">
-                        <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-25"></use>
-                        <rect stroke="#DBDEDF" stroke-width="1" x="8.5" y="30.5" width="111" height="183"></rect>
+                    <g id="screen/iphone/ui/card-product" transform="translate(0.000000, 113.000000)">
+                        <rect id="Rectangle-12" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="110" height="35"></rect>
+                        <rect id="Rectangle-16" fill="#9AA3AF" fill-rule="evenodd" x="10" y="7" width="20" height="20" rx="2"></rect>
+                        <rect id="Rectangle-17" fill="#9AA3AF" fill-rule="evenodd" x="40" y="7" width="19" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#9AA3AF" fill-rule="evenodd" x="40" y="14" width="37" height="2" rx="1"></rect>
+                        <rect id="Rectangle-17-Copy-2" fill="#9AA3AF" fill-rule="evenodd" x="40" y="18" width="37" height="2" rx="1"></rect>
+                        <g id="favorite-outline" stroke-width="1" fill-rule="evenodd" transform="translate(90.000000, 12.000000)" fill="#9AA3AF">
+                            <path d="M7.25,0 C6.4,0 5.55,0.4 5,1.05 C4.45,0.4 3.6,0 2.75,0 C1.2,0 0,1.2 0,2.75 C0,4.65 1.7,6.2 4.3,8.5 L5,9.15 L5.7,8.5 C8.25,6.15 10,4.6 10,2.75 C10,1.2 8.8,0 7.25,0 L7.25,0 Z M5.05,7.8 L5,7.8 L4.95,7.75 C2.55,5.6 1,4.2 1,2.75 C1,1.75 1.75,1 2.75,1 C3.5,1 4.25,1.5 4.55,2.2 L5.5,2.2 C5.75,1.5 6.5,1 7.25,1 C8.25,1 9,1.75 9,2.75 C9,4.2 7.45,5.6 5.05,7.8 L5.05,7.8 Z" id="Shape"></path>
+                        </g>
+                        <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="12 23 16 19 18 19.5 22 15 23.5 17 24.5 16.5 29 23"></polygon>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="17.5" cy="13.5" r="1.5"></circle>
+                        <rect id="Rectangle-4" fill="#DBDEDF" fill-rule="evenodd" x="5" y="34" width="100" height="1"></rect>
                     </g>
-                    <circle id="Front-camera" fill="#DBDEDF" fill-rule="evenodd" cx="64" cy="12" r="3"></circle>
-                    <rect id="Speaker" fill="#DBDEDF" fill-rule="evenodd" x="51" y="18" width="26" height="4" rx="2"></rect>
-                    <circle id="Home" stroke="#DBDEDF" stroke-width="2" cx="64" cy="229" r="8"></circle>
-                </g>
-                <g id="data-rows" transform="translate(8.000000, 45.000000)">
-                    <g id="UI/row-small">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-26"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="111" height="24"></rect>
+                    <g id="screen/iphone/ui/featured-product">
+                        <rect id="Rectangle-10" fill="url(#linearGradient-7)" fill-rule="evenodd" x="0" y="0" width="110" height="55"></rect>
+                        <g id="favorite-outline" stroke-width="1" fill-rule="evenodd" transform="translate(90.000000, 36.000000)" fill="#FFFFFF">
+                            <path d="M7.25,0 C6.4,0 5.55,0.4 5,1.05 C4.45,0.4 3.6,0 2.75,0 C1.2,0 0,1.2 0,2.75 C0,4.65 1.7,6.2 4.3,8.5 L5,9.15 L5.7,8.5 C8.25,6.15 10,4.6 10,2.75 C10,1.2 8.8,0 7.25,0 L7.25,0 Z M5.05,7.8 L5,7.8 L4.95,7.75 C2.55,5.6 1,4.2 1,2.75 C1,1.75 1.75,1 2.75,1 C3.5,1 4.25,1.5 4.55,2.2 L5.5,2.2 C5.75,1.5 6.5,1 7.25,1 C8.25,1 9,1.75 9,2.75 C9,4.2 7.45,5.6 5.05,7.8 L5.05,7.8 Z" id="Shape"></path>
                         </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-27"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="26" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="91" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="42" height="3"></rect>
+                        <rect id="Rectangle-13" fill="#FFFFFF" fill-rule="evenodd" x="10" y="10" width="35" height="35" rx="2"></rect>
+                        <rect id="Rectangle-15" fill="#FFFFFF" fill-rule="evenodd" x="55" y="10" width="26" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-15" fill="#FFFFFF" fill-rule="evenodd" x="55" y="19" width="45" height="2" rx="1"></rect>
+                        <rect id="Rectangle-15-Copy" fill="#FFFFFF" fill-rule="evenodd" x="55" y="25" width="45" height="2" rx="1"></rect>
+                        <polygon id="Shape-Copy" fill="#9AA3AF" fill-rule="nonzero" points="19 33 23 29 25 29.5 29 25 30.5 27 31.5 26.5 36 33"></polygon>
+                        <circle id="Oval-Copy" fill="#9AA3AF" fill-rule="nonzero" cx="24.5" cy="23.5" r="1.5"></circle>
                     </g>
-                    <g id="UI/row-small" transform="translate(0.000000, 24.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-28"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="111" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-29"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="26" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="91" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="42" height="3"></rect>
+                    <g id="screen/iphone/ui/filter" transform="translate(0.000000, 55.000000)" fill-rule="evenodd">
+                        <rect id="Rectangle-7" fill="#F1F1F2" x="0" y="0" width="110" height="25"></rect>
+                        <rect id="Rectangle-2" fill="#DBDEDF" x="0" y="24" width="110" height="1"></rect>
+                        <rect id="Rectangle" fill="#959EA2" x="10" y="10" width="45" height="5" rx="2"></rect>
+                        <polygon id="Triangle" fill="#959EA2" transform="translate(97.500000, 12.500000) rotate(180.000000) translate(-97.500000, -12.500000) " points="97.5 10 100 15 95 15"></polygon>
                     </g>
-                    <g id="UI/row-small" transform="translate(0.000000, 48.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-30"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="111" height="24"></rect>
+                    <g id="screen/iphone/ui/card-product" transform="translate(0.000000, 148.000000)">
+                        <rect id="Rectangle-12" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="110" height="35"></rect>
+                        <rect id="Rectangle-16" fill="#9AA3AF" fill-rule="evenodd" x="10" y="7" width="20" height="20" rx="2"></rect>
+                        <rect id="Rectangle-17" fill="#9AA3AF" fill-rule="evenodd" x="40" y="7" width="19" height="3" rx="1.5"></rect>
+                        <rect id="Rectangle-17-Copy" fill="#9AA3AF" fill-rule="evenodd" x="40" y="14" width="37" height="2" rx="1"></rect>
+                        <rect id="Rectangle-17-Copy-2" fill="#9AA3AF" fill-rule="evenodd" x="40" y="18" width="37" height="2" rx="1"></rect>
+                        <g id="favorite-outline" stroke-width="1" fill-rule="evenodd" transform="translate(90.000000, 12.000000)" fill="#9AA3AF">
+                            <path d="M7.25,0 C6.4,0 5.55,0.4 5,1.05 C4.45,0.4 3.6,0 2.75,0 C1.2,0 0,1.2 0,2.75 C0,4.65 1.7,6.2 4.3,8.5 L5,9.15 L5.7,8.5 C8.25,6.15 10,4.6 10,2.75 C10,1.2 8.8,0 7.25,0 L7.25,0 Z M5.05,7.8 L5,7.8 L4.95,7.75 C2.55,5.6 1,4.2 1,2.75 C1,1.75 1.75,1 2.75,1 C3.5,1 4.25,1.5 4.55,2.2 L5.5,2.2 C5.75,1.5 6.5,1 7.25,1 C8.25,1 9,1.75 9,2.75 C9,4.2 7.45,5.6 5.05,7.8 L5.05,7.8 Z" id="Shape"></path>
                         </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-31"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="26" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="91" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="42" height="3"></rect>
-                    </g>
-                    <g id="UI/row-small" transform="translate(0.000000, 72.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-32"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="111" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-33"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="26" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="91" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="42" height="3"></rect>
-                    </g>
-                    <g id="UI/row-small" transform="translate(0.000000, 96.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-34"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="111" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-35"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="26" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="91" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="42" height="3"></rect>
-                    </g>
-                    <g id="UI/row-small" transform="translate(0.000000, 120.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-36"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="111" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-37"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="26" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="91" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="42" height="3"></rect>
-                    </g>
-                    <g id="UI/row-small" transform="translate(0.000000, 144.000000)">
-                        <g id="Rectangle-2">
-                            <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-38"></use>
-                            <rect stroke="#DBDEDF" stroke-width="1" x="0.5" y="0.5" width="111" height="24"></rect>
-                        </g>
-                        <g id="Oval-3">
-                            <use fill="#F1F1F2" fill-rule="evenodd" xlink:href="#path-39"></use>
-                            <circle stroke="#DBDEDF" stroke-width="1" cx="16.5" cy="12.5" r="6"></circle>
-                        </g>
-                        <rect id="Rectangle-5" stroke="#DBDEDF" stroke-width="1" x="25.5" y="7.5" width="26" height="4"></rect>
-                        <rect id="Rectangle-5-Copy-3" fill="#FD5257" fill-rule="evenodd" x="91" y="7" width="9" height="4"></rect>
-                        <rect id="Rectangle-5-Copy" stroke="#DBDEDF" stroke-width="1" x="25.5" y="14.5" width="42" height="3"></rect>
+                        <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="12 23 16 19 18 19.5 22 15 23.5 17 24.5 16.5 29 23"></polygon>
+                        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="17.5" cy="13.5" r="1.5"></circle>
+                        <rect id="Rectangle-4" fill="#DBDEDF" fill-rule="evenodd" x="5" y="34" width="100" height="1"></rect>
                     </g>
                 </g>
-                <rect id="Rectangle-6" fill="#DBDEDF" x="8" y="30" width="112" height="16"></rect>
+                <g id="Devices/iPhone/dark">
+                    <g id="Screen" stroke-width="1" fill-rule="evenodd" transform="translate(2.000000, 2.000000)">
+                        <mask id="mask-9" fill="white">
+                            <use xlink:href="#path-8"></use>
+                        </mask>
+                        <use id="Combined-Shape" fill="#393F41" xlink:href="#path-8"></use>
+                    </g>
+                    <circle id="Front-camera" fill-opacity="0.15" fill="#000000" fill-rule="evenodd" cx="66" cy="14" r="2"></circle>
+                    <rect id="Speaker" fill-opacity="0.15" fill="#000000" fill-rule="evenodd" x="53" y="19" width="26" height="3" rx="1.5"></rect>
+                    <circle id="Home" stroke="#60696D" stroke-width="1" cx="66" cy="231" r="8.5"></circle>
+                    <rect id="Rectangle-3" fill="#393F41" fill-rule="evenodd" x="90" y="1" width="15" height="2" rx="1"></rect>
+                    <rect id="Rectangle" fill="#393F41" fill-rule="evenodd" x="1" y="37" width="2" height="14" rx="1"></rect>
+                    <rect id="Rectangle-2" fill="#393F41" fill-rule="evenodd" x="1" y="57" width="2" height="9" rx="1"></rect>
+                    <rect id="Rectangle-20" fill="#393F41" fill-rule="evenodd" x="1" y="72" width="2" height="9" rx="1"></rect>
+                </g>
             </g>
         </g>
     </g>

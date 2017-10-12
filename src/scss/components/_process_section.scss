@@ -37,3 +37,15 @@
     background-color: $backgroundSectionAlt;
 }
 
+.section--data {
+    background-image: url('/images/svg/background/wave.svg'), linear-gradient(-155deg, #0089D2 0%, #0070D2 100%);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    
+    @include media(desktop) {
+        background-size: contain;
+    }
+    
+
+}
+
