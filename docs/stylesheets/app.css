@@ -310,11 +310,18 @@ p {
 
 .heading {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 28px;
   line-height: 1em;
   padding-bottom: 3px;
   letter-spacing: -1px;
-  margin-bottom: 25px; }
+  margin-bottom: 30px; }
+
+.heading--subtle {
+  text-transform: uppercase;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 5px;
+  color: #ff0000; }
 
 .anim {
   -webkit-animation-duration: 1s;
