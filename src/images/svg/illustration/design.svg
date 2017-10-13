@@ -1,0 +1,499 @@
+
+<svg width="425px" height="315px" viewBox="0 0 425 315" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid slice">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 L294,0 L294,193 L294,193 C294,195.761424 291.761424,198 289,198 L5,198 L5,198 C2.23857625,198 3.38176876e-16,195.761424 0,193 L0,0 Z" id="path-1"></path>
+        <rect id="path-2" x="0" y="0" width="9" height="37"></rect>
+        <rect id="path-4" x="0" y="0" width="9" height="37"></rect>
+        <rect id="path-6" x="0" y="0" width="9" height="37"></rect>
+        <rect id="path-8" x="0" y="0" width="9" height="37"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-139.000000, -1132.000000)">
+            <g id="2---Design" transform="translate(-1.000000, 1060.000000)">
+                <g id="Design-with-paper-and-people" transform="translate(115.000000, 70.000000)">
+                    <path d="M64.6141819,84.6730564 L358.614182,84.6730564 L358.614182,277.673056 L358.614182,277.673056 C358.614182,280.43448 356.375606,282.673056 353.614182,282.673056 L69.6141819,282.673056 L69.6141819,282.673056 C66.8527582,282.673056 64.6141819,280.43448 64.6141819,277.673056 L64.6141819,84.6730564 Z" id="Rectangle" fill-opacity="0.1" fill="#000000" fill-rule="evenodd" transform="translate(211.614182, 183.673056) rotate(-15.000000) translate(-211.614182, -183.673056) "></path>
+                    <g id="doughnuts" transform="translate(192.614182, 171.673056) rotate(-15.000000) translate(-192.614182, -171.673056) translate(45.614182, 72.673056)" stroke-width="1" fill-rule="evenodd">
+                        <g>
+                            <g id="Rectangle">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <path stroke="#DBDEDF" stroke-width="1" d="M0.5,0.5 L0.5,193 C0.5,195.485281 2.51471863,197.5 5,197.5 L289,197.5 C291.485281,197.5 293.5,195.485281 293.5,193 L293.5,0.5 L0.5,0.5 Z"></path>
+                            </g>
+                            <g id="dots" transform="translate(12.000000, 12.000000)" fill="#007550">
+                                <circle id="Oval-2" cx="3" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-90" cx="3" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-180" cx="3" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-23" cx="3" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-91" cx="3" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-181" cx="3" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-270" cx="3" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-293" cx="3" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-8" cx="99" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-92" cx="99" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-182" cx="99" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-46" cx="99" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-93" cx="99" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-183" cx="99" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-271" cx="99" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-294" cx="99" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-24" cx="93" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-94" cx="93" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-184" cx="93" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-47" cx="93" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-95" cx="93" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-185" cx="93" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-295" cx="93" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-4" cx="51" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-96" cx="51" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-186" cx="51" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-48" cx="51" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-97" cx="51" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-187" cx="51" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-272" cx="51" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-296" cx="51" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-25" cx="45" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-98" cx="45" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-188" cx="45" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-49" cx="45" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-99" cx="45" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-189" cx="45" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-297" cx="45" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-9" cx="147" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-100" cx="147" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-190" cx="147" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-50" cx="147" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-101" cx="147" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-191" cx="147" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-273" cx="147" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-298" cx="147" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-26" cx="141" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-102" cx="141" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-192" cx="141" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-51" cx="141" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-103" cx="141" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-193" cx="141" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-299" cx="141" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-16" cx="231" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-104" cx="231" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-194" cx="231" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-52" cx="231" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-105" cx="231" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-195" cx="231" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-274" cx="231" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-300" cx="231" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-27" cx="225" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-106" cx="225" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-196" cx="225" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-53" cx="225" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-107" cx="225" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-197" cx="225" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-301" cx="225" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-2" cx="27" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-108" cx="27" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-198" cx="27" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-54" cx="27" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-109" cx="27" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-199" cx="27" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-275" cx="27" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-302" cx="27" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-28" cx="21" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-110" cx="21" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-200" cx="21" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-55" cx="21" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-111" cx="21" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-201" cx="21" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-303" cx="21" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-10" cx="123" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-112" cx="123" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-202" cx="123" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-56" cx="123" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-113" cx="123" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-203" cx="123" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-276" cx="123" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-304" cx="123" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-29" cx="117" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-114" cx="117" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-204" cx="117" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-57" cx="117" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-115" cx="117" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-205" cx="117" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-305" cx="117" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-17" cx="207" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-116" cx="207" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-206" cx="207" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-58" cx="207" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-117" cx="207" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-207" cx="207" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-277" cx="207" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-306" cx="207" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-30" cx="201" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-118" cx="201" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-208" cx="201" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-59" cx="201" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-119" cx="201" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-209" cx="201" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-307" cx="201" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-5" cx="75" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-120" cx="75" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-210" cx="75" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-60" cx="75" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-121" cx="75" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-211" cx="75" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-278" cx="75" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-308" cx="75" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-31" cx="69" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-122" cx="69" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-212" cx="69" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-61" cx="69" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-123" cx="69" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-213" cx="69" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-309" cx="69" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-11" cx="171" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-124" cx="171" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-214" cx="171" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-62" cx="171" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-125" cx="171" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-215" cx="171" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-279" cx="171" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-310" cx="171" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-32" cx="165" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-126" cx="165" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-216" cx="165" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-63" cx="165" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-127" cx="165" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-217" cx="165" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-311" cx="165" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-18" cx="255" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-128" cx="255" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-218" cx="255" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-64" cx="255" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-129" cx="255" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-219" cx="255" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-280" cx="255" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-312" cx="255" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-33" cx="249" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-130" cx="249" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-220" cx="249" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-65" cx="249" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-131" cx="249" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-221" cx="249" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-313" cx="249" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy" cx="15" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-132" cx="15" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-222" cx="15" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-66" cx="15" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-133" cx="15" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-223" cx="15" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-281" cx="15" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-314" cx="15" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-34" cx="9" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-134" cx="9" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-224" cx="9" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-67" cx="9" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-135" cx="9" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-225" cx="9" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-315" cx="9" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-12" cx="111" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-136" cx="111" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-226" cx="111" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-68" cx="111" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-137" cx="111" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-227" cx="111" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-282" cx="111" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-316" cx="111" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-35" cx="105" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-138" cx="105" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-228" cx="105" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-69" cx="105" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-139" cx="105" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-229" cx="105" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-317" cx="105" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-19" cx="195" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-140" cx="195" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-230" cx="195" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-70" cx="195" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-141" cx="195" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-231" cx="195" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-283" cx="195" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-318" cx="195" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-36" cx="189" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-142" cx="189" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-232" cx="189" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-71" cx="189" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-143" cx="189" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-233" cx="189" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-319" cx="189" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-6" cx="63" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-144" cx="63" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-234" cx="63" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-72" cx="63" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-145" cx="63" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-235" cx="63" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-284" cx="63" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-320" cx="63" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-37" cx="57" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-146" cx="57" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-236" cx="57" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-73" cx="57" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-147" cx="57" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-237" cx="57" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-321" cx="57" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-13" cx="159" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-148" cx="159" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-238" cx="159" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-74" cx="159" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-149" cx="159" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-239" cx="159" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-285" cx="159" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-322" cx="159" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-38" cx="153" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-150" cx="153" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-240" cx="153" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-75" cx="153" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-151" cx="153" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-241" cx="153" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-323" cx="153" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-20" cx="243" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-152" cx="243" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-242" cx="243" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-76" cx="243" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-153" cx="243" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-243" cx="243" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-286" cx="243" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-324" cx="243" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-39" cx="237" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-154" cx="237" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-244" cx="237" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-77" cx="237" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-155" cx="237" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-245" cx="237" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-325" cx="237" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-3" cx="39" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-156" cx="39" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-246" cx="39" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-78" cx="39" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-157" cx="39" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-247" cx="39" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-287" cx="39" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-326" cx="39" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-40" cx="33" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-158" cx="33" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-248" cx="33" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-79" cx="33" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-159" cx="33" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-249" cx="33" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-327" cx="33" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-14" cx="135" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-160" cx="135" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-250" cx="135" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-80" cx="135" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-161" cx="135" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-251" cx="135" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-288" cx="135" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-328" cx="135" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-41" cx="129" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-162" cx="129" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-252" cx="129" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-81" cx="129" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-163" cx="129" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-253" cx="129" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-329" cx="129" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-21" cx="219" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-164" cx="219" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-254" cx="219" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-82" cx="219" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-165" cx="219" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-255" cx="219" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-289" cx="219" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-330" cx="219" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-42" cx="213" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-166" cx="213" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-256" cx="213" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-83" cx="213" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-167" cx="213" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-257" cx="213" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-331" cx="213" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-7" cx="87" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-168" cx="87" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-258" cx="87" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-84" cx="87" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-169" cx="87" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-259" cx="87" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-290" cx="87" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-332" cx="87" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-43" cx="81" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-170" cx="81" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-260" cx="81" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-85" cx="81" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-171" cx="81" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-261" cx="81" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-333" cx="81" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-15" cx="183" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-172" cx="183" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-262" cx="183" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-86" cx="183" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-173" cx="183" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-263" cx="183" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-291" cx="183" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-334" cx="183" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-44" cx="177" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-174" cx="177" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-264" cx="177" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-87" cx="177" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-175" cx="177" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-265" cx="177" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-335" cx="177" cy="159" r="3"></circle>
+                                <circle id="Oval-2-Copy-22" cx="267" cy="3" r="3"></circle>
+                                <circle id="Oval-2-Copy-176" cx="267" cy="51" r="3"></circle>
+                                <circle id="Oval-2-Copy-266" cx="267" cy="99" r="3"></circle>
+                                <circle id="Oval-2-Copy-88" cx="267" cy="27" r="3"></circle>
+                                <circle id="Oval-2-Copy-177" cx="267" cy="75" r="3"></circle>
+                                <circle id="Oval-2-Copy-267" cx="267" cy="123" r="3"></circle>
+                                <circle id="Oval-2-Copy-292" cx="267" cy="147" r="3"></circle>
+                                <circle id="Oval-2-Copy-336" cx="267" cy="171" r="3"></circle>
+                                <circle id="Oval-2-Copy-45" cx="261" cy="15" r="3"></circle>
+                                <circle id="Oval-2-Copy-178" cx="261" cy="63" r="3"></circle>
+                                <circle id="Oval-2-Copy-268" cx="261" cy="111" r="3"></circle>
+                                <circle id="Oval-2-Copy-89" cx="261" cy="39" r="3"></circle>
+                                <circle id="Oval-2-Copy-179" cx="261" cy="87" r="3"></circle>
+                                <circle id="Oval-2-Copy-269" cx="261" cy="135" r="3"></circle>
+                                <circle id="Oval-2-Copy-337" cx="261" cy="159" r="3"></circle>
+                            </g>
+                            <g id="logo/doughnuts" transform="translate(86.000000, 76.000000)">
+                                <g id="Krispy_Kreme_logo">
+                                    <path d="M61.640883,7.2629375 C34.1809149,4.006625 21.376266,2.631125 1.58940426,0.286125 C0.919010638,0.286125 0.321021277,0.1763125 0.417851064,1.2779375 C4.68403191,15.929375 5.30252128,18.34875 10.8501702,37.3305625 C12.0396064,40.7631875 13.9827447,41.67275 15.8652553,41.67275 C34.3933298,41.67275 43.6990213,41.67275 61.4943298,41.673625 C79.2883298,41.673625 88.5826809,41.6745 107.112064,41.6745 C108.99283,41.6745 110.937713,40.7640625 112.127149,37.3323125 C117.675234,18.349625 118.293287,15.9306875 122.559468,1.2796875 C122.655862,0.1780625 122.058745,0.287 121.387915,0.287 C101.601053,2.632 89.1017234,4.0075 61.640883,7.2629375" id="green" fill="#007550" fill-rule="nonzero"></path>
+                                    <path d="M61.4829894,9.31 C86.2552766,6.5235625 101.007426,4.6335625 118.761734,2.583875 C119.399851,2.52 119.974723,2.1669375 119.676819,3.2064375 C117.229032,11.8724375 116.467479,14.573125 112.029447,29.915375 C111.166266,32.7026875 109.901372,32.35575 107.927266,32.3649375 C91.2520426,32.3649375 79.5958298,32.3588125 61.4834255,32.3553125 C43.3701489,32.35925 31.7252766,32.363625 15.0509255,32.363625 C13.0768191,32.3544375 11.810617,32.701375 10.9487447,29.9158125 C6.50940426,14.571375 5.74785106,11.871125 3.29962766,3.2055625 C3.00259574,2.1665 3.57746809,2.5178125 4.21645745,2.582125 C21.9690213,4.6326875 36.710266,6.5226875 61.4829894,9.31" id="white" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                    <path d="M38.8802128,11.4205 C48.3254787,11.41875 59.8237979,11.417875 60.3184149,11.4235625 C61.8144787,11.4375625 62.4931596,10.75725 62.765766,10.5135625 C63.0392447,10.2694375 63.3506702,10.2816875 63.342383,10.5660625 C63.339766,10.6885625 61.722883,14.448875 59.4835851,14.443625 C58.1118298,14.4414375 47.8012021,14.4396875 38.8632021,14.4396875 C39.2064681,14.028875 39.4127766,13.4981875 39.4127766,12.921125 C39.4132128,12.352375 39.2134468,11.8286875 38.8802128,11.4205 L38.8802128,11.4205 Z M47.0261277,20.36125 C46.8516596,20.712125 45.4895,24.1058125 45.4895,24.1058125 C45.1235532,25.0438125 45.6596064,25.52025 46.0530319,25.6204375 C46.9336596,25.84575 47.7820106,25.193875 48.6975319,22.7784375 C50.1508511,18.9424375 47.4688404,19.4735625 47.0261277,20.36125 Z M37.4033404,23.5003125 C38.7070532,24.082625 38.1832128,25.9 37.2720532,26.1205 C36.8520213,26.45125 38.6119681,27.31575 39.385734,25.5373125 C40.1743298,23.72475 39.1685213,21.9625 39.0503191,21.5341875 C38.7336596,21.7975625 38.1840851,22.4791875 37.4033404,23.5003125 Z M48.3856702,26.446875 C50.5865851,25.7621875 52.4533936,22.8720625 52.8363511,21.9130625 C53.6833936,19.64375 54.4048191,17.884125 54.4048191,17.884125 L57.0388511,17.8775625 C57.0388511,17.8775625 55.1554681,22.39825 54.3446277,24.6925 C53.569117,26.8835 55.7543298,25.0420625 56.6401915,22.6095625 C57.4148298,20.516125 58.4062447,17.9585 58.4062447,17.9585 L61.1375426,17.9536875 C61.1375426,17.9536875 57.9678936,25.8934375 57.6412021,26.581625 C58.6618404,26.303375 59.9411277,27.0913125 59.8168191,27.47325 C59.3697447,28.8395625 59.096266,26.7973125 57.2172447,27.386625 C56.1822128,29.90225 53.879234,32.099375 52.0708723,31.8276875 C49.7286383,31.47725 51.0951596,28.2734375 55.0446809,27.1140625 L55.3879468,26.1568125 C53.3580106,27.8481875 51.4030957,26.82225 51.8654362,24.8311875 C50.1617553,26.908875 48.1601702,27.204625 46.8874255,27.1123125 C45.9300319,27.2558125 45.1126489,26.8428125 44.687383,26.2084375 C44.039234,27.9129375 43.1542447,30.1013125 43.1542447,30.1013125 L40.5372234,30.1013125 L41.8745213,26.6735 C40.7531277,27.3363125 39.6513617,27.4649375 38.7934149,27.4325625 C37.0618191,27.9085625 35.9966915,26.747875 35.6909362,25.9 C33.7587021,28.4676875 31.6240851,27.54675 31.3331596,25.970875 C30.5083617,26.830125 29.6050532,27.4754375 28.7863617,27.4448125 C26.7935,27.3713125 27.2815745,24.3796875 27.6274574,23.3778125 C28.5290213,20.769875 29.5064787,19.7264375 27.6793617,19.6686875 C27.3749149,19.6590625 25.1835957,28.189 21.1991809,28.56 C17.5074362,28.90125 18.9293511,25.9529375 19.541734,24.2668125 C20.5209362,21.566125 21.5598936,20.2181875 21.0386702,19.212375 C20.6347766,18.4305625 18.3946064,20.0475625 17.7076383,21.7713125 C16.8200319,23.9925 15.0278085,28.632625 15.0278085,28.632625 L11.5724681,28.707 C11.5724681,28.707 14.4228404,21.4773125 17.1925213,14.202125 C18.0958298,11.83175 16.7179681,11.762625 15.6397553,11.8260625 C14.7512766,11.879 15.1006489,11.0893125 15.7518511,11.0394375 C19.0697979,10.7856875 20.2740638,10.8355625 20.6735957,11.0971875 C21.3553298,11.5434375 21.3239255,12.4630625 21.2009255,12.6765625 C20.5915957,14.268625 19.4702021,17.0883125 19.3192872,17.532375 C18.8351383,18.956875 19.838766,17.58925 20.133617,17.2186875 C20.4284681,16.8494375 22.5199043,14.49 22.9355745,13.93175 C23.3686915,13.3511875 25.2865319,11.4226875 26.5714894,11.4226875 L35.2211809,11.4218125 C34.888383,11.83 34.6881809,12.3528125 34.6881809,12.9215625 C34.6881809,13.4995 34.8953617,14.028875 35.2377553,14.440125 C29.8637021,14.441 25.6520426,14.441875 25.3497766,14.4440625 C24.6811277,14.4475625 23.1833191,15.274875 22.0488404,16.6438125 C21.0722553,17.826375 22.3454362,17.397625 22.3454362,17.397625 C24.2497553,17.213875 26.0232234,16.78425 22.983117,23.452625 C20.0756064,29.8326875 24.4159362,26.8454375 26.9544468,19.12575 C27.0460426,18.844875 26.3023723,18.479125 26.2779468,17.9501875 C26.2443617,17.27425 26.0432872,16.4959375 27.2235638,16.4959375 C28.4042766,16.4959375 28.0143404,17.696875 29.012734,18.0026875 C31.034383,18.6235 32.1339681,17.987375 31.072766,20.566 C30.0564894,23.0383125 28.9333511,26.1130625 30.2619255,25.7429375 C30.8996064,25.5653125 31.267734,25.09675 31.5041383,24.66625 C32.9068617,20.83375 34.1085106,17.871 34.1085106,17.871 L36.7176809,17.871 C36.7176809,17.871 35.7480745,20.3258125 33.8699255,25.0788125 C33.2117447,26.742625 34.5237447,25.808125 35.4972766,24.7393125 C35.6102447,23.862125 36.2623191,23.53225 36.4590319,23.5003125 C37.4923191,22.0031875 40.8054681,17.304875 40.8054681,17.304875 C40.8054681,17.304875 41.0584468,17.4890625 40.8460319,17.8250625 C40.5620851,18.2721875 41.0902872,20.489 41.3223298,21.1920625 C41.6900213,22.3129375 42.2810319,25.0788125 40.7313191,26.3493125 C40.4198936,26.60525 40.1206809,26.814375 39.8358617,26.9801875 C40.7640319,26.8060625 41.5325638,26.4193125 42.1628298,25.93675 L45.307617,17.877125 L47.9010851,17.877125 C47.9010851,17.877125 47.7889894,18.1234375 47.6415638,18.503625 C48.3869787,17.93225 49.3116596,17.6273125 50.0217447,17.81675 C50.7457872,18.008375 53.1407979,18.1951875 50.447883,23.7304375 C49.8067128,25.045125 49.092266,25.914 48.3856702,26.446875 Z M52.6514149,30.218125 C53.5019468,29.659 54.0912128,29.05525 54.6098191,28.0958125 C53.9756277,28.2314375 52.8904362,28.82775 52.3260319,29.358875 C51.5893404,30.0523125 51.9500532,30.67925 52.6514149,30.218125 Z M35.6311809,12.9215625 C35.6311809,12.1349375 36.2666809,11.49925 37.0496064,11.49925 C37.8325319,11.49925 38.4680319,12.1358125 38.4680319,12.9215625 C38.4680319,13.706 37.8329681,14.3434375 37.0496064,14.3434375 C36.2662447,14.3434375 35.6311809,13.706 35.6311809,12.9215625 Z M83.5867872,22.768375 C84.9171064,22.7968125 86.5182872,21.9874375 86.8672234,21.38325 C87.2157234,20.7790625 87.1742872,19.595625 86.2866809,19.551875 C85.5360319,19.5155625 84.0460745,20.20375 83.5867872,22.768375 Z M110.040074,25.011875 C107.464926,28.504875 103.660213,28.06475 102.757777,24.8425625 C102.130564,26.1183125 101.220277,27.3748125 99.5484362,27.5226875 C97.541617,27.6994375 97.3353085,25.7096875 97.556883,24.6001875 C97.7775851,23.489375 98.1225957,23.0453125 98.9321277,20.7510625 C99.5030745,19.1345 97.8242553,19.9600625 96.8694787,21.51975 C96.1820745,23.38 94.6266915,27.5314375 94.6266915,27.5314375 C94.6266915,27.5314375 93.8228298,27.4710625 92.029734,27.4483125 C92.2513085,26.3388125 93.7329787,23.079 94.5446915,20.7851875 C95.1243617,19.1445625 93.3857872,20.01825 92.4401702,21.6234375 C92.4109468,21.6759375 92.3799787,21.725375 92.3494468,21.7721875 L90.0298936,27.531875 L87.3204043,27.531875 L88.1700638,25.3798125 C87.8992021,25.6764375 87.5886489,25.960375 87.2235745,26.2189375 C83.7494787,28.6820625 82.0955213,26.900125 81.5555426,25.1531875 C80.562383,26.3816875 79.3563723,27.4855 78.2908085,27.4456875 C76.2992553,27.3713125 76.787766,24.3805625 77.1327766,23.38 C78.0330319,20.769875 79.0117979,19.7273125 77.1846809,19.6695625 C76.880234,19.6599375 74.6880426,28.189 70.7045,28.56 C67.0127553,28.90125 68.4337979,25.9546875 69.0457447,24.2668125 C70.0249468,21.567875 71.0652128,20.2181875 70.5439894,19.212375 C70.1387872,18.4314375 67.8999255,20.0484375 67.2120851,21.7713125 C66.3253511,23.9925 64.5318191,28.6348125 64.5318191,28.6348125 L61.0773511,28.707 C61.0773511,28.707 63.9277234,21.4781875 66.6982766,14.203 C67.6015851,11.83175 66.2237234,11.7639375 65.1455106,11.8269375 C64.2565957,11.879 64.6059681,11.0893125 65.256734,11.0394375 C68.575117,10.7865625 69.779383,10.8364375 70.1784787,11.0971875 C70.8593404,11.543875 70.8283723,12.4639375 70.7058085,12.6774375 C70.0964787,14.2695 68.9750851,17.0891875 68.8241702,17.532375 C68.3413298,18.95775 69.3436489,17.58925 69.6393723,17.2186875 C69.9350957,16.8494375 72.0239149,14.490875 72.4404574,13.932625 C72.8735745,13.3520625 74.7922872,11.424 76.0776809,11.424 C77.2060532,11.424 108.995447,11.41525 109.826351,11.424 C111.321106,11.438875 111.999787,10.7585625 112.273266,10.514875 C112.545872,10.2711875 112.857734,10.282125 112.850319,10.567375 C112.847702,10.689 111.229511,14.4493125 108.990649,14.4449375 C106.545479,14.440125 75.6934149,14.43925 74.8542234,14.4449375 C74.1877553,14.4484375 72.687766,15.27575 71.5541596,16.6446875 C70.576266,17.82725 71.849883,17.397625 71.849883,17.397625 C73.7546383,17.21475 75.5267979,16.7855625 72.4888723,23.452625 C69.5800532,29.8326875 73.9212553,26.8454375 76.459766,19.12575 C76.552234,18.844875 75.8085638,18.479125 75.7828298,17.9510625 C75.750117,17.27425 75.5481702,16.4968125 76.7284468,16.4968125 C77.9095957,16.4968125 77.5192234,17.6973125 78.517617,18.0035625 C80.5405745,18.6239375 81.6397234,17.9878125 80.5785213,20.566875 C79.5622447,23.0383125 78.4395426,26.1139375 79.7672447,25.743375 C80.8428404,25.44325 81.1525213,24.318 81.3496702,23.9413125 C81.3470532,23.835 81.3479255,23.7356875 81.3553404,23.6438125 C81.5389681,21.08925 83.0324149,18.8908125 84.3034149,18.33475 C87.3487553,16.9999375 88.5220532,18.701375 88.4221702,20.3231875 C88.3004787,22.3120625 86.0781915,23.6438125 83.5684681,23.7164375 C83.5235426,23.681 83.5165638,23.70725 83.5684681,24.087 C83.9618936,26.9390625 87.1995851,25.3855 88.9276915,23.463125 L91.1525957,17.836875 L93.9414681,17.822 L93.2636596,19.5068125 C95.3236915,17.0314375 97.5472872,17.7261875 97.3588617,19.8445625 L97.439117,19.737375 C99.8009787,16.629375 102.496947,17.8189375 101.571394,20.626375 C101.435309,21.0385 100.093649,24.8653125 100.093649,24.8653125 C100.093649,24.8653125 99.6784149,26.15025 100.489691,26.15025 C101.190181,26.15025 102.148447,24.910375 102.575894,23.7444375 L102.569787,23.6438125 C102.442862,21.10675 104.008713,18.9175 105.272298,18.365375 C108.302809,17.038875 109.596926,18.7306875 109.588202,20.3424375 C109.577734,22.3199375 107.387287,23.6438125 104.831766,23.7181875 C104.783351,23.681 104.777245,23.7085625 104.853138,24.08525 C105.529638,27.475875 108.914755,25.249875 109.413734,24.6404375 C110.672521,23.0969375 110.630213,24.2134375 110.040074,25.011875 Z M104.795564,22.7749375 C106.152926,22.8025 107.741894,21.998375 108.062043,21.39725 C108.383064,20.7956875 108.272713,19.6196875 107.365043,19.5759375 C106.598255,19.5405 105.116585,20.22475 104.795564,22.7749375 Z" id="Shape" fill="#CE1041" fill-rule="nonzero"></path>
+                                    <path d="M52.0272553,36.50675 L52.0272553,37.4784375 L52.9227128,37.4784375 C52.8725532,38.0279375 52.4638617,38.304875 51.9286809,38.304875 C51.1178404,38.304875 50.6768723,37.5545625 50.6768723,36.8160625 C50.6768723,36.09025 51.0986489,35.315 51.9103617,35.315 C52.4080319,35.315 52.767,35.6173125 52.9353617,36.0723125 L54.1051702,35.578375 C53.6964787,34.6885 52.9423404,34.2475 51.9666277,34.2475 C50.4387234,34.2475 49.3945319,35.263375 49.3945319,36.8090625 C49.3945319,38.3044375 50.4317447,39.3194375 51.9225745,39.3194375 C52.7155319,39.3194375 53.4142766,39.036375 53.879234,38.3866875 C54.3010106,37.793 54.3511702,37.2010625 54.363383,36.5063125 L52.0272553,36.5063125" id="g" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                    <polyline id="t" fill="#FFFFFF" fill-rule="nonzero" points="95.8959468 35.4528125 97.2820957 35.4528125 97.2820957 34.4054375 93.2405426 34.4054375 93.2405426 35.4528125 94.6266915 35.4528125 94.6266915 39.164125 95.8959468 39.164125 95.8959468 35.4528125"></polyline>
+                                    <path d="M17.9658511,35.4519375 L18.2563404,35.4519375 C19.0484255,35.4519375 19.6089043,35.93275 19.6089043,36.7836875 C19.6089043,37.7120625 18.9790745,38.1154375 18.2432553,38.1154375 L17.9658511,38.1154375 L17.9658511,35.4519375 L17.9658511,35.4519375 Z M16.7327979,39.162375 L18.4818404,39.162375 C19.7964574,39.162375 20.892117,38.1215625 20.892117,36.7836875 C20.892117,35.4466875 19.8034362,34.405 18.4831489,34.405 L16.7327979,34.405 L16.7327979,39.162375 L16.7327979,39.162375 Z" id="d" fill="#FFFFFF"></path>
+                                    <path d="M29.7101702,35.4466875 C30.4459894,35.4466875 31.0500851,36.045625 31.0500851,36.701875 C31.0500851,37.5221875 30.4459894,38.121125 29.7101702,38.121125 C28.9743511,38.121125 28.369383,37.5221875 28.369383,36.701875 C28.369383,36.0460625 28.9743511,35.4466875 29.7101702,35.4466875 L29.7101702,35.4466875 Z M29.7101702,34.2475 C28.3445213,34.2475 27.0866064,35.25725 27.0866064,36.6953125 C27.0866064,38.23575 28.1875,39.319875 29.7101702,39.319875 C31.2328404,39.319875 32.3328617,38.23575 32.3328617,36.6953125 C32.333734,35.25725 31.0749468,34.2475 29.7101702,34.2475 Z" id="o" fill="#FFFFFF"></path>
+                                    <path d="M41.7218617,34.3398125 L41.7218617,36.8449375 C41.7218617,37.4635625 41.6773723,38.1395 40.8857234,38.1395 C40.0936383,38.1395 40.0487128,37.4635625 40.0487128,36.8449375 L40.0487128,34.3398125 L38.8160957,34.3398125 L38.8160957,37.0155625 C38.8160957,37.627625 38.8418298,38.2326875 39.3128936,38.6929375 C39.7098085,39.0845 40.3317872,39.2231875 40.8857234,39.2231875 C41.4396596,39.2231875 42.0616383,39.0845 42.4585532,38.6938125 C42.929617,38.2326875 42.9553511,37.627625 42.9553511,37.0155625 L42.9553511,34.3398125 L41.7218617,34.3398125" id="u" fill="#FFFFFF"></path>
+                                    <polyline id="h" fill="#FFFFFF" points="62.0604787 36.2411875 62.0604787 34.4054375 60.8274255 34.4054375 60.8274255 39.164125 62.0604787 39.164125 62.0604787 37.2141875 63.8400532 37.2141875 63.8400532 39.164125 65.0731064 39.164125 65.0731064 34.4054375 63.8400532 34.4054375 63.8400532 36.2411875 62.0604787 36.2411875"></polyline>
+                                    <polyline id="n" fill="#FFFFFF" points="71.7770426 39.164125 73.0096596 39.164125 73.0096596 36.2490625 73.0227447 36.2490625 75.281234 39.164125 76.5142872 39.164125 76.5142872 34.4054375 75.281234 34.4054375 75.281234 37.3148125 75.2677128 37.3148125 73.0096596 34.4054375 71.7770426 34.4054375 71.7770426 39.164125"></polyline>
+                                    <path d="M86.0982553,34.4054375 L86.0982553,36.9114375 C86.0982553,37.5291875 86.0546383,38.205125 85.262117,38.205125 C84.4700319,38.205125 84.4246702,37.5291875 84.4246702,36.9114375 L84.4246702,34.4054375 L83.1924894,34.4054375 L83.1924894,37.0811875 C83.1924894,37.69325 83.2173511,38.29875 83.6892872,38.759875 C84.0862021,39.151 84.7081809,39.2896875 85.262117,39.2896875 C85.8160532,39.2896875 86.4375957,39.151 86.8345106,38.759875 C87.3055745,38.29875 87.3313085,37.69325 87.3313085,37.0811875 L87.3313085,34.4054375 L86.0982553,34.4054375" id="u" fill="#FFFFFF"></path>
+                                    <path d="M106.354436,34.6705625 C105.934404,34.4308125 105.348628,34.2794375 104.871457,34.2794375 C103.921479,34.2794375 103.235819,34.9111875 103.235819,35.8754375 C103.235819,36.796375 103.743957,36.9980625 104.518596,37.2194375 C104.782043,37.2946875 105.266628,37.415 105.266628,37.7636875 C105.266628,38.0961875 104.957819,38.2414375 104.669511,38.2414375 C104.247734,38.2414375 103.883532,38.0209375 103.575596,37.7496875 L103.046957,38.745875 C103.530234,39.087125 104.116011,39.2888125 104.713564,39.2888125 C105.192479,39.2888125 105.68884,39.15625 106.059585,38.84125 C106.437745,38.51925 106.551149,38.0340625 106.551149,37.5598125 C106.551149,36.79025 106.039957,36.456 105.380904,36.260875 L105.065989,36.1650625 C104.85183,36.0955 104.51816,35.9883125 104.51816,35.711375 C104.51816,35.44625 104.819553,35.314125 105.046362,35.314125 C105.348191,35.314125 105.637372,35.4396875 105.863309,35.629125 L106.354436,34.6705625" id="s" fill="#FFFFFF"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="post-it" stroke-width="1" fill-rule="evenodd" transform="translate(283.000000, 158.000000)">
+                        <polygon id="Fill-1" fill-opacity="0.1" fill="#000000" points="2.15019231 0.00828571429 0 44.0002857 44.8448077 41.5637143"></polygon>
+                        <polygon id="Fill-4" fill="#F9EB77" points="2.7848318 42 44.0002308 42 43.9939858 0.0957503447 2.00023077 0"></polygon>
+                        <text id="Help-yourself" transform="translate(22.010773, 17.444985) rotate(-15.000000) translate(-22.010773, -17.444985) " font-family="BrushScriptMT, Brush Script MT" font-size="14" font-style="italic" font-weight="normal" line-spacing="12" fill="#CF3922">
+                            <tspan x="8.94675751" y="16.5656699">Help</tspan>
+                            <tspan x="2.67478485" y="28.5656699">yourself</tspan>
+                        </text>
+                    </g>
+                    <g id="sharpie/small" transform="translate(429.000000, 232.000000)" stroke-width="1" fill-rule="evenodd">
+                        <g id="sharpie">
+                            <rect id="Barrel" fill="#DBDEDF" fill-rule="nonzero" x="2.62567745e-14" y="18" width="9" height="37.9634778"></rect>
+                            <path d="M0,55.9634778 L9,55.9634778 C8.84502164,55.9634778 9,56.1304225 9,55.9634778 L9,76.0504343 C9,77.1287545 8.22510822,77.9634778 7.2,77.9634778 L1.8,77.9634778 C0.774891779,77.9634778 1.17061226e-16,77.1287545 0,76.0504343 L0,55.9634778 C-2.34122452e-17,56.1304225 0.154978356,55.9634778 0,55.9634778 L0,55.9634778 Z" id="Cap" fill="#4F575A" fill-rule="nonzero"></path>
+                            <rect id="Cap-thing" fill="#393F41" fill-rule="nonzero" x="3" y="61" width="3" height="19" rx="1"></rect>
+                            <path d="M2.62567745e-14,19 L2.62567745e-14,17 C2.62567745e-14,15.8148434 1.4019375,5.69879518 2,6 L3,6 L3,3 L6,3 L6,6 L7,6 C7.5980625,5.69879518 9,15.8148434 9,17 L9,19 L2.62567745e-14,19 Z" id="Top" fill="#4F575A"></path>
+                            <path d="M3,1 C3,0.833333333 4.28957143,0 5,0 L6,0 L6,3 L3,3 L3,1 Z" id="Nib" fill="#393F41" fill-rule="nonzero"></path>
+                        </g>
+                        <g id="Group-2" transform="translate(0.000000, 19.000000)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g mask="url(#mask-3)" id="Shape" fill-rule="nonzero" fill="#0C0E0F">
+                                <g transform="translate(0.803030, 19.000000) rotate(90.000000) translate(-0.803030, -19.000000) translate(-12.196970, 14.500000)">
+                                    <path d="M5.94979911,0.0135900687 C6.70784217,-0.0512855293 8.13728236,0.100236002 8.18053276,0.81488353 C8.24555349,1.87611479 6.8161133,2.52588672 6.36125844,2.72080378 C5.94979911,2.82907492 5.58144504,2.56928225 5.86300804,2.20092819 C7.1409267,1.35623919 7.81232383,1.20471766 7.4441149,0.901384327 C6.5561755,0.208361999 3.11254392,1.24796806 2.98264759,1.91936519 C2.91762686,2.30919932 3.48075286,2.59076232 4.62863005,3.02384685 C6.18811171,3.60859804 7.79069863,4.36664111 7.0976763,5.7744561 C6.46967471,7.07385482 4.54212925,7.44206375 3.26421059,7.63712595 C2.28962526,7.81027268 0.275433877,7.59373042 0.0803716757,7.22552149 C-0.0495246561,7.07385482 -0.0278994567,6.72741623 0.188787944,6.68416583 C0.621872473,6.61929023 1.5748326,7.26891702 3.84896179,6.81420729 C4.47710852,6.68416583 6.10146577,6.05587396 6.31800804,5.3631419 C6.64282144,4.17186918 2.54941793,3.84705578 2.22460453,2.50426152 C1.8131452,0.771633131 4.86694265,0.100236002 5.94979911,0.0135900687 Z"></path>
+                                    <path d="M9.58623082,0.121921498 C9.78114788,0.381859297 9.26141742,2.72086408 9.26141742,2.72086408 C9.93281455,2.67761368 10.6258369,2.41767588 10.8425243,3.00242708 C11.1024621,3.73869981 10.0412308,5.42793266 10.3227938,5.99120379 C11.5789421,5.86116233 11.0590665,4.0851384 12.033797,2.98065675 C12.7051941,2.20098848 13.6363839,2.20098848 13.8963217,3.19719901 C14.6543648,3.34872054 13.2032994,5.55797413 13.7446551,5.79614159 C14.1562595,5.99120379 14.4376774,5.4713282 14.6327396,4.97322293 C14.7410107,4.64840954 14.9791782,3.93361687 14.9141575,3.58703314 C14.5677189,3.52201241 14.3511766,3.30547014 14.4810729,2.98065675 C14.5244685,2.85061528 14.9141575,2.76411448 15.1526152,2.76411448 C15.4990538,2.15759295 15.4340331,2.00607142 15.8456375,1.96282102 C16.083805,1.94119582 15.9539087,2.43930108 15.9539087,2.67746855 C16.6685562,2.54757222 17.0582452,2.39590555 17.1665163,3.06730268 C17.2747874,4.25857541 16.191931,5.23316073 16.6035354,5.83953713 C16.6900362,5.81805706 17.4913297,5.6663904 17.9029342,4.0851384 C18.2277476,2.76411448 18.5527061,1.16138242 18.9857906,2.00607142 C19.1374573,2.28763442 18.834124,2.56919742 18.8989996,2.85076041 C18.9207699,2.85076041 19.9602308,1.81115435 20.4802516,2.63421815 C20.5670426,2.80751001 20.7835849,3.93376201 20.3503552,5.05972373 C20.2420841,5.3848274 19.8519597,6.42428832 19.3323744,6.57595499 C18.6823122,6.77072692 18.1409565,5.90441273 18.8773744,5.16828513 C19.2241032,4.99484813 18.9207699,5.53620379 19.0074158,5.75274606 C19.41873,6.74910172 20.4150857,3.34886568 19.87373,3.15394861 C19.41873,3.08892788 19.1807077,3.47876201 18.9640203,3.86859614 C18.0543106,5.3848274 18.270998,8.11352118 17.9242691,8.17868705 C17.2530171,8.33006344 17.2530171,7.89697891 17.534435,6.05607939 C17.2744972,6.12095499 16.408183,7.11731065 15.9102228,6.22922612 C15.4121176,5.40630746 16.9496838,3.45699167 16.4083281,3.30547014 C16.2566614,3.26207461 16.0618895,3.34872054 15.931848,3.41374127 C15.6719102,3.50038721 15.5854094,4.79993107 14.9357827,5.86101719 C14.4807827,6.70570619 13.5495929,6.98726919 13.1813839,6.12095499 C12.4233409,6.74910172 11.5354015,7.11731065 11.3621096,6.12095499 C10.842234,6.25099646 10.2574828,7.24720698 9.60785602,6.57595499 C9.04473002,5.99120379 9.88941902,4.9514526 10.1059613,3.43551161 C9.88941902,3.30547014 9.10975076,3.43551161 8.97985442,3.69544941 C8.84981296,3.95538721 8.74154182,6.59758019 8.32993736,6.83603793 C7.35535203,7.39901879 8.00512396,5.23330587 8.17841583,3.99878274 C7.8102069,3.78224048 7.37712237,3.73884494 7.61528983,3.26236488 C7.68016543,3.13246855 8.20004103,3.19748928 8.35156256,2.98094702 C8.71977149,2.41782102 8.74154182,0.68519263 9.10960562,0.122066634 C9.17477149,-0.0513703679 9.47795969,-0.029600033 9.58623082,0.121921498 Z M12.1635482,5.8830778 C12.8781957,5.77480667 12.8565705,4.86509694 13.4847173,3.24073968 C13.3331957,3.17571895 13.2465498,3.11069821 13.1165083,3.15409375 C12.4018608,3.34901081 11.7086933,5.25478593 12.1635482,5.8830778 L12.1635482,5.8830778 Z M21.952797,1.44309056 C22.0828385,1.09650683 22.3861718,0.90158976 22.6243393,0.966610493 C22.8625067,1.05325643 22.9491527,1.37806982 22.797486,1.72465356 C22.6675897,2.04946695 22.3644015,2.26600922 22.126234,2.17950842 C21.8879214,2.11448769 21.8014206,1.76790395 21.952797,1.44309056 L21.952797,1.44309056 Z M23.6423201,2.33102995 C24.4221335,2.11448769 24.8768433,3.08907301 24.4221335,4.3667014 C23.9456535,5.57959933 22.9276726,5.77466153 23.2307157,6.2078912 C23.5121335,6.61949566 24.205301,6.74924686 24.6169055,6.42443346 C24.8983233,6.2078912 24.8983233,5.86116233 25.2016567,5.31980667 C25.8080331,5.16843027 25.4181989,6.74939199 24.7685721,7.07420539 C24.0755498,7.42064399 22.9926933,7.16099646 22.6459645,6.40266312 C22.1912547,6.40266312 21.2382946,6.87914319 20.8266901,6.2078912 C20.5018768,5.73141113 20.5670426,5.2767014 20.9134812,4.21532501 C21.1948991,3.39226121 21.7147747,2.46092628 22.0397332,2.50417668 C22.7543807,2.56919742 21.5850235,3.73869981 21.3684812,5.10311927 C21.2602101,5.77466153 21.6498991,5.81805706 22.299671,5.7528912 C22.2128799,5.4280778 22.1265243,5.05986887 22.1913999,4.54028354 C22.2995259,3.71707461 22.7542356,2.56934255 23.6423201,2.33102995 L23.6423201,2.33102995 Z M22.9925482,5.1465148 C23.923738,4.2802006 23.9022579,3.34886568 23.7938417,3.17557381 C23.7070506,3.15394861 23.6638002,3.15394861 23.5987795,3.17557381 C23.2090905,3.32724048 22.7542356,4.69195021 22.9925482,5.1465148 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="sharpie/small" transform="translate(192.801719, 19.699428) rotate(-105.000000) translate(-192.801719, -19.699428) translate(188.301719, -20.300572)" stroke-width="1" fill-rule="evenodd">
+                        <g id="sharpie">
+                            <rect id="Barrel" fill="#DBDEDF" fill-rule="nonzero" x="2.62567745e-14" y="18" width="9" height="37.9634778"></rect>
+                            <path d="M0,55.9634778 L9,55.9634778 C8.84502164,55.9634778 9,56.1304225 9,55.9634778 L9,76.0504343 C9,77.1287545 8.22510822,77.9634778 7.2,77.9634778 L1.8,77.9634778 C0.774891779,77.9634778 1.17061226e-16,77.1287545 0,76.0504343 L0,55.9634778 C-2.34122452e-17,56.1304225 0.154978356,55.9634778 0,55.9634778 L0,55.9634778 Z" id="Cap" fill="#4F575A" fill-rule="nonzero"></path>
+                            <rect id="Cap-thing" fill="#393F41" fill-rule="nonzero" x="3" y="61" width="3" height="19" rx="1"></rect>
+                            <path d="M2.62567745e-14,19 L2.62567745e-14,17 C2.62567745e-14,15.8148434 1.4019375,5.69879518 2,6 L3,6 L3,3 L6,3 L6,6 L7,6 C7.5980625,5.69879518 9,15.8148434 9,17 L9,19 L2.62567745e-14,19 Z" id="Top" fill="#4F575A"></path>
+                            <path d="M3,1 C3,0.833333333 4.28957143,0 5,0 L6,0 L6,3 L3,3 L3,1 Z" id="Nib" fill="#393F41" fill-rule="nonzero"></path>
+                        </g>
+                        <g id="Group-2" transform="translate(0.000000, 19.000000)">
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g mask="url(#mask-5)" id="Shape" fill-rule="nonzero" fill="#0C0E0F">
+                                <g transform="translate(0.803030, 19.000000) rotate(90.000000) translate(-0.803030, -19.000000) translate(-12.196970, 14.500000)">
+                                    <path d="M5.94979911,0.0135900687 C6.70784217,-0.0512855293 8.13728236,0.100236002 8.18053276,0.81488353 C8.24555349,1.87611479 6.8161133,2.52588672 6.36125844,2.72080378 C5.94979911,2.82907492 5.58144504,2.56928225 5.86300804,2.20092819 C7.1409267,1.35623919 7.81232383,1.20471766 7.4441149,0.901384327 C6.5561755,0.208361999 3.11254392,1.24796806 2.98264759,1.91936519 C2.91762686,2.30919932 3.48075286,2.59076232 4.62863005,3.02384685 C6.18811171,3.60859804 7.79069863,4.36664111 7.0976763,5.7744561 C6.46967471,7.07385482 4.54212925,7.44206375 3.26421059,7.63712595 C2.28962526,7.81027268 0.275433877,7.59373042 0.0803716757,7.22552149 C-0.0495246561,7.07385482 -0.0278994567,6.72741623 0.188787944,6.68416583 C0.621872473,6.61929023 1.5748326,7.26891702 3.84896179,6.81420729 C4.47710852,6.68416583 6.10146577,6.05587396 6.31800804,5.3631419 C6.64282144,4.17186918 2.54941793,3.84705578 2.22460453,2.50426152 C1.8131452,0.771633131 4.86694265,0.100236002 5.94979911,0.0135900687 Z"></path>
+                                    <path d="M9.58623082,0.121921498 C9.78114788,0.381859297 9.26141742,2.72086408 9.26141742,2.72086408 C9.93281455,2.67761368 10.6258369,2.41767588 10.8425243,3.00242708 C11.1024621,3.73869981 10.0412308,5.42793266 10.3227938,5.99120379 C11.5789421,5.86116233 11.0590665,4.0851384 12.033797,2.98065675 C12.7051941,2.20098848 13.6363839,2.20098848 13.8963217,3.19719901 C14.6543648,3.34872054 13.2032994,5.55797413 13.7446551,5.79614159 C14.1562595,5.99120379 14.4376774,5.4713282 14.6327396,4.97322293 C14.7410107,4.64840954 14.9791782,3.93361687 14.9141575,3.58703314 C14.5677189,3.52201241 14.3511766,3.30547014 14.4810729,2.98065675 C14.5244685,2.85061528 14.9141575,2.76411448 15.1526152,2.76411448 C15.4990538,2.15759295 15.4340331,2.00607142 15.8456375,1.96282102 C16.083805,1.94119582 15.9539087,2.43930108 15.9539087,2.67746855 C16.6685562,2.54757222 17.0582452,2.39590555 17.1665163,3.06730268 C17.2747874,4.25857541 16.191931,5.23316073 16.6035354,5.83953713 C16.6900362,5.81805706 17.4913297,5.6663904 17.9029342,4.0851384 C18.2277476,2.76411448 18.5527061,1.16138242 18.9857906,2.00607142 C19.1374573,2.28763442 18.834124,2.56919742 18.8989996,2.85076041 C18.9207699,2.85076041 19.9602308,1.81115435 20.4802516,2.63421815 C20.5670426,2.80751001 20.7835849,3.93376201 20.3503552,5.05972373 C20.2420841,5.3848274 19.8519597,6.42428832 19.3323744,6.57595499 C18.6823122,6.77072692 18.1409565,5.90441273 18.8773744,5.16828513 C19.2241032,4.99484813 18.9207699,5.53620379 19.0074158,5.75274606 C19.41873,6.74910172 20.4150857,3.34886568 19.87373,3.15394861 C19.41873,3.08892788 19.1807077,3.47876201 18.9640203,3.86859614 C18.0543106,5.3848274 18.270998,8.11352118 17.9242691,8.17868705 C17.2530171,8.33006344 17.2530171,7.89697891 17.534435,6.05607939 C17.2744972,6.12095499 16.408183,7.11731065 15.9102228,6.22922612 C15.4121176,5.40630746 16.9496838,3.45699167 16.4083281,3.30547014 C16.2566614,3.26207461 16.0618895,3.34872054 15.931848,3.41374127 C15.6719102,3.50038721 15.5854094,4.79993107 14.9357827,5.86101719 C14.4807827,6.70570619 13.5495929,6.98726919 13.1813839,6.12095499 C12.4233409,6.74910172 11.5354015,7.11731065 11.3621096,6.12095499 C10.842234,6.25099646 10.2574828,7.24720698 9.60785602,6.57595499 C9.04473002,5.99120379 9.88941902,4.9514526 10.1059613,3.43551161 C9.88941902,3.30547014 9.10975076,3.43551161 8.97985442,3.69544941 C8.84981296,3.95538721 8.74154182,6.59758019 8.32993736,6.83603793 C7.35535203,7.39901879 8.00512396,5.23330587 8.17841583,3.99878274 C7.8102069,3.78224048 7.37712237,3.73884494 7.61528983,3.26236488 C7.68016543,3.13246855 8.20004103,3.19748928 8.35156256,2.98094702 C8.71977149,2.41782102 8.74154182,0.68519263 9.10960562,0.122066634 C9.17477149,-0.0513703679 9.47795969,-0.029600033 9.58623082,0.121921498 Z M12.1635482,5.8830778 C12.8781957,5.77480667 12.8565705,4.86509694 13.4847173,3.24073968 C13.3331957,3.17571895 13.2465498,3.11069821 13.1165083,3.15409375 C12.4018608,3.34901081 11.7086933,5.25478593 12.1635482,5.8830778 L12.1635482,5.8830778 Z M21.952797,1.44309056 C22.0828385,1.09650683 22.3861718,0.90158976 22.6243393,0.966610493 C22.8625067,1.05325643 22.9491527,1.37806982 22.797486,1.72465356 C22.6675897,2.04946695 22.3644015,2.26600922 22.126234,2.17950842 C21.8879214,2.11448769 21.8014206,1.76790395 21.952797,1.44309056 L21.952797,1.44309056 Z M23.6423201,2.33102995 C24.4221335,2.11448769 24.8768433,3.08907301 24.4221335,4.3667014 C23.9456535,5.57959933 22.9276726,5.77466153 23.2307157,6.2078912 C23.5121335,6.61949566 24.205301,6.74924686 24.6169055,6.42443346 C24.8983233,6.2078912 24.8983233,5.86116233 25.2016567,5.31980667 C25.8080331,5.16843027 25.4181989,6.74939199 24.7685721,7.07420539 C24.0755498,7.42064399 22.9926933,7.16099646 22.6459645,6.40266312 C22.1912547,6.40266312 21.2382946,6.87914319 20.8266901,6.2078912 C20.5018768,5.73141113 20.5670426,5.2767014 20.9134812,4.21532501 C21.1948991,3.39226121 21.7147747,2.46092628 22.0397332,2.50417668 C22.7543807,2.56919742 21.5850235,3.73869981 21.3684812,5.10311927 C21.2602101,5.77466153 21.6498991,5.81805706 22.299671,5.7528912 C22.2128799,5.4280778 22.1265243,5.05986887 22.1913999,4.54028354 C22.2995259,3.71707461 22.7542356,2.56934255 23.6423201,2.33102995 L23.6423201,2.33102995 Z M22.9925482,5.1465148 C23.923738,4.2802006 23.9022579,3.34886568 23.7938417,3.17557381 C23.7070506,3.15394861 23.6638002,3.15394861 23.5987795,3.17557381 C23.2090905,3.32724048 22.7542356,4.69195021 22.9925482,5.1465148 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="sharpie/small" transform="translate(410.000000, 232.000000)" stroke-width="1" fill-rule="evenodd">
+                        <g id="sharpie">
+                            <rect id="Barrel" fill="#DBDEDF" fill-rule="nonzero" x="2.62567745e-14" y="18" width="9" height="37.9634778"></rect>
+                            <path d="M0,55.9634778 L9,55.9634778 C8.84502164,55.9634778 9,56.1304225 9,55.9634778 L9,76.0504343 C9,77.1287545 8.22510822,77.9634778 7.2,77.9634778 L1.8,77.9634778 C0.774891779,77.9634778 1.17061226e-16,77.1287545 0,76.0504343 L0,55.9634778 C-2.34122452e-17,56.1304225 0.154978356,55.9634778 0,55.9634778 L0,55.9634778 Z" id="Cap" fill="#4F575A" fill-rule="nonzero"></path>
+                            <rect id="Cap-thing" fill="#393F41" fill-rule="nonzero" x="3" y="61" width="3" height="19" rx="1"></rect>
+                            <path d="M2.62567745e-14,19 L2.62567745e-14,17 C2.62567745e-14,15.8148434 1.4019375,5.69879518 2,6 L3,6 L3,3 L6,3 L6,6 L7,6 C7.5980625,5.69879518 9,15.8148434 9,17 L9,19 L2.62567745e-14,19 Z" id="Top" fill="#4F575A"></path>
+                            <path d="M3,1 C3,0.833333333 4.28957143,0 5,0 L6,0 L6,3 L3,3 L3,1 Z" id="Nib" fill="#393F41" fill-rule="nonzero"></path>
+                        </g>
+                        <g id="Group-2" transform="translate(0.000000, 19.000000)">
+                            <mask id="mask-7" fill="white">
+                                <use xlink:href="#path-6"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g mask="url(#mask-7)" id="Shape" fill-rule="nonzero" fill="#0C0E0F">
+                                <g transform="translate(0.803030, 19.000000) rotate(90.000000) translate(-0.803030, -19.000000) translate(-12.196970, 14.500000)">
+                                    <path d="M5.94979911,0.0135900687 C6.70784217,-0.0512855293 8.13728236,0.100236002 8.18053276,0.81488353 C8.24555349,1.87611479 6.8161133,2.52588672 6.36125844,2.72080378 C5.94979911,2.82907492 5.58144504,2.56928225 5.86300804,2.20092819 C7.1409267,1.35623919 7.81232383,1.20471766 7.4441149,0.901384327 C6.5561755,0.208361999 3.11254392,1.24796806 2.98264759,1.91936519 C2.91762686,2.30919932 3.48075286,2.59076232 4.62863005,3.02384685 C6.18811171,3.60859804 7.79069863,4.36664111 7.0976763,5.7744561 C6.46967471,7.07385482 4.54212925,7.44206375 3.26421059,7.63712595 C2.28962526,7.81027268 0.275433877,7.59373042 0.0803716757,7.22552149 C-0.0495246561,7.07385482 -0.0278994567,6.72741623 0.188787944,6.68416583 C0.621872473,6.61929023 1.5748326,7.26891702 3.84896179,6.81420729 C4.47710852,6.68416583 6.10146577,6.05587396 6.31800804,5.3631419 C6.64282144,4.17186918 2.54941793,3.84705578 2.22460453,2.50426152 C1.8131452,0.771633131 4.86694265,0.100236002 5.94979911,0.0135900687 Z"></path>
+                                    <path d="M9.58623082,0.121921498 C9.78114788,0.381859297 9.26141742,2.72086408 9.26141742,2.72086408 C9.93281455,2.67761368 10.6258369,2.41767588 10.8425243,3.00242708 C11.1024621,3.73869981 10.0412308,5.42793266 10.3227938,5.99120379 C11.5789421,5.86116233 11.0590665,4.0851384 12.033797,2.98065675 C12.7051941,2.20098848 13.6363839,2.20098848 13.8963217,3.19719901 C14.6543648,3.34872054 13.2032994,5.55797413 13.7446551,5.79614159 C14.1562595,5.99120379 14.4376774,5.4713282 14.6327396,4.97322293 C14.7410107,4.64840954 14.9791782,3.93361687 14.9141575,3.58703314 C14.5677189,3.52201241 14.3511766,3.30547014 14.4810729,2.98065675 C14.5244685,2.85061528 14.9141575,2.76411448 15.1526152,2.76411448 C15.4990538,2.15759295 15.4340331,2.00607142 15.8456375,1.96282102 C16.083805,1.94119582 15.9539087,2.43930108 15.9539087,2.67746855 C16.6685562,2.54757222 17.0582452,2.39590555 17.1665163,3.06730268 C17.2747874,4.25857541 16.191931,5.23316073 16.6035354,5.83953713 C16.6900362,5.81805706 17.4913297,5.6663904 17.9029342,4.0851384 C18.2277476,2.76411448 18.5527061,1.16138242 18.9857906,2.00607142 C19.1374573,2.28763442 18.834124,2.56919742 18.8989996,2.85076041 C18.9207699,2.85076041 19.9602308,1.81115435 20.4802516,2.63421815 C20.5670426,2.80751001 20.7835849,3.93376201 20.3503552,5.05972373 C20.2420841,5.3848274 19.8519597,6.42428832 19.3323744,6.57595499 C18.6823122,6.77072692 18.1409565,5.90441273 18.8773744,5.16828513 C19.2241032,4.99484813 18.9207699,5.53620379 19.0074158,5.75274606 C19.41873,6.74910172 20.4150857,3.34886568 19.87373,3.15394861 C19.41873,3.08892788 19.1807077,3.47876201 18.9640203,3.86859614 C18.0543106,5.3848274 18.270998,8.11352118 17.9242691,8.17868705 C17.2530171,8.33006344 17.2530171,7.89697891 17.534435,6.05607939 C17.2744972,6.12095499 16.408183,7.11731065 15.9102228,6.22922612 C15.4121176,5.40630746 16.9496838,3.45699167 16.4083281,3.30547014 C16.2566614,3.26207461 16.0618895,3.34872054 15.931848,3.41374127 C15.6719102,3.50038721 15.5854094,4.79993107 14.9357827,5.86101719 C14.4807827,6.70570619 13.5495929,6.98726919 13.1813839,6.12095499 C12.4233409,6.74910172 11.5354015,7.11731065 11.3621096,6.12095499 C10.842234,6.25099646 10.2574828,7.24720698 9.60785602,6.57595499 C9.04473002,5.99120379 9.88941902,4.9514526 10.1059613,3.43551161 C9.88941902,3.30547014 9.10975076,3.43551161 8.97985442,3.69544941 C8.84981296,3.95538721 8.74154182,6.59758019 8.32993736,6.83603793 C7.35535203,7.39901879 8.00512396,5.23330587 8.17841583,3.99878274 C7.8102069,3.78224048 7.37712237,3.73884494 7.61528983,3.26236488 C7.68016543,3.13246855 8.20004103,3.19748928 8.35156256,2.98094702 C8.71977149,2.41782102 8.74154182,0.68519263 9.10960562,0.122066634 C9.17477149,-0.0513703679 9.47795969,-0.029600033 9.58623082,0.121921498 Z M12.1635482,5.8830778 C12.8781957,5.77480667 12.8565705,4.86509694 13.4847173,3.24073968 C13.3331957,3.17571895 13.2465498,3.11069821 13.1165083,3.15409375 C12.4018608,3.34901081 11.7086933,5.25478593 12.1635482,5.8830778 L12.1635482,5.8830778 Z M21.952797,1.44309056 C22.0828385,1.09650683 22.3861718,0.90158976 22.6243393,0.966610493 C22.8625067,1.05325643 22.9491527,1.37806982 22.797486,1.72465356 C22.6675897,2.04946695 22.3644015,2.26600922 22.126234,2.17950842 C21.8879214,2.11448769 21.8014206,1.76790395 21.952797,1.44309056 L21.952797,1.44309056 Z M23.6423201,2.33102995 C24.4221335,2.11448769 24.8768433,3.08907301 24.4221335,4.3667014 C23.9456535,5.57959933 22.9276726,5.77466153 23.2307157,6.2078912 C23.5121335,6.61949566 24.205301,6.74924686 24.6169055,6.42443346 C24.8983233,6.2078912 24.8983233,5.86116233 25.2016567,5.31980667 C25.8080331,5.16843027 25.4181989,6.74939199 24.7685721,7.07420539 C24.0755498,7.42064399 22.9926933,7.16099646 22.6459645,6.40266312 C22.1912547,6.40266312 21.2382946,6.87914319 20.8266901,6.2078912 C20.5018768,5.73141113 20.5670426,5.2767014 20.9134812,4.21532501 C21.1948991,3.39226121 21.7147747,2.46092628 22.0397332,2.50417668 C22.7543807,2.56919742 21.5850235,3.73869981 21.3684812,5.10311927 C21.2602101,5.77466153 21.6498991,5.81805706 22.299671,5.7528912 C22.2128799,5.4280778 22.1265243,5.05986887 22.1913999,4.54028354 C22.2995259,3.71707461 22.7542356,2.56934255 23.6423201,2.33102995 L23.6423201,2.33102995 Z M22.9925482,5.1465148 C23.923738,4.2802006 23.9022579,3.34886568 23.7938417,3.17557381 C23.7070506,3.15394861 23.6638002,3.15394861 23.5987795,3.17557381 C23.2090905,3.32724048 22.7542356,4.69195021 22.9925482,5.1465148 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="sharpie/small-red" transform="translate(391.000000, 232.000000)" stroke-width="1" fill-rule="evenodd">
+                        <g id="sharpie">
+                            <rect id="Barrel" fill="#DBDEDF" fill-rule="nonzero" x="2.62567745e-14" y="18" width="9" height="37.9634778"></rect>
+                            <path d="M0,55.9634778 L9,55.9634778 C8.84502164,55.9634778 9,56.1304225 9,55.9634778 L9,76.0504343 C9,77.1287545 8.22510822,77.9634778 7.2,77.9634778 L1.8,77.9634778 C0.774891779,77.9634778 1.17061226e-16,77.1287545 0,76.0504343 L0,55.9634778 C-2.34122452e-17,56.1304225 0.154978356,55.9634778 0,55.9634778 L0,55.9634778 Z" id="Cap" fill="#CF3922" fill-rule="nonzero"></path>
+                            <rect id="Cap-thing" fill="#80281B" fill-rule="nonzero" x="3" y="61" width="3" height="19" rx="1"></rect>
+                            <path d="M2.62567745e-14,19 L2.62567745e-14,17 C2.62567745e-14,15.8148434 1.4019375,5.69879518 2,6 L3,6 L3,3 L6,3 L6,6 L7,6 C7.5980625,5.69879518 9,15.8148434 9,17 L9,19 L2.62567745e-14,19 Z" id="Top" fill="#CF3922"></path>
+                            <path d="M3,1 C3,0.833333333 4.28957143,0 5,0 L6,0 L6,3 L3,3 L3,1 Z" id="Nib" fill="#80281B" fill-rule="nonzero"></path>
+                        </g>
+                        <g id="Group-2" transform="translate(0.000000, 19.000000)">
+                            <mask id="mask-9" fill="white">
+                                <use xlink:href="#path-8"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g mask="url(#mask-9)" id="Shape" fill-rule="nonzero" fill="#0C0E0F">
+                                <g transform="translate(3.803030, 19.000000) rotate(90.000000) translate(-3.803030, -19.000000) translate(-9.196970, 14.500000)">
+                                    <path d="M5.94979911,0.0135900687 C6.70784217,-0.0512855293 8.13728236,0.100236002 8.18053276,0.81488353 C8.24555349,1.87611479 6.8161133,2.52588672 6.36125844,2.72080378 C5.94979911,2.82907492 5.58144504,2.56928225 5.86300804,2.20092819 C7.1409267,1.35623919 7.81232383,1.20471766 7.4441149,0.901384327 C6.5561755,0.208361999 3.11254392,1.24796806 2.98264759,1.91936519 C2.91762686,2.30919932 3.48075286,2.59076232 4.62863005,3.02384685 C6.18811171,3.60859804 7.79069863,4.36664111 7.0976763,5.7744561 C6.46967471,7.07385482 4.54212925,7.44206375 3.26421059,7.63712595 C2.28962526,7.81027268 0.275433877,7.59373042 0.0803716757,7.22552149 C-0.0495246561,7.07385482 -0.0278994567,6.72741623 0.188787944,6.68416583 C0.621872473,6.61929023 1.5748326,7.26891702 3.84896179,6.81420729 C4.47710852,6.68416583 6.10146577,6.05587396 6.31800804,5.3631419 C6.64282144,4.17186918 2.54941793,3.84705578 2.22460453,2.50426152 C1.8131452,0.771633131 4.86694265,0.100236002 5.94979911,0.0135900687 Z"></path>
+                                    <path d="M9.58623082,0.121921498 C9.78114788,0.381859297 9.26141742,2.72086408 9.26141742,2.72086408 C9.93281455,2.67761368 10.6258369,2.41767588 10.8425243,3.00242708 C11.1024621,3.73869981 10.0412308,5.42793266 10.3227938,5.99120379 C11.5789421,5.86116233 11.0590665,4.0851384 12.033797,2.98065675 C12.7051941,2.20098848 13.6363839,2.20098848 13.8963217,3.19719901 C14.6543648,3.34872054 13.2032994,5.55797413 13.7446551,5.79614159 C14.1562595,5.99120379 14.4376774,5.4713282 14.6327396,4.97322293 C14.7410107,4.64840954 14.9791782,3.93361687 14.9141575,3.58703314 C14.5677189,3.52201241 14.3511766,3.30547014 14.4810729,2.98065675 C14.5244685,2.85061528 14.9141575,2.76411448 15.1526152,2.76411448 C15.4990538,2.15759295 15.4340331,2.00607142 15.8456375,1.96282102 C16.083805,1.94119582 15.9539087,2.43930108 15.9539087,2.67746855 C16.6685562,2.54757222 17.0582452,2.39590555 17.1665163,3.06730268 C17.2747874,4.25857541 16.191931,5.23316073 16.6035354,5.83953713 C16.6900362,5.81805706 17.4913297,5.6663904 17.9029342,4.0851384 C18.2277476,2.76411448 18.5527061,1.16138242 18.9857906,2.00607142 C19.1374573,2.28763442 18.834124,2.56919742 18.8989996,2.85076041 C18.9207699,2.85076041 19.9602308,1.81115435 20.4802516,2.63421815 C20.5670426,2.80751001 20.7835849,3.93376201 20.3503552,5.05972373 C20.2420841,5.3848274 19.8519597,6.42428832 19.3323744,6.57595499 C18.6823122,6.77072692 18.1409565,5.90441273 18.8773744,5.16828513 C19.2241032,4.99484813 18.9207699,5.53620379 19.0074158,5.75274606 C19.41873,6.74910172 20.4150857,3.34886568 19.87373,3.15394861 C19.41873,3.08892788 19.1807077,3.47876201 18.9640203,3.86859614 C18.0543106,5.3848274 18.270998,8.11352118 17.9242691,8.17868705 C17.2530171,8.33006344 17.2530171,7.89697891 17.534435,6.05607939 C17.2744972,6.12095499 16.408183,7.11731065 15.9102228,6.22922612 C15.4121176,5.40630746 16.9496838,3.45699167 16.4083281,3.30547014 C16.2566614,3.26207461 16.0618895,3.34872054 15.931848,3.41374127 C15.6719102,3.50038721 15.5854094,4.79993107 14.9357827,5.86101719 C14.4807827,6.70570619 13.5495929,6.98726919 13.1813839,6.12095499 C12.4233409,6.74910172 11.5354015,7.11731065 11.3621096,6.12095499 C10.842234,6.25099646 10.2574828,7.24720698 9.60785602,6.57595499 C9.04473002,5.99120379 9.88941902,4.9514526 10.1059613,3.43551161 C9.88941902,3.30547014 9.10975076,3.43551161 8.97985442,3.69544941 C8.84981296,3.95538721 8.74154182,6.59758019 8.32993736,6.83603793 C7.35535203,7.39901879 8.00512396,5.23330587 8.17841583,3.99878274 C7.8102069,3.78224048 7.37712237,3.73884494 7.61528983,3.26236488 C7.68016543,3.13246855 8.20004103,3.19748928 8.35156256,2.98094702 C8.71977149,2.41782102 8.74154182,0.68519263 9.10960562,0.122066634 C9.17477149,-0.0513703679 9.47795969,-0.029600033 9.58623082,0.121921498 Z M12.1635482,5.8830778 C12.8781957,5.77480667 12.8565705,4.86509694 13.4847173,3.24073968 C13.3331957,3.17571895 13.2465498,3.11069821 13.1165083,3.15409375 C12.4018608,3.34901081 11.7086933,5.25478593 12.1635482,5.8830778 L12.1635482,5.8830778 Z M21.952797,1.44309056 C22.0828385,1.09650683 22.3861718,0.90158976 22.6243393,0.966610493 C22.8625067,1.05325643 22.9491527,1.37806982 22.797486,1.72465356 C22.6675897,2.04946695 22.3644015,2.26600922 22.126234,2.17950842 C21.8879214,2.11448769 21.8014206,1.76790395 21.952797,1.44309056 L21.952797,1.44309056 Z M23.6423201,2.33102995 C24.4221335,2.11448769 24.8768433,3.08907301 24.4221335,4.3667014 C23.9456535,5.57959933 22.9276726,5.77466153 23.2307157,6.2078912 C23.5121335,6.61949566 24.205301,6.74924686 24.6169055,6.42443346 C24.8983233,6.2078912 24.8983233,5.86116233 25.2016567,5.31980667 C25.8080331,5.16843027 25.4181989,6.74939199 24.7685721,7.07420539 C24.0755498,7.42064399 22.9926933,7.16099646 22.6459645,6.40266312 C22.1912547,6.40266312 21.2382946,6.87914319 20.8266901,6.2078912 C20.5018768,5.73141113 20.5670426,5.2767014 20.9134812,4.21532501 C21.1948991,3.39226121 21.7147747,2.46092628 22.0397332,2.50417668 C22.7543807,2.56919742 21.5850235,3.73869981 21.3684812,5.10311927 C21.2602101,5.77466153 21.6498991,5.81805706 22.299671,5.7528912 C22.2128799,5.4280778 22.1265243,5.05986887 22.1913999,4.54028354 C22.2995259,3.71707461 22.7542356,2.56934255 23.6423201,2.33102995 L23.6423201,2.33102995 Z M22.9925482,5.1465148 C23.923738,4.2802006 23.9022579,3.34886568 23.7938417,3.17557381 C23.7070506,3.15394861 23.6638002,3.15394861 23.5987795,3.17557381 C23.2090905,3.32724048 22.7542356,4.69195021 22.9925482,5.1465148 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="coffee/mug/dark" transform="translate(379.000000, 132.000000)" stroke-width="1" fill-rule="evenodd">
+                        <g id="Group" transform="translate(11.428571, 11.428571)">
+                            <g id="Group-2" transform="translate(52.629540, 53.010493) rotate(45.000000) translate(-52.629540, -53.010493) translate(46.534302, 48.248588)">
+                                <path d="M0,9.52380952 L5.41365894e-15,0 L7.95881596,0 C9.1207571,1.10980008e-12 11.459763,0.818078859 11.459763,0.818078859 C11.8633247,0.950694687 12.1904762,1.48847209 12.1904762,2.01142558 L12.1904762,7.51238394 C12.1904762,8.03883531 11.8594538,8.57685446 11.4537854,8.70838116 C11.4537854,8.70838116 9.132607,9.52380952 7.95881596,9.52380952 L0,9.52380952 Z" id="handle" fill="#4D4D4D"></path>
+                                <path d="M6.64607465,0 L5.41365894e-15,0 L0,9.52380952 L6.64607465,9.52380952 L5.33333333,9.52380952 L5.33333333,0 L6.64607465,0 Z M10.6666667,0.561747564 C11.1346671,0.704374962 11.459763,0.818078859 11.459763,0.818078859 C11.8633247,0.950694687 12.1904762,1.48847209 12.1904762,2.01142558 L12.1904762,7.51238394 C12.1904762,8.03883531 11.8594538,8.57685446 11.4537854,8.70838116 C11.4537854,8.70838116 11.1316319,8.82155347 10.6666667,8.96357483 L10.6666667,0.561747564 Z" id="hadle-shadow" fill="#393F41"></path>
+                            </g>
+                            <g id="cup">
+                                <circle id="outer-cup" fill="#4D4D4D" cx="28.5714286" cy="28.5714286" r="28.5714286"></circle>
+                                <circle id="inner-rim" fill="#393F41" cx="28.5714286" cy="28.5714286" r="25.5238095"></circle>
+                                <circle id="coffee" fill="#B27738" cx="28.5714286" cy="28.5714286" r="24"></circle>
+                                <path d="M27.3588312,9.9047619 C35.7028141,9.94771429 41.2218616,10.6747619 45.4518195,18.410381 C50.0774386,26.8699048 47.2471851,35.372381 37.4535083,38.0207619 C19.4732621,42.8848571 12.6810792,14.8400952 31.0133787,14.758381 C52.7162431,14.662 33.1352711,46.2927619 24.3169202,28.9944762 C21.7259779,23.9145714 26.0537876,16.1967619 32.2620512,18.8493333 C42.8257782,23.360381 30.0178442,31.5433333 28.7149278,28.2370476 C28.8170339,28.4947619 35.4326584,25.7321905 34.3116185,23.5238095 C33.2480132,21.4285714 27.1971632,22.8281905 26.5100742,25.164381 C24.3318107,32.5762857 37.2524869,33.551619 38.1725054,25.3508571 C39.2892909,15.41 24.9923096,14.4220952 21.5664371,22.3578095 C18.6447136,29.124381 24.2605492,35.5986667 30.829375,36.7740952 C51.1123265,40.4030476 48.9329994,11.1325714 30.3645795,12.0377143 C20.9569914,12.4955238 15.1060991,19.6622857 16.162259,28.7566667 C17.2758537,38.3591429 21.5483559,41.3333333 28.9744475,47.6190476 C17.293935,42.3809524 8.74254905,39.7053333 10.0337658,27.3853333 C11.0420635,17.7619048 17.0546238,10.5291429 27.3588312,9.9047619" id="coffee-swirl" fill-opacity="0.1" fill="#FFFFFF"></path>
+                                <path d="M15.8411778,48.920727 C9.07219199,44.6771978 4.57142857,37.149918 4.57142857,28.5714286 C4.57142857,15.3165946 15.3165946,4.57142857 28.5714286,4.57142857 C37.149918,4.57142857 44.6771978,9.07219199 48.920727,15.8411778 C45.2307871,13.5279262 40.8668208,12.1904762 36.1904762,12.1904762 C22.9356422,12.1904762 12.1904762,22.9356422 12.1904762,36.1904762 C12.1904762,40.8668208 13.5279262,45.2307871 15.8411778,48.920727 L15.8411778,48.920727 Z" id="coffee-shadow-deep" fill-opacity="0.4" fill="#393F41"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="coffee" transform="translate(39.274991, 3.274991)">
+                        <circle id="saucer" stroke="#DBDEDF" stroke-width="1" fill="#FBFBFB" fill-rule="nonzero" cx="39" cy="39" r="39"></circle>
+                        <path d="M27.4363554,56.7961497 L21.1529733,65.9385823 C20.9108666,66.3575036 20.3749452,66.501234 19.9558048,66.2591272 L13.6949902,62.6448351 C13.2760688,62.4029474 13.1323385,61.8670261 13.3744452,61.4478856 L18.1727598,51.3924587 C9.54850142,43.5232227 7.23698457,30.4577845 13.3146306,19.9317283 C20.3320014,7.77840812 35.8739396,3.61439127 48.0285745,10.6311047 C60.1829902,17.6478182 64.3474452,33.1882227 57.3300745,45.341543 C51.2129902,55.9357396 38.6184003,60.4577677 27.4363554,56.7961497 Z" id="mug" stroke="#DBDEDF" stroke-width="1" fill="#FBFBFB" fill-rule="evenodd" transform="translate(35.322627, 36.799666) rotate(120.000000) translate(-35.322627, -36.799666) "></path>
+                        <circle id="drink" fill="#B27738" fill-rule="nonzero" cx="39" cy="39" r="20.5955056"></circle>
+                        <path d="M38.2723106,23 C45.5732957,23.0375833 50.4024622,23.67375 54.1036754,30.4424167 C58.1510921,37.8445 55.6746203,45.2841667 47.1051531,47.6015 C31.3724377,51.8575833 25.4292776,27.3184167 41.4700397,27.2469167 C60.4600461,27.1625833 43.3266955,54.8395 35.6106385,39.7035 C33.343564,35.2585833 37.1303974,28.5055 42.5626281,30.8265 C51.8058893,34.7736667 40.598947,41.93375 39.4588952,39.04075 C39.548238,39.26625 45.3369094,36.849 44.3559995,34.9166667 C43.4253449,33.0833333 38.1308511,34.308 37.5296483,36.3521667 C35.6236677,42.8375833 46.9292594,43.691 47.7342756,36.5153333 C48.7114628,27.8170833 36.2016042,26.9526667 33.2039658,33.8964167 C30.6474577,39.8171667 35.5613138,45.4821667 41.3090364,46.5106667 C59.056619,49.686 57.1497078,24.0743333 40.9023404,24.8663333 C32.6707008,25.2669167 27.55117,31.5378333 28.47531,39.4954167 C29.4497053,47.8975833 33.1881447,50.5 39.6859749,56 C29.4655265,51.4166667 21.9830637,49.0755 23.1128784,38.2955 C23.9951389,29.875 29.2561292,23.5463333 38.2723106,23" id="swirl" fill-opacity="0.1" fill="#FFFFFF" fill-rule="evenodd"></path>
+                        <path d="M43.3820225,22.7865169 C32.0073876,22.7865169 22.7865169,32.0073876 22.7865169,43.3820225 C22.7865169,47.9513764 24.2768427,52.171264 26.7947528,55.5872697 C21.7070056,51.8373539 18.4044944,45.8052809 18.4044944,39 C18.4044944,27.6253652 27.6253652,18.4044944 39,18.4044944 C45.8052809,18.4044944 51.8373539,21.7070056 55.5872697,26.7947528 C52.171264,24.2768427 47.9513764,22.7865169 43.3820225,22.7865169 Z" id="shadow" fill-opacity="0.4" fill="#393F41" fill-rule="evenodd"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
