@@ -1,15 +1,6 @@
 module.exports = function (grunt) {
   require('time-grunt')(grunt)
 
-  try {
-    var config = require('./.config.json')
-  } catch (e) {
-    var config = {
-      'wpt': 'secret-key',
-      'tenon': 'secret-key'
-    }
-  }
-
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
@@ -36,22 +27,7 @@ module.exports = function (grunt) {
       ]
     },
 
-    // concat: {
-    //     dist: {
-    //         src: [
-    //             'src/javascripts/application.js',
-    //             'src/javascripts/application/utils.js',
-    //             'src/javascripts/application/*'
-    //         ],
-    //         dest: 'app/public/javascripts/application.js',
-    //     }
-    // },
-
     uglify: {
-      // dist: {
-      //     src: 'app/public/javascripts/application.js',
-      //     dest: 'app/public/javascripts/application.min.js'
-      // },
       vendor: {
         options: {
           preserveComments: true,
@@ -166,34 +142,6 @@ module.exports = function (grunt) {
       }
     },
 
-    perfbudget: {
-      default: {
-        options: {
-          url: 'http://express-frontend.herokuapp.com/',
-          key: config.wpt
-        }
-      }
-    },
-
-    tenon: {
-      options: {
-        key: config.tenon,
-        // filter: [31, 54, 57], // Ignored rules
-        level: 'AA',
-        force: false
-      },
-      home: {
-        options: {
-          saveOutputIn: 'tests/tenon/result/homepage.json',
-          snippet: true,
-          asyncLim: 2
-        },
-        src: [
-          'tests/tenon/source/homepage.html'
-        ]
-      }
-    },
-
     svgstore: {
       options: {
         prefix: 'icon-',
@@ -211,30 +159,23 @@ module.exports = function (grunt) {
 
   })
 
-  grunt.loadNpmTasks('grunt-tenon-client')
   grunt.loadNpmTasks('grunt-static-hbs')
-  grunt.loadNpmTasks('grunt-contrib-concat')
   grunt.loadNpmTasks('grunt-contrib-copy')
   grunt.loadNpmTasks('grunt-contrib-imagemin')
   grunt.loadNpmTasks('grunt-contrib-jshint')
   grunt.loadNpmTasks('grunt-contrib-uglify')
-  grunt.loadNpmTasks('grunt-perfbudget')
   grunt.loadNpmTasks('grunt-sass')
   grunt.loadNpmTasks('grunt-scss-lint')
-  // grunt.loadNpmTasks('grunt-notify');
   grunt.loadNpmTasks('grunt-svgstore')
 
   // Setup vendor assets
   grunt.registerTask('get:vendor', ['copy:vendor', 'uglify:vendor'])
 
   // Build assets from src
-  // grunt.registerTask('build:css',     ['scsslint:dist', 'sass:dist']);
   grunt.registerTask('build:css', ['sass:dist'])
   grunt.registerTask('build:pages', ['hbs', 'copy:public'])
-  // grunt.registerTask('build:js',      ['jshint:all', 'concat:dist', 'uglify:dist']);
   grunt.registerTask('build:img', ['imagemin:dist', 'svgstore'])
   // Build * ALL THE THINGS! *
-  // grunt.registerTask('build',   ['build:css', 'build:js', 'build:img']);
   grunt.registerTask('build', ['build:css', 'build:img'])
 
   // Default task during development
