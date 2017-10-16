@@ -17,7 +17,7 @@ app/public/images/
 app/public/javascripts/
 
 # Ignore test output
-tests/tenon/source
-tests/tenon/result
+tests/pa11y/*.html
+tests/pa11y/*.png
 
 *.ai
