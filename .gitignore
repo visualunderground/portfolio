@@ -17,7 +17,7 @@ app/public/images/
 app/public/javascripts/
 
 # Ignore test output
-tests/pa11y/*.html
-tests/pa11y/*.png
+tests/pa11y/results/*.html
+tests/pa11y/results/*.png
 
 *.ai
