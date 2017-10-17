@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8"/>
+	<title>Accessibility Report For "http://localhost:3000/" (Tue Oct 17 2017 20:18:09 GMT+0100 (BST))</title>
+
+	<style>
+
+		html, body {
+			margin: 0;
+			padding: 0;
+			background-color: #fff;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 16px;
+			line-height: 22px;
+			color: #333;
+		}
+		li {
+			margin-bottom: 15px;
+		}
+		h1, h2, p, pre, ul {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		h1 {
+			margin-bottom: 10px;
+			font-size: 24px;
+			line-height: 24px;
+		}
+		h2 {
+			font-size: 16px;
+		}
+		pre {
+			white-space: pre-wrap;
+			overflow: auto;
+		}
+
+		.page {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 25px;
+		}
+
+		.counts {
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		.count {
+			display: inline-block;
+			padding: 5px;
+			border-radius: 5px;
+			border: 1px solid #eee;
+		}
+
+		.clean-list {
+			margin-left: 0;
+			padding-left: 0;
+			list-style: none;
+		}
+		.results-list {
+			margin-top: 30px;
+		}
+
+		.result {
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #eee;
+		}
+		.error {
+			background-color: #fdd;
+			border-color: #ff9696;
+		}
+		.warning {
+			background-color: #ffd;
+			border-color: #e7c12b;
+		}
+		.notice {
+			background-color: #eef4ff;
+			border-color: #b6d0ff;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="page">
+
+		<h1>Accessibility Report For "http://localhost:3000/"</h1>
+		<p>Generated at: Tue Oct 17 2017 20:18:09 GMT+0100 (BST)</p>
+
+		<p class="counts">
+			<span class="count error">11 errors</span>
+			<span class="count warning">5 warnings</span>
+			<span class="count notice">0 notices</span>
+		</p>
+
+		<ul class="clean-list results-list">
+			<li class="result error">
+				<h2>Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.32:1. Recommendation: change background to #242a2c.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_4.1_4_6.G18.Fail</p>
+				<pre>&lt;span&gt;.&lt;/span&gt; (select with "#hero &gt; div &gt; div:nth-child(1) &gt; div:nth-child(1) &gt; h1 &gt; span")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 7:1, but text in this element has a contrast ratio of 2.51:1. Recommendation: change text colour to #fff.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.Fail</p>
+				<pre>&lt;p class=&quot;sub-heading u-mt--1&quot;&gt;Designing for humans, not users...&lt;/p&gt; (select with "#hero &gt; div &gt; div:nth-child(1) &gt; div:nth-child(1) &gt; p")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 4.5:1, but text in this element has a contrast ratio of 3.11:1. Recommendation: change background to #515151.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_4.1_4_6.G18.Fail</p>
+				<pre>&lt;p class=&quot;heading--l&quot;&gt;I research, design, prototype, ...&lt;/p&gt; (select with "#callout &gt; div &gt; p")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: The heading structure is not logically nested. This h3 element should be an h2 to be properly nested.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_3.1_3_1_AAA.G141</p>
+				<pre>&lt;h3 class=&quot;heading--subtle&quot;&gt;Research&lt;/h3&gt; (select with "#discover &gt; div &gt; div &gt; div:nth-child(1) &gt; h3")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_1.1_1_1.H37</p>
+				<pre>&lt;img src=&quot;images/svg/illustration/design.svg&quot; class=&quot;illustration&quot;&gt; (select with "#design &gt; div &gt; div &gt; div:nth-child(2) &gt; img")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_1.1_1_1.H37</p>
+				<pre>&lt;img src=&quot;images/svg/illustration/prototype.svg&quot; class=&quot;illustration u-mt-1&quot;&gt; (select with "#prototype &gt; div &gt; div &gt; div:nth-child(2) &gt; img")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_1.1_1_1.H37</p>
+				<pre>&lt;img src=&quot;images/svg/illustration/test.svg&quot; class=&quot;illustration&quot; style=&quot;
+    transform: rotate(-15deg);
+    z-index: 99;
+    margin: -120px auto;
+&quot;&gt; (select with "#test &gt; div &gt; div &gt; div:nth-child(2) &gt; img")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_1.1_1_1.H37</p>
+				<pre>&lt;img src=&quot;images/svg/background/desk.svg&quot; class=&quot;illustration&quot; style=&quot;position: absolute; bottom:0; left: 0; &quot;&gt; (select with "#develop &gt; div &gt; div &gt; div:nth-child(2) &gt; img:nth-child(1)")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_1.1_1_1.H37</p>
+				<pre>&lt;img src=&quot;images/svg/illustration/develop.svg&quot; class=&quot;illustration&quot; style=&quot;margin-bottom: 61px; z-index:2; position: relative;&quot;&gt; (select with "#develop &gt; div &gt; div &gt; div:nth-child(2) &gt; img:nth-child(2)")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: This element&#39;s text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage</p>
+				<pre>&lt;h3 class=&quot;heading--subtle&quot;&gt;Continuous improvement and meas...&lt;/h3&gt; (select with "#data &gt; div &gt; div &gt; div:nth-child(1) &gt; h3")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: This element&#39;s text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 4.5:1.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_4.1_4_6.G18.BgImage</p>
+				<pre>&lt;p class=&quot;heading&quot;&gt;I continue to learn when it&#39;s l...&lt;/p&gt; (select with "#data &gt; div &gt; div &gt; div:nth-child(1) &gt; p:nth-child(2)")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: This element&#39;s text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage</p>
+				<pre>&lt;p&gt;By establishing, and benchmarki...&lt;/p&gt; (select with "#data &gt; div &gt; div &gt; div:nth-child(1) &gt; p:nth-child(3)")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: This element&#39;s text is placed on a background image. Ensure the contrast ratio between the text and all covered parts of the image are at least 7:1.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.BgImage</p>
+				<pre>&lt;p&gt;Combining big data and thick (q...&lt;/p&gt; (select with "#data &gt; div &gt; div &gt; div:nth-child(1) &gt; p:nth-child(4)")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: Img element missing an alt attribute. Use the alt attribute to specify a short text alternative.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_1.1_1_1.H37</p>
+				<pre>&lt;img src=&quot;images/svg/illustration/data.svg&quot; style=&quot;box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);&quot; class=&quot;illustration u-mt-1&quot;&gt; (select with "#data &gt; div &gt; div &gt; div:nth-child(2) &gt; img")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: If this element contains a navigation section, it is recommended that it be marked up as a list.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_3.1_3_1.H48</p>
+				<pre>&lt;div class=&quot;global-footer__social&quot;&gt;
+                    &lt;a href=&quot;h...&lt;/div&gt; (select with "html &gt; body &gt; footer &gt; div &gt; div &gt; div:nth-child(1)")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This element has insufficient contrast at this conformance level. Expected a contrast ratio of at least 7:1, but text in this element has a contrast ratio of 2.51:1. Recommendation: change text colour to #fff.</h2>
+				<p>WCAG2AAA.Principle1.Guideline1_4.1_4_6.G17.Fail</p>
+				<pre>&lt;div class=&quot;global-footer__copyright&quot;&gt;
+                    © 2001 — 2...&lt;/div&gt; (select with "html &gt; body &gt; footer &gt; div &gt; div &gt; div:nth-child(2)")</pre>
+			</li>
+		</ul>
+
+	</div>
+
+</body>
+</html>
