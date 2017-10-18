@@ -7,7 +7,7 @@ const fs = require('fs')
 
 pa11y('http://localhost:3000/', {
   includeWarnings: true,
-  standard: 'WCAG2AAA',
+  standard: 'WCAG2AA',
   screenCapture: path.join(__dirname, 'results/capture.png'),
   // Log what's happening to the console
   log: {
