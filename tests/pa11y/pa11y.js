@@ -17,7 +17,7 @@ pa11y('http://localhost:3000/', {
   }
 }).then(results => {
   // Convert results to HTML
-  const htmlResults = html.results(results).then(markup => {
+  html.results(results).then(markup => {
     fs.appendFile(path.join(__dirname, 'results/results.html'), markup, function (err) {
       if (err) {
         return console.log(err)
