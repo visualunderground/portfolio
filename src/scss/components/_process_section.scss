@@ -1,6 +1,5 @@
 .section {
     position: relative;
-    background-color: $backgroundSection;
     padding: 75px 0;
 
     @include media(tablet) {
@@ -8,13 +7,17 @@
     }
 }
 
+.section:nth-child(even) {
+    background-color: $backgroundSectionAlt;
+}
+
 .hero {
     position: relative;
-    background-color: $black;
+    background-color: $backgroundHero;
     overflow: hidden;
     color: $white;
     padding: 75px 0;
-    
+
     @include media(tablet) {
         padding: 175px 0;
     }
@@ -33,19 +36,14 @@
     background-color: $acentColour;
 }
 
-.section:nth-child(even) {
-    background-color: $backgroundSectionAlt;
-}
-
 .section--data {
     background-image: url('/images/svg/background/wave.svg'), linear-gradient(-155deg, #0089D2 0%, #0070D2 100%);
     background-repeat: no-repeat;
     background-position: bottom left;
-    
+
     @include media(desktop) {
         background-size: contain;
     }
-    
+
 
 }
-

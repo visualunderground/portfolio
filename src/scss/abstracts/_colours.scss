@@ -1,23 +1,22 @@
 // http://chir.ag/projects/name-that-color/
 
-// Colors
-
 // ------------------------------
 // COLOURS
 // ------------------------------
-$black: #393F41;            // Hero background
+$black: #2E3436;            // Hero background
+$black-2: #393F41;          //
 $grey: #4D4D4D;             // Body text
 $grey3: #727C81;            // Subheading text
 $whiteGrey: #F1F1F2;        // Section background (alternative)
-$white: #FBFBFB;            // Section background + Footer text colour
+$white: #FBFBFB;            // Footer text colour
 
 
-$acentColour: #FD5257;
+// $acentColour: #FD5257;
+$acentColour: #0089D2;
 // ------------------------------
 // Semantic colour names
 // ------------------------------
 $backgroundHero: $black;
 $backgroundFooter: $black;
-$backgroundSection: $white;
 $backgroundSectionAlt: $whiteGrey;
 $bodyText: $grey;
