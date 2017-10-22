@@ -142,6 +142,17 @@ module.exports = function (grunt) {
       }
     },
 
+    watcher: {
+      css: {
+        files: 'src/**/*.scss',
+        tasks: ['build:css']
+      },
+      img: {
+        files: 'src/**/*.{png,jpg,jpeg,gif,svg}',
+        tasks: ['build:img']
+      }
+    },
+
     svgstore: {
       options: {
         prefix: 'icon-',
@@ -167,17 +178,15 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-sass')
   grunt.loadNpmTasks('grunt-scss-lint')
   grunt.loadNpmTasks('grunt-svgstore')
+  grunt.loadNpmTasks('grunt-watcher')
 
   // Setup vendor assets
   grunt.registerTask('get:vendor', ['copy:vendor', 'uglify:vendor'])
-
   // Build assets from src
   grunt.registerTask('build:css', ['sass:dist'])
-  grunt.registerTask('build:pages', ['hbs', 'copy:public'])
   grunt.registerTask('build:img', ['imagemin:dist', 'svgstore'])
   // Build * ALL THE THINGS! *
   grunt.registerTask('build', ['build:css', 'build:img'])
-
-  // Default task during development
-  grunt.registerTask('default', ['build:css'])
+  // Create files for GitHub pages
+  grunt.registerTask('build:pages', ['hbs', 'copy:public'])
 }

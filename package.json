@@ -6,7 +6,9 @@
     "start": "node app/app.js",
     "postinstall": "bower install && grunt get:vendor && grunt build"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-watcher": "^1.0.0"
+  },
   "dependencies": {
     "pa11y": "^5.0.0-beta.2",
     "pa11y-reporter-html": "^1.0.0",
