@@ -1,7 +1,5 @@
 .global-footer {
     position: relative;
-    padding-top: 50px;
-    padding-bottom: 50px;
     background-color: $backgroundFooter;
     color: $grey3;
     font-size: 12px;
@@ -9,8 +7,7 @@
 }
 
 .global-footer__wrapper {
-    @extend %site-width-container;
-    @extend %contain-floats;
+  padding: 50px 0;
 }
 
 .global-footer__social {
@@ -22,17 +19,13 @@
         text-align: right;
         margin-bottom: 0;
     }
-    
+
     // Social links
     a {
-    border: 1px solid $grey3;
-    border-radius: 50%;
-    box-sizing: border-box;
     display: inline-block;
-    height: 36px;
-    padding: 7px;
-    width: 36px;
-        
+    height: 24px;
+    width: 24px;
+
 
         &:hover {
             svg {
@@ -42,9 +35,9 @@
 
         svg {
             display: block;
-            height: 20px;
-            width: 20px;
-            fill: $grey3;
+            height: 24px;
+            width: 24px;
+            fill: $white;
         }
     }
 
@@ -54,5 +47,21 @@
 }
 
 .global-footer__copyright {
-    @include grid-column(1 / 2);
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #393F41;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 0.93333em;
+  color: $whiteGrey;
+  letter-spacing: -0.05em;
+
+  span {
+    color: $acentColour;
+  }
 }
