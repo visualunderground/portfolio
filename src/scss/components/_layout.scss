@@ -9,96 +9,81 @@
         display: block;
         clear: both;
     }
-
-    @include ie-lte(7) {
-        zoom: 1;
-    }
 }
 
-// An extendable selector to wrap your entire site content block
-// It limits the sites width to be 960px wide and maintains consistent margins
-// on the site of the page and shrinks the margins for mobile.
-//
-// Usage:
-//
-// #page-container {
-//   @extend %site-width-container; 
-// }
+@mixin grid-column($width, $float: left) {
+  box-sizing: border-box;
+  max-width: 530px;
+  padding-left: $mobile-gutter;
+  padding-right: $mobile-gutter;
+  margin-left: auto;
+  margin-right: auto;
 
-%site-width-container {
-    max-width: $site-width;
-
-    @include ie-lte(8) {
-        width: $site-width;
-    }
-
-    margin: 0 $gutter-half;
-    
-    @include media(tablet) {
-        margin: 0 $gutter;
-    }
-
-    @include media($min-width: ($site-width + $gutter * 2)) {
-        margin: 0 auto;
-    }
+  @include media(tablet) {
+    float: $float;
+    width: percentage($width);
+    padding-left: $standard-gutter;
+    padding-right: $standard-gutter;
+    max-width: none;
+  }
 }
 
-// An extendable selector to define a row for grid columns to sit in
-//
-// Usage:
-//
-// .grid-row {
-//   @extend %grid-row;
-// }
-
-%grid-row {
-    @extend %contain-floats;
-    margin: 0 (-$gutter-half);
-}
-
-// Content
 .content {
-    @extend %site-width-container;
-    @extend %contain-floats;
+  @extend %contain-floats;
+  max-width: $site-width;
+  margin-left: $mobile-gutter;
+  margin-right: $mobile-gutter;
+
+  @include media(tablet) {
+    margin-left: $standard-gutter;
+    margin-right: $standard-gutter;
+  }
+
+  @include media(desktop) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-// Grid layout
 .grid-row {
-    @extend %grid-row;
+  @extend %contain-floats;
+  margin-left: -$mobile-gutter;
+  margin-right: -$mobile-gutter;
+
+  @include media(tablet) {
+    margin-left: -$standard-gutter;
+    margin-right: -$standard-gutter;
+  }
+}
+
+.column-full {
+  @include grid-column( 1 );
 }
 
 .column-half {
-    @include grid-column(1 / 2);
-    max-width: 700px;
-    margin: 0 auto;
+  @include grid-column( 1/2 );
 
-    + .column-half {
-        margin-top: 50px;
-        
-        @include media(tablet) {
-            margin-top: 0;
-        }
-    }
+  + .column-half {
+      margin-top: 50px;
+
+      @include media(tablet) {
+          margin-top: 0;
+      }
+  }
 }
 
 .column-half--alt {
-    @include grid-column(1 / 2, tablet, right);
-    max-width: 700px;
-    margin: 0 auto;
+  @include grid-column( 1/2, $float: right );
 
-    + .column-half--alt {
-        margin-top: 50px;
-        
-        @include media(tablet) {
-            margin-top: 0;
-        }
-    }
+  + .column-half--alt {
+      margin-top: 50px;
+
+      @include media(tablet) {
+          margin-top: 0;
+      }
+  }
 }
 
 .column-third {
-    @include grid-column(1 / 3);
-}
-
-.column-two-thirds {
-    @include grid-column(2 / 3);
+  @include grid-column( 1/3 );
 }

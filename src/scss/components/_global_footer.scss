@@ -11,7 +11,6 @@
 }
 
 .global-footer__social {
-    @include grid-column(1 / 2, tablet, right);
     text-align: center;
     margin-bottom: $base-line;
 

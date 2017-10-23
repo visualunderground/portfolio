@@ -1,0 +1,13 @@
+<svg width="90px" height="120px" viewBox="0 0 90 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="illustration/design/notebook">
+            <path d="M0,1 L80,1 L80,1 C85.5228475,1 90,5.4771525 90,11 L90,109 L90,109 C90,114.522847 85.5228475,119 80,119 L0,119 L0,1 Z" id="book" fill="#4D4D4D"></path>
+            <rect id="binding" fill="#484A4A" x="5" y="1" width="2" height="118"></rect>
+            <rect id="elastic" fill="#393F41" x="68" y="0" width="9" height="120"></rect>
+            <rect id="elastic-shadow" fill-opacity="0.1" fill="#000000" x="69" y="0" width="1" height="120"></rect>
+            <rect id="elastic-shadow" fill-opacity="0.1" fill="#000000" x="71" y="0" width="1" height="120"></rect>
+            <rect id="elastic-shadow" fill-opacity="0.1" fill="#000000" x="73" y="0" width="1" height="120"></rect>
+            <rect id="elastic-shadow" fill-opacity="0.1" fill="#000000" x="75" y="0" width="1" height="120"></rect>
+        </g>
+    </g>
+</svg>

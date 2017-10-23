@@ -1,0 +1,65 @@
+.design-illustration {
+  position: relative;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.design-illustration__doughnuts{
+  transform: rotate(8deg);
+  margin-left: auto;
+  margin-right: auto;
+  // @include media(tablet) {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  // }
+}
+
+.design-illustration__coffee{
+  position: absolute;
+  top: -25px;
+  left: 15px;
+}
+
+.design-illustration__tea{
+  position: absolute;
+  bottom: -25px;
+  right: 25px;
+}
+
+.design-illustration__swirl{
+  position: absolute;
+  transform-origin: 30px 30px;
+  // ANIMATION
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-name: spin;
+  // FORCE HWA
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+  backface-visibility: hidden;
+  // END ANIMATION
+
+  .anim-paused & {
+    animation-play-state: paused;
+  }
+}
+
+.design-illustration__red-sharpie{
+  position: absolute;
+  bottom: -50px;
+  left: 120px;
+}
+
+.design-illustration__black-sharpie{
+  position: absolute;
+  bottom: -50px;
+  left: 100px;
+}
+
+.design-illustration__notebook{
+  position: absolute;
+  bottom: -50px;
+  left: 0px;
+}

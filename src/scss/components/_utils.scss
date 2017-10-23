@@ -1,9 +1,9 @@
-.visuallyhidden { 
-    position: absolute; 
-    overflow: hidden; 
-    clip: rect(0 0 0 0); 
-    height: 1px; width: 1px; 
-    margin: -1px; padding: 0; border: 0; 
+.visuallyhidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px; width: 1px;
+    margin: -1px; padding: 0; border: 0;
 }
 
 .u-hide-tablet-up {
@@ -50,11 +50,11 @@
 
     .u-mx-#{$i} {
         margin-right: #{$value};
-        margin-left: #{$value};  
+        margin-left: #{$value};
     }
 
     .u-my-#{$i} {
         margin-top: #{$value};
-        margin-bottom: #{$value};  
+        margin-bottom: #{$value};
     }
 }

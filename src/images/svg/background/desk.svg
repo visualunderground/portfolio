@@ -11,13 +11,13 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="plant" opacity="0.8" transform="translate(450.000000, 1.000000)">
             <g>
-                <path d="M9.78125,121 C8.11458333,62.3333333 9.11458333,33 12.78125,33 C16.4479167,33 19.78125,62.3333333 22.78125,121 L9.78125,121 Z" id="leaf-6" stroke="#C3C7CA" stroke-width="2" fill="#FBFBFB"></path>
-                <path d="M27,121.5 C48.3333333,71.8333333 63.5,44.3333333 72.5,39 C68.5,52.6666667 66.1666667,80.1666667 65.5,121.5 L27,121.5 Z" id="leaf-5" stroke="#C3C7CA" stroke-width="2" fill="#FBFBFB"></path>
-                <path d="M26,121.043956 C30,58.6813187 33.3333333,28 36,29 C38.6666667,30 37.5416667,60.6813187 32.625,121.043956 L26,121.043956 Z" id="leaf-3" stroke="#C3C7CA" stroke-width="2" fill="#FBFBFB"></path>
-                <path d="M27,121.5 C36.3333333,46.5 44.6666667,6 52,0 C56.6666667,0 58.1666667,40.5 56.5,121.5 L27,121.5 Z" id="leaf-2" stroke="#C3C7CA" stroke-width="2" fill="#FBFBFB"></path>
-                <path d="M17,121 C19.8561153,45.6666667 22.5956986,8 25.21875,8 C29.153327,8 35.5,116 40.21875,121 C34.0729167,121 26.3333333,121 17,121 Z" id="leaf-1" stroke="#C3C7CA" stroke-width="2" fill="#FBFBFB"></path>
+                <path d="M9.78125,121 C8.11458333,62.3333333 9.11458333,33 12.78125,33 C16.4479167,33 19.78125,62.3333333 22.78125,121 L9.78125,121 Z" id="leaf-6" stroke="#C3C7CA" stroke-width="2" fill="#FFFFFF"></path>
+                <path d="M27,121.5 C48.3333333,71.8333333 63.5,44.3333333 72.5,39 C68.5,52.6666667 66.1666667,80.1666667 65.5,121.5 L27,121.5 Z" id="leaf-5" stroke="#C3C7CA" stroke-width="2" fill="#FFFFFF"></path>
+                <path d="M26,121.043956 C30,58.6813187 33.3333333,28 36,29 C38.6666667,30 37.5416667,60.6813187 32.625,121.043956 L26,121.043956 Z" id="leaf-3" stroke="#C3C7CA" stroke-width="2" fill="#FFFFFF"></path>
+                <path d="M27,121.5 C36.3333333,46.5 44.6666667,6 52,0 C56.6666667,0 58.1666667,40.5 56.5,121.5 L27,121.5 Z" id="leaf-2" stroke="#C3C7CA" stroke-width="2" fill="#FFFFFF"></path>
+                <path d="M17,121 C19.8561153,45.6666667 22.5956986,8 25.21875,8 C29.153327,8 35.5,116 40.21875,121 C34.0729167,121 26.3333333,121 17,121 Z" id="leaf-1" stroke="#C3C7CA" stroke-width="2" fill="#FFFFFF"></path>
                 <g id="pot">
-                    <use fill="#FBFBFB" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                     <path stroke="#C3C7CA" stroke-width="2" d="M1,180 L81,180 L81,136 C81,122.745166 70.254834,112 57,112 L25,112 C11.745166,112 1,122.745166 1,136 L1,180 Z"></path>
                 </g>
             </g>

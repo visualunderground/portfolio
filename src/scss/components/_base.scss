@@ -22,7 +22,6 @@ html {
 body {
     height: auto;
     max-height: none;
-    overflow: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-smoothing: always;
@@ -45,4 +44,3 @@ textarea,
 input[type='tel'] {
     -webkit-appearance: none;
 }
-

@@ -1,17 +1,16 @@
 .list-grid {
     @extend %contain-floats;
-    
+
     li {
 
-        @include media(mobile) { // 640 and down
-            // background-color: green;
-            width: 100%;
-            display: block;
-        }
-        
+        width: 100%;
+        display: block;
+
         // background-color: blue;
-        width: 50%;
-        float: left;
+        @include media(tablet) {
+          width: 50%;
+          float: left;
+        }
 
         @include media(desktop) {
             // background-color: yellow;

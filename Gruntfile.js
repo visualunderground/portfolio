@@ -15,7 +15,7 @@ module.exports = function (grunt) {
         },
         options: {
           // includePaths: ['path/to/included/files'],
-          // outputStyle: 'compressed',
+          outputStyle: 'compressed',
           imagePath: '../images'
         }
       }

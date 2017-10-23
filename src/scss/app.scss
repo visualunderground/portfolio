@@ -2,11 +2,10 @@
 @import 'abstracts/config';
 @import 'abstracts/colours';
 @import 'abstracts/conditionals';
-@import 'abstracts/grid';
 
 
 // No CSS Rendered above this line
-.god-mode { 
+.god-mode {
     content: 'Type IDDQD';
     color: #bada55;
 }
@@ -25,9 +24,8 @@
 @import 'components/typography';
 
 // SVG styling
-// @import 'svg/promarker';
-// @import 'svg/drink';
-// @import 'svg/person';
+@import 'illustration/design';
+
 
 // Animation
 @import 'animations/base';
