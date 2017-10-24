@@ -28,6 +28,10 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+main {
+    overflow: hidden;
+}
+
 button::-moz-focus-inner {
     border: 0 !important;
     padding: 0 !important;
