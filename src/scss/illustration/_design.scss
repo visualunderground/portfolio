@@ -1,11 +1,11 @@
 .design-illustration {
   position: relative;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .design-illustration__doughnuts{
-  transform: rotate(8deg);
+  transform: rotate(-6deg);
   margin-left: auto;
   margin-right: auto;
   // @include media(tablet) {
@@ -49,16 +49,19 @@
 .design-illustration__red-sharpie{
   position: absolute;
   bottom: -50px;
-  left: 120px;
+  left: 50px;
+  transform: rotate(84deg);
 }
 
 .design-illustration__black-sharpie{
   position: absolute;
-  bottom: -50px;
-  left: 100px;
+  bottom: -70px;
+  left: 50px;
+  transform: rotate(84deg);
 }
 
 .design-illustration__notebook{
+  display: none;
   position: absolute;
   bottom: -50px;
   left: 0px;

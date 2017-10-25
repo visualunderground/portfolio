@@ -16,14 +16,14 @@
 // Add class
     if ( 'querySelector' in document
          && 'localStorage' in window
-         && 'addEventListener' in window 
-         && can_svg_as_image 
+         && 'addEventListener' in window
+         && can_svg_as_image
          && can_svg_inline) {
         document.body.className = "is_advannced";
     }
 </script>
     {{> svg_defs }}
-    
+
     {{{body}}}
 
     {{> global_footer }}
@@ -35,7 +35,7 @@
         handler: function(direction) {
             document.getElementById('brands').classList.remove('anim-hidden');
             document.getElementById('brands').classList.add('anim-zoom-in');
-            
+
             document.getElementById('brandsSub').classList.remove('anim-hidden');
             document.getElementById('brandsSub').classList.add('anim-fade-in-up');
 
@@ -47,6 +47,16 @@
 
     var wp_hero = new Waypoint.Inview({
         element: document.getElementById('hero'),
+        enter: function(direction) {
+            this.element.classList.remove('anim-paused');
+        },
+        exited: function(direction) {
+            this.element.classList.add('anim-paused');
+        }
+    })
+
+    var wp_design = new Waypoint.Inview({
+        element: document.getElementById('design'),
         enter: function(direction) {
             this.element.classList.remove('anim-paused');
         },
