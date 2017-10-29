@@ -1,30 +1,32 @@
 .design-illustration {
   position: relative;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  height: 340px;
 }
 
-.design-illustration__doughnuts{
-  transform: rotate(-6deg);
-  margin-left: auto;
-  margin-right: auto;
-  // @include media(tablet) {
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  // }
+.design-illustration__doughnuts {
+	transform: rotate(15deg);
+	right: 150px;
+	position: absolute;
+	top: 55px;
 }
 
-.design-illustration__coffee{
-  position: absolute;
-  top: -25px;
-  left: 15px;
+.design-illustration__coffee {
+	position: absolute;
+	top: 0;
+	right: 75px;
 }
 
-.design-illustration__tea{
-  position: absolute;
-  bottom: -25px;
-  right: 25px;
+.design-illustration__black-sharpie {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	transform: rotate(195deg);
+}
+
+.design-illustration__tea {
+	position: absolute;
+	bottom: -25px;
+	left: 0;
 }
 
 .design-illustration__swirl{
@@ -46,23 +48,22 @@
   }
 }
 
-.design-illustration__red-sharpie{
-  position: absolute;
-  bottom: -50px;
-  left: 50px;
-  transform: rotate(84deg);
+.design-illustration__red-sharpie {
+	position: absolute;
+	bottom: -7px;
+	right: 125px;
+	transform: rotate(15deg);
 }
 
-.design-illustration__black-sharpie{
-  position: absolute;
-  bottom: -70px;
-  left: 50px;
-  transform: rotate(84deg);
+.design-illustration__red-sharpie--2 {
+	right: 490px;
+	transform: rotate(195deg);
+	top: 0px;
 }
 
-.design-illustration__notebook{
-  display: none;
-  position: absolute;
-  bottom: -50px;
-  left: 0px;
+.design-illustration__notebook {
+	position: absolute;
+	bottom: -25px;
+	right: 25px;
+	transform: rotate(15deg);
 }

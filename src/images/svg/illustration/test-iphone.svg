@@ -1,0 +1,23 @@
+<svg width="250px" height="460px" viewBox="0 0 250 460" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M0,20.005801 C0,8.9569022 8.95525335,0 19.9934432,0 L224.006557,0 C235.048631,0 244,8.95678926 244,20.005801 L244,439.994199 C244,451.043098 235.044747,460 224.006557,460 L19.9934432,460 C8.95136942,460 0,451.043211 0,439.994199 L0,20.005801 Z M17,45 L17,415 L227,415 L227,45 L17,45 Z" id="path-1"></path>
+    </defs>
+    <g id="Ill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="device/iphone/7">
+            <g id="iPhone/large">
+                <g id="Screen" transform="translate(3.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#393F41" xlink:href="#path-1"></use>
+                </g>
+                <circle id="Front-camera" fill="#303537" cx="86.5" cy="24.5" r="3.5"></circle>
+                <rect id="Speaker" fill="#303537" x="100" y="22" width="50" height="5" rx="2"></rect>
+                <circle id="Home" stroke="#303537" stroke-width="2" cx="125" cy="437" r="16"></circle>
+                <path d="M2,83 L3,83 L3,111 L2,111 L2,111 C0.8954305,111 1.3527075e-16,110.104569 0,109 L0,85 L0,85 C-1.3527075e-16,83.8954305 0.8954305,83 2,83 Z" id="Rectangle-2" fill="#393F41"></path>
+                <path d="M247,83 L248,83 L248,83 C249.104569,83 250,83.8954305 250,85 L250,109 L250,109 C250,110.104569 249.104569,111 248,111 L247,111 L247,83 Z" id="Rectangle-2" fill="#393F41"></path>
+                <path d="M2,124 L3,124 L3,152 L2,152 L2,152 C0.8954305,152 1.3527075e-16,151.104569 0,150 L0,126 L0,126 C-1.3527075e-16,124.895431 0.8954305,124 2,124 Z" id="Rectangle-2-Copy" fill="#393F41"></path>
+            </g>
+        </g>
+    </g>
+</svg>

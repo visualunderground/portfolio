@@ -36,14 +36,15 @@
             document.getElementById('brands').classList.remove('anim-hidden');
             document.getElementById('brands').classList.add('anim-zoom-in');
 
-            document.getElementById('brandsSub').classList.remove('anim-hidden');
-            document.getElementById('brandsSub').classList.add('anim-fade-in-up');
+            // document.getElementById('brandsSub').classList.remove('anim-hidden');
+            // document.getElementById('brandsSub').classList.add('anim-fade-in-up');
 
             document.getElementById('brandList').classList.remove('anim-hidden');
             document.getElementById('brandList').classList.add('anim-fade-in');
         },
         offset: 'bottom-in-view'
     })
+
 
     var wp_hero = new Waypoint.Inview({
         element: document.getElementById('hero'),
@@ -64,6 +65,21 @@
             this.element.classList.add('anim-paused');
         }
     })
+
+    // var wp_proto = new Waypoint.Inview({
+    //     element: document.querySelector('.prototype-illustration'),
+    //     enter: function(direction) {
+    //         document.querySelector('.prototype-illustration').classList.remove('anim-hidden')
+    //         document.querySelector('.prototype-illustration').classList.add('anim-fade-in')
+    //
+    //         // document.querySelector('.prototype-content').classList.remove('anim-hidden')
+    //         // document.querySelector('.prototype-content').classList.add('anim-fade-in')
+    //
+    //     },
+    //     offset: '50%'
+    // })
+
+
 
 </script>
 </body>

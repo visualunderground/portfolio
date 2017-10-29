@@ -1,0 +1,17 @@
+<svg width="129px" height="246px" viewBox="0 0 129 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <path
+      d="M16,1 L114,1 C122.284271,1 129,7.71572875 129,16 L129,231 C129,239.284271 122.284271,246 114,246 L16,246 C7.71572875,246 1,239.284271 1,231 L1,16 C1,7.71572875 7.71572875,1 16,1 Z M10,33 L10,213 L120,213 L120,33 L10,33 Z"
+      id="device"
+      fill="#393F41"></path>
+    <circle id="Front-camera" fill-opacity="0.15" fill="#000000" cx="65" cy="13" r="2"></circle>
+    <rect id="Speaker" fill-opacity="0.15" fill="#000000" x="52" y="18" width="26" height="3" rx="1.5"></rect>
+    <circle id="Home" stroke="#60696D" cx="65" cy="230" r="9"></circle>
+    <g id="buttons" fill="#393F41">
+      <rect id="Rectangle-3" x="89" y="0" width="15" height="2" rx="1"></rect>
+      <rect id="Rectangle" x="0" y="36" width="2" height="14" rx="1"></rect>
+      <rect id="Rectangle-2" x="0" y="56" width="2" height="9" rx="1"></rect>
+      <rect id="Rectangle-20" x="0" y="71" width="2" height="9" rx="1"></rect>
+    </g>
+  </g>
+</svg>

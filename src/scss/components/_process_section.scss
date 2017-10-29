@@ -9,6 +9,8 @@
 
 .section:nth-child(even) {
     background-color: $backgroundSectionAlt;
+    border-top: 1px solid #eaedf0;
+    border-bottom: 1px solid #eaedf0;
 }
 
 .hero {
@@ -37,14 +39,42 @@
     background-color: $acentColour;
 }
 
-.section--data {
-    background-image: url('/images/svg/background/wave.svg'), linear-gradient(-155deg, #0089D2 0%, #0070D2 100%);
-    background-repeat: no-repeat;
-    background-position: bottom left;
+// .section--data {
+//     background-image: url('/images/svg/background/wave.svg'), linear-gradient(-155deg, #0089D2 0%, #0070D2 100%);
+//     background-repeat: no-repeat;
+//     background-position: bottom left;
+//
+//     @include media(desktop) {
+//         background-size: contain;
+//     }
+//
+//
+// }
 
-    @include media(desktop) {
-        background-size: contain;
-    }
-
-
-}
+// #design { background-color: transparent;}
+//
+// #design::before {
+// 	content: '';
+// 	position: absolute;
+// 	left: 0;
+// 	right: 0;
+// 	top: 24px;
+// 	height: 6000px;
+// 	background: #f6f9fc;
+// 	transform: skew(0, 5deg);
+// 	z-index: -1;
+// 	border-top: 1px solid #eaedf0;
+// }
+//
+// #prototype::before {
+// 	content: '';
+// 	position: absolute;
+// 	left: 0;
+// 	right: 0;
+// 	top: 0;
+// 	height: 6000px;
+// 	background: #ffffff;
+// 	transform: skew(0, 5deg);
+// 	z-index: -1;
+// 	border-top: 1px solid #eaedf0;
+// }

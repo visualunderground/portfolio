@@ -1,0 +1,19 @@
+.develop-illustration {
+  position: relative;
+  padding-bottom: 61px;
+}
+
+.develop-illustration__mac {
+
+}
+
+.develop-illustration__desk {
+  position: absolute;
+  top: 97px;
+  left: -100px;
+  z-index: -1;
+
+  @include media(tablet) {
+    left: 5px;
+  }
+}

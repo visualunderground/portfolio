@@ -1,56 +1,49 @@
 .global-footer {
-    position: relative;
-    background-color: $backgroundFooter;
-    color: $grey3;
-    font-size: 12px;
-    line-height: 20px;
+  position: relative;
+  background-color: $backgroundFooter;
+  color: $grey3;
 }
 
 .global-footer__wrapper {
-  padding: 50px 0;
+  padding: 50px 0 25px;
+
+  @include media(tablet) {
+    padding: 50px 0;
+  }
 }
 
 .global-footer__social {
-    text-align: center;
-    margin-bottom: $base-line;
+  text-align: center;
+  margin-top: 25px !important;
 
-    @include media(tablet) {
-        text-align: right;
-        margin-bottom: 0;
-    }
-
-    // Social links
-    a {
+  @include media(tablet) {
+    margin-top: auto !important;
+    text-align: right;
+  }
+  // Social links
+  a {
     display: inline-block;
     height: 24px;
     width: 24px;
+    margin-top: 7px;
 
-
-        &:hover {
-            svg {
-                fill: $acentColour;
-            }
-        }
-
-        svg {
-            display: block;
-            height: 24px;
-            width: 24px;
-            fill: $white;
-        }
+    &:hover {
+      svg {
+        fill: $acentColour;
+      }
     }
 
-    a + a {
-        margin-left: 25px;
+    svg {
+      display: block;
+      height: 24px;
+      width: 24px;
+      fill: $white;
     }
-}
+  }
 
-.global-footer__copyright {
-    font-size: 14px;
-    line-height: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-top: 1px solid #393F41;
+  a + a {
+    margin-left: 25px;
+  }
 }
 
 .logo {
@@ -59,6 +52,11 @@
   line-height: 0.93333em;
   color: $whiteGrey;
   letter-spacing: -0.05em;
+  text-align: center;
+
+  @include media(tablet) {
+    text-align: left;
+  }
 
   span {
     color: $acentColour;

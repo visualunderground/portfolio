@@ -1,0 +1,58 @@
+.prototype-illustration {
+  position: relative;
+  max-width: 510px;
+  padding-top: 50px;
+
+  @include media(tablet) {
+    max-width: none;
+    padding-top: 75px;
+    top: 25px;
+    right: auto;
+  }
+
+
+}
+
+.prototype-illustration__browser {
+  width: 370px;
+  height: 285px;
+  background-color: #E4E8EC;
+  border-radius: 5px 5px 0 0;
+
+  position: absolute;
+  top: 0;
+  left: 35px;
+  z-index: -1;
+
+  @include media($min-width: 420px ) {
+    // background-color: green;
+    left: auto;
+    right: 15px;
+  }
+
+  @include media(tablet) {
+    // background-color: yellow;
+    top: 25px;
+    left: 35px;
+    right: auto;
+  }
+
+  @include media($min-width: 860px ) {
+    // background-color: red;
+    left: auto;
+    right: 25px;
+  }
+
+  //@860px set right to 25px
+
+  div {
+    background-color: #42526A;
+    margin-top: 30px;
+    height: 255px;
+    width: 100px;
+  }
+}
+
+.prototype-illustration__phone {
+  // margin-top: 75px;
+}

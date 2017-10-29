@@ -6,19 +6,23 @@
         width: 100%;
         display: block;
 
+
         // background-color: blue;
         @include media(tablet) {
-          width: 50%;
+          width: 33.333%;
           float: left;
         }
 
         @include media(desktop) {
             // background-color: yellow;
-            width: 33.333%;
+            width: 25%;
+
+            &:last-child { display: none;}
         }
 
         img {
-            margin-top: $base-line;
+            margin-top: 2px;
+            display: block;
         }
 
     }
